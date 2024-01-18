@@ -1,0 +1,38 @@
+/* Gallery container */
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+/* Gallery item */
+.gallery-item {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 2x;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+/* YouTube video iframe */
+iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+}
+
+/* Name and Description */
+h2 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 14px;
+  margin: 10px 0;
+}
