@@ -1,11 +1,14 @@
 // Function to filter gallery items based on the selected tag
 function filterGallery(tag) {
+   window.location.href = "?tag=" + tag; 
+}
+function filterGallery_OLD(tag) {
   const galleryItems = document.querySelectorAll('.gallery-item');
 
   galleryItems.forEach(item => {
     const itemTags = item.getAttribute('data-tags').split(' ');
 
-    if (tag === 'all' || itemTags.includes(tag)) {
+    if (itemTags.includes(tag)) {
       item.style.display = 'block';
     } else {
       item.style.display = 'none';
@@ -32,12 +35,15 @@ fetch('data/videos.json')
 	// Parse the URL to get the selected tag from the query parameters
 	const urlParams = new URLSearchParams(window.location.search);
 	const selectedTag = urlParams.get('tag');
-
+	
+	if(selectedTag == "" || selectedTag == null) 
+		selectedTag = "home";
+	
 	const gallery = document.getElementById('gallery');
   
-  data.forEach(item => {	  
+	data.forEach(item => {	  
 	const itemTags = item.tags.split(' ');	
-    if (selectedTag == null || selectedTag == 'all' || itemTags.includes(selectedTag)) {	
+    if (itemTags.includes(selectedTag)) {	
 	
 		const galleryItem = document.createElement('div');
 		galleryItem.setAttribute('data-tags', item.tags);

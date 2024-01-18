@@ -3,11 +3,26 @@
     "title": "Desarrollador de experiencias interactivas",
 	"description": "Disfruto mucho y desde muy chico siempre disfruté programar. Durante los últimos 15 años me estoy dedicando casi exclusivamente al desarrollo integral de videojuegos y experiencias interactivas usando Unity como principal herramienta combinandola con distintos tipos de tecnologías como VR, AR, uso de Kinects, y también inputs más raros. Actualmente trabajo de forma independiente y a la vez soy parte de Yaguar, un estudio donde desarrollamos diferentes tipos de productos tecnológicos.",
 	"image":"images/pontura.png"
-  } ,
+  },
+  {
+    "title": "Socio fundador de Aconcagua Games",
+	"description": "En el 2021 fundamos Aconcagua Games donde desarrollamos una serie de títulos propios en el universo de los Galaxy Sports. Títulos como Fulbo Galaxy, Golf Galaxy, y otros en desarrollo.",
+	"image":"images/aconcagua.png",
+	"links":
+		[
+			{
+				"url_text": "Aconcagua Games",
+				"url": "https://aconcaguagames.com/"
+			},
+			{
+				"url_text": "Fulbo Galaxy",
+				"url": "https://fulbogalaxy.com/"
+			}
+		]
+  },
   {
     "title": "Docencia",
-	"description": "Trabajé los últimos 5 años como docente en la Universidad Maimonides. Disfruté mucho dando la materia del último año de programación. Taqbmién dicté distintos cursos, talleres / workshops relacionados a la programación de piezas interactivas. Di charlas en distintos espacios como el Centro Cultural de la Ciencia, Tecnópolis.. y en distintos medios. Soy egresado de la UBA donde estudié Diseño de Imagen y Sonido. Mucho tiempo antes de comenzar la carrera (a eso de los 9 años) ya había programado mis primeros videojuegos a los que grababa con mi hermano en cintas de cassette.",
-	"image":"images/works/workshop.png"
+	"description": "Trabajé los últimos 5 años como docente en la Universidad Maimonides. Disfruté mucho dando la materia del último año de programación. Taqbmién dicté distintos cursos, talleres / workshops relacionados a la programación de piezas interactivas. Di charlas en distintos espacios como el Centro Cultural de la Ciencia, Tecnópolis.. y en distintos medios. Soy egresado de la UBA donde estudié Diseño de Imagen y Sonido. Mucho tiempo antes de comenzar la carrera (a eso de los 9 años) ya había programado mis primeros videojuegos a los que grababa con mi hermano en cintas de cassette."
   } 
    
 ]

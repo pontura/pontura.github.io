@@ -1,9 +1,10 @@
 const urlParams = new URLSearchParams(window.location.search);
 const selectedTag = urlParams.get('tag');
 var jsonName = "home"
-if(selectedTag == null || selectedTag == "" || selectedTag == "all")
+if(selectedTag == null || selectedTag == "")
 {
 	jsonName = 'home';
+	selectedTag = "home";
 } else{	
 	jsonName = selectedTag;
 }
@@ -47,7 +48,7 @@ fetch("data/" + jsonName + '.json')
 			a.title = _text;
 			a.href = _url;
 			itemData.appendChild(a);
-			itemData.className = "contentLinks";			
+			a.className = "contentLinks";			
 		}
 	}
 	
