@@ -34,7 +34,7 @@ fetch('data/videos.json')
 	
 	// Parse the URL to get the selected tag from the query parameters
 	const urlParams = new URLSearchParams(window.location.search);
-	const selectedTag = urlParams.get('tag');
+	var selectedTag = urlParams.get('tag');
 	
 	if(selectedTag == "" || selectedTag == null) 
 		selectedTag = "home";

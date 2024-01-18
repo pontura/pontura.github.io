@@ -1,6 +1,11 @@
 const urlParams = new URLSearchParams(window.location.search);
-const selectedTag = urlParams.get('tag');
-var jsonName = "home"
+
+var selectedTag = "home";
+
+if(urlParams != null)	
+	selectedTag = urlParams.get('tag');
+
+var jsonName = "home";
 if(selectedTag == null || selectedTag == "")
 {
 	jsonName = 'home';
@@ -8,6 +13,7 @@ if(selectedTag == null || selectedTag == "")
 } else{	
 	jsonName = selectedTag;
 }
+
 fetch("data/" + jsonName + '.json')
 .then(response => response.json())
 .then(data => {
