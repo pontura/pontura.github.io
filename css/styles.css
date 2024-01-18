@@ -1,3 +1,20 @@
+.content{
+	float: left;
+  padding: 0px;
+  margin: 0px;
+  width:25%;
+}
+.gallery{
+	float: left;
+  padding: 0px;
+  padding: 0px;
+  width:70%;
+}
+.contentImages img
+{
+	max-width:100%;	
+}
+
 /* Gallery container */
 #gallery {
   display: grid;

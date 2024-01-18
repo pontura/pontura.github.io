@@ -10,12 +10,12 @@ if(selectedTag == null || selectedTag == "" || selectedTag == "all")
 fetch("data/" + jsonName + '.json')
 .then(response => response.json())
 .then(data => {
-	const home = document.getElementById('home');
+	const home = document.getElementById('content');
   
   data.forEach(item => {  
 	
 	const itemData = document.createElement('div');	
-	itemData.className = 'home-item';
+	itemData.className = 'content-item';
 
 	if(item.title != null)
 	{
