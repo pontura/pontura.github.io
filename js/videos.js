@@ -25,7 +25,7 @@ filterButtons.forEach(button => {
 });
 
 
-fetch('videos.json')
+fetch('data/videos.json')
 .then(response => response.json())
 .then(data => {
 	
