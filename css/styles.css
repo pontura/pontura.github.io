@@ -7,15 +7,35 @@ body {
 	margin: 0px;
 	width:30%;
 }
+.right
+{
+	width:65%;
+	float:left;
+}
+#filters
+{
+	margin-left: 26px;
+	width:100%;
+	margin-bottom:40px;
+}
 .gallery{
 	float: left;
-	padding: 3px;
-	width:65%;
+	width:100%;
+	margin-left: 26px;
 }
 .contentImages img
 {
 	max-width:100%;	
 }
+.separation
+{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	max-width:100%;	
+	font-size: 3ex;
+	color:#d9d9d9;
+}
+
 
 /* Gallery container */
 #gallery {
@@ -37,7 +57,6 @@ body {
 }
 .contentImages
 {
-	margin-bottom: 30px;
     float: left;
 }
 .contentLinks

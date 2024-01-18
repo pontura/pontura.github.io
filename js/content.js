@@ -54,7 +54,9 @@ fetch("data/" + jsonName + '.json')
 	
 	home.appendChild(itemData);
 	
-	
+	const c = document.createElement('p'); c.innerText = ".....";
+	c.className = "separation";	
+	home.appendChild(c);
   });
   
 })
