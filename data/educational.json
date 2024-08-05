@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Educationals",
+		"description": "Desarrollé muchos proyectos educacionales para muy chiquitos y no tanto, desde experiencias abstractas y lúdicas para clientes como Paka-Paka hasta muy apps para ejercitar las matemáticas, las lenguas o instrucciones para lavarse correctamente en épocas del COVID 19"
+	},
+	{
+		"title": "Matenautas",
+		"description": "Matenautas es un juego educativo de ciencia ficción que desarrollamos en Yaguar junto a Fundación Hagamos Todo Para Educar en Ciencias y Edutrama, que permite ejercitar contenidos curriculares de Matemática. Fué Ganadora del concurso MásMAT, organizado por la Fundación Bunge y Born.",
+		"image":"images/tumba.jpg",
+		"links":
+		[
+			{
+				"url_text": "Ver el Festival Multiversos",
+				"url": "https://www.dailymotion.com/video/x8jt8n8"
+			},
+			{
+				"url_text": "Ver el Festival Multiversos",
+				"url": "https://www.dailymotion.com/video/x8jt8n8"
+			}
+		]
+	}    
+]

@@ -1,19 +1,40 @@
 [
 	{
-    "name": "Mobile Game",
-    "youtube_id": "G6Ijvv1tovY",
-    "client": "Aconcagua Games (me)",
-    "title": "Fulbo Galaxy",
-    "description": "Compete in tournaments and ranked PvP or train with the PvE cups.Play for free or invest in Digital Collectibles for rewards",
-    "tags": "home mobile game"
-  },
+		"name": "Mobile Game",
+		"youtube_id": "G6Ijvv1tovY",
+		"client": "Aconcagua Games (me)",
+		"title": "Fulbo Galaxy",
+		"description": "Compete in tournaments and ranked PvP or train with the PvE cups.Play for free or invest in Digital Collectibles for rewards",
+		"tags": "home videogame"
+	},
 	{
-    "name": "Led Strip Game",
-    "youtube_id": "jKFu5yeOJhU",
-    "client": "me",
-    "title": "Tira Leds",
-    "description": "Multiplayer single 1D Party game",
-    "tags": "home exhibition"
+		"name": "Mundo Gaturro",
+		"youtube_id": "Crl_8X1YU-Y",
+		"description": "Participé desde la génesis (e incluso antes, ya que el juego está basado en un MMO que empecé a desarrollar años antes) Es un juego en línea multijugador para niños basada en el personaje Gaturro. Lo desarrollamos en el año 2010 en la empresa argentina QB9 Entertainment, donde trabajé durante muchos años.",
+		"client": "Clarín Medios Digitales",
+		"tags": "home videogame kids"
+	},	
+	{
+		"name": "MMO - Virtual World",
+		"youtube_id": "8UPVo0ZZQLA",
+		"description": "Shoshiland",
+		"client": "me",
+		"tags": "videogame"
+	},
+	{
+		"name": "Mad Rollers Mobile",
+		"youtube_id": "YixloM3uWy8",
+		"client": "Personal game",
+		"description": "Mad Rollers",
+		"tags": "videogame"
+	  },	
+	{
+		"name": "Led Strip Game",
+		"youtube_id": "jKFu5yeOJhU",
+		"client": "me",
+		"title": "Tira Leds",
+		"description": "Multiplayer single 1D Party game",
+		"tags": "home exhibition experimental"
   },
   {
     "name": "Inventar",
@@ -21,7 +42,7 @@
     "client": "Paka-Paka",
     "title": "Space Adventure",
     "description": "Juego de arte donde pueden crearse ilustraciones animadas con figuras geométricas y compartirlas como gifs en redes sociales o por email.",
-    "tags": "home mobile game"
+    "tags": "home kids"
   },
    {
     "name": "Matenautas",
@@ -29,7 +50,7 @@
     "client": "Fundación Bunge y Born",
     "title": "Space Adventure",
     "description": "Matenautas es un juego de ciencia ficción desarrollado por Yaguar, Fundación Hagamos Todo Para Educar en Ciencias y Edutrama. Este proyecto es uno de los finalistas del concurso MásMAT, organizado por la Fundación Bunge y Born.",
-    "tags": "home educational mobile game"
+    "tags": "home educational kids"
   },  
   {
     "name": "Mobile Game",
@@ -37,7 +58,7 @@
     "client": "Tipitap",
     "title": "Space Adventure",
     "description": "Space Adventure ",
-    "tags": "mobile game"
+    "tags": "home kids"
   },
   {
     "name": "Mobile Educational game",
@@ -45,20 +66,27 @@
 	"client": "Tipitap",
     "title": "Hand Wash Squad",
     "description": "Hand Wash Squad for Tipitap",
-    "tags": "mobile game educational"
+    "tags": "mobile educational"
+  },
+  {
+    "name": "Superdimensional Sex Shop",
+	"client": "Nutaku",
+    "youtube_id": "T2Yj2ZvhvjM",
+    "description": "Superdimensional Sex Shop (Nutaku Porn Game)",
+    "tags": "videogame"
   },
   {
     "name": "4 players Arcade game",
 	"client": "Me",
     "youtube_id": "z7sfRJhs4fU",
     "description": "Arcade videogame for 4 players",
-    "tags": "arcade"
+    "tags": "videogame"
   },
   {
-    "name": "Arcade Experimental game",
+    "name": "Planetas Arcade 4p",
     "youtube_id": "zK_1_XmxuLs",
     "description": "Un Experimento 4 players",
-    "tags": "arcade"
+    "tags": "videogame experimental"
   },
   {
     "name": "Interactive exhibition",
@@ -72,41 +100,35 @@
     "youtube_id": "YBpcUbTObl0",
 	"client": "TumbaGames (me)",
     "description": "Perra Force",
-    "tags": "arcade"
+    "tags": "videogame"
   },
   {
     "name": "Totem + Lector QR",
     "youtube_id": "LNyEoA7gzxI",
-    "description": "Trabajo realizado para Tienda Inglesa (Uruguay)",
-    "tags": "QR exhibition"
+    "description": "QR Trabajo realizado para Tienda Inglesa (Uruguay)",
+    "tags": "experimental"
   },
- {
-    "name": "Mobile game",
-    "youtube_id": "YixloM3uWy8",
-	"client": "Personal game",
-    "description": "Mad Rollers",
-    "tags": "mobile"
-  },
+ 
   {
     "name": "Mini Serie (actor? or...)",
     "youtube_id": "i4SYqu5eMWw",
     "description": "Videojuegos sobre ruedas",
 	"client": "with Friends",
-    "tags": "exhibition arcade"
+    "tags": "exhibition"
   },
   {
     "name": "Arcade parties",
     "youtube_id": "gqDZrLVmnk0",
     "description": "Arcade parties",
 	"client": "Friends Love",
-    "tags": "exhibition arcade"
+    "tags": "exhibition"
   },
   {
     "name": "Physical Hardware",
     "youtube_id": "khuKRaBGFsU",
     "description": "Cámara lúcida",
 	"client": "Christian Parsons (and me)",
-    "tags": "kinect"
+    "tags": "experimental"
   },
   {
     "name": "Art exhibition",
@@ -116,10 +138,10 @@
     "tags": "exhibition"
   },
   {
-    "name": "VR game (experimental)",
-    "youtube_id": "735LvLfv1w4",
-    "description": "Tower Defense",
-	"client": "me",
+    "name": "VR Vaccine App",
+    "youtube_id": "p9e8LDt6m6s",
+    "description": "VR Vaccine App",
+	"client": "tipitap",
     "tags": "vr"
   },
   {
@@ -130,89 +152,111 @@
     "tags": "vr"
   },
   {
+    "name": "Mariano Giraud - Cristal",
+    "youtube_id": "Tb7_ve-j7PU",
+    "description": "Tótem cristal animal. Mariano Giraud. Agosto 2015. Espacio de Arte - Fundacion OSDE. Buenos Aires.",
+	"client": "mariano giraud",
+    "tags": "vr exhibition"
+  },
+  {
+    "name": "VR game (experimental)",
+    "youtube_id": "735LvLfv1w4",
+    "description": "Tower Defense",
+	"client": "me",
+    "tags": "vr"
+  },
+  {
     "name": "VR art",
     "youtube_id": "O6IFqWnyuIs",
     "description": "Muestra del artista Diego Ciruli",
 	"client": "Diego Ciruli",
-    "tags": "vr"
-  },
+    "tags": "vr exhibition"
+  },  
   {
     "name": "VR for Kids",
     "youtube_id": "7poUxYl25yA",
     "description": "Experiments with VR",
 	"client": "me",
     "tags": "vr"
-  },
-  {
-    "name": "VR for Kids",
-    "youtube_id": "7poUxYl25yA",
-    "description": "Experiments with VR",
-	"client": "me",
-    "tags": "vr"
-  },
-  {
-    "name": "Exploring Virtual Space",
-    "youtube_id": "5rzclF2hL8c",
-    "description": "Experiments with the virtual space movements",
-	"client": "me",
-    "tags": "standalone game"
   },
   {
     "name": "Tumba Game",
     "youtube_id": "QNFE7NdefY",
     "description": "Suicide Snipper is a videogame by Tumbagames (me and partners)",
 	"client": "me",
-    "tags": "standalone tumba game"
+    "tags": "videogame"
   } ,
   {
     "name": "Tumba Game",
     "youtube_id": "7YMELEtFoAA",
     "description": "Metro Punga",
 	"client": "me",
-    "tags": "standalone tumba game"
+    "tags": "videogame"
   } ,
   {
     "name": "Tumba Game",
     "youtube_id": "eIAcuNoYlQY",
     "description": "Mega Chumbo",
 	"client": "me",
-    "tags": "standalone tumba game"
+    "tags": "videogame"
   } ,
   {
     "name": "Tumba Game",
     "youtube_id": "zrV8sLO5Otw",
     "description": "Insane Imbelice Dancing",
 	"client": "me",
-    "tags": "standalone tumba game"
+    "tags": "videogame"
   } ,
   {
     "name": "Tumba Game",
     "youtube_id": "7gCmwD2NaOM",
     "description": "Canniball",
 	"client": "me",
-    "tags": "standalone tumba game"
+    "tags": "videogame"
   } ,
   {
     "name": "Tumba Game",
     "youtube_id": "qYdnP8So4eI",
     "description": "Brutal Battle",
 	"client": "me",
-    "tags": "standalone tumba game"
+    "tags": "videogame"
+  },{
+    "name": "Tecnópolis 2021",
+    "youtube_id": "2S389874xZI",
+    "description": "Muestra de Realidad Aumentada",
+	"client": "eurinome",
+    "tags": "exhibition"
+  },{
+    "name": "Bondizord - (Rosario 2019)",
+    "youtube_id": "GdZAIKxhyGo",
+    "description": "Colectivo Arcade",
+	"client": "me",
+    "tags": "exhibition"
+  },{
+    "name": "Exhibition Mad Rollers",
+    "youtube_id": "VBP-_EEJw4E",
+    "description": "Mad Rollers live",
+	"client": "me",
+    "tags": "exhibition"
   },
   {
-    "name": "Music & Game",
+    "name": "Android Watch",
+    "youtube_id": "C5b6fndoJ7c",
+    "description": "Experiments hacking an Android Watch",
+	"client": "me",
+    "tags": "experimental"
+  },{
+    "name": "Exploring Virtual Space",
+    "youtube_id": "5rzclF2hL8c",
+    "description": "Experiments with the virtual space movements",
+	"client": "me",
+    "tags": "experimental"
+  },{
+    "name": "80s Music Game",
     "youtube_id": "SiMfpCElYz4",
     "description": "Electric Gigolo",
 	"client": "me",
-    "tags": "exhibition game"
-  } ,
-  {
-    "name": "MMO - Virtual World",
-    "youtube_id": "8UPVo0ZZQLA",
-    "description": "Shoshiland",
-	"client": "me",
-    "tags": "mmo game"
-  } 
-  
+    "tags": "experimental"
+  }
   
 ]

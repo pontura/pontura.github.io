@@ -1,0 +1,56 @@
+[
+	{
+		"title": "Juegos para chicos",
+		"description": "Los niños crecen y conocen el mundo a través del juego por eso para mi hacer juegos para niños tiene una importancia especial que trasciende lo netamente lúdico."
+	} ,
+	{
+		"title": "Mundo Gaturro",
+		"description": "Mi primer juego masivo para niños fué Mundo Gaturro, que desarrollé junto a un equipo genial de QB9, en asociación con Clarín Medios Digitales y el equipo de Nik. Este mundo virtual terminó siendo la comunidad infantil más grande de Latinoamérica",
+		"image": "images/works/mundo_gaturro_logo",
+		"links":
+		[
+			{
+				"url_text": "El juego",
+				"url": "https://www.mundogaturro.com/"
+			}
+		]
+	},
+	{
+		"title": "Tipitap",
+		"description": "Junto a los amigos de Tipitap hicimos muchas experiencias lúdicas para chicos desde apps educativas, videojuegos para divertirse y apps para jugar en familia",
+		"image": "images/works/tipitap.png",
+		"links":
+		[
+			{
+				"url_text": "Tipitap",
+				"url": "https://www.tipitap.com/"
+			}
+		]
+	},
+	{
+		"title": "Plan",
+		"description": "Participé en muchas instalaciones para la productora amiga Plan en numerosos espacios como Tecnópolis, Cabildo de Bs As, LA Pedrera (Mendoza), etc.",
+		"image": "images/works/tipitap.png",
+		"links":
+		[
+			{
+				"url_text": "Hola Plan",
+				"url": "https://www.instagram.com/holaplan/"
+			}
+		]
+	},  {
+		"title": "Festival",
+		"description": "Festival Multiversos",
+		"links":
+		[
+			{
+				"url_text": "Ver el Festival Multiversos",
+				"url": "https://www.dailymotion.com/video/x8jt8n8"
+			},
+			{
+				"url_text": "Ver el Festival Multiversos",
+				"url": "https://www.dailymotion.com/video/x8jt8n8"
+			}
+		]
+	}    
+]

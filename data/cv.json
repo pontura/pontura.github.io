@@ -1,0 +1,33 @@
+[
+	{
+		"title": "VR",
+		"description": "Trabajé en muchos proyectos VR y AR. Hice desde productos infantiles, tales como 'Dermic VR' (una app para vacunar niños para Tipitap), videojuegos, muestras para artistas, experiencias para construccion de espacios lúdicos y espacios arquitectónicos para el estudio de arquitectura Rafael Viñoly Architects",
+		"image":"images/works/vr.jpeg"
+	} ,
+	{
+		"title": "Rafael Viñoly Architects",
+		"description": "Hice varios experimentos que derivaron en una app para el estudio",
+		"links":
+		[
+			{
+				"url_text": "Rafael Viñoly Architects",
+				"url": "https://vinoly.com/works"
+			}
+		]
+	}   ,
+	{
+		"title": "Obras artísticas",
+		"description": "Participé en obras de distintos artistas",
+		"links":
+		[
+			{
+				"url_text": "Mariano Giraud",
+				"url": "https://www.instagram.com/marianogiraud/"
+			},
+			{
+				"url_text": "Diego Ciruli",
+				"url": "https://www.instagram.com/diegocirulli/"
+			}
+		]
+	}    
+]
