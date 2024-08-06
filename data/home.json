@@ -68,6 +68,18 @@
 		}
 	]
   },
+   {
+    "title": "Tumba Games // Games to f☠ck the system.",
+	"description": "Desde el 2008 (+-), junto a Darío Georges venimos armando esta banda de punk rock que en vez de canciones hace videojuegos.",
+	"image":"images/works/tumbagames.png",	
+	"links":
+	[
+		{
+			"url_text": "Más sobre video juegos",
+			"url": "?tag=videogame"
+		}
+	]
+  },
   {
 		"title": "Mundo Gaturro",
 		"description": "Dentro de QB9, además de haber desarrollado innumerable cantidad de juegos, trabajé (desde el primer prototipo) en Mundo Gaturro y durante muchos años en asociación con Clarín Medios Digitales y el equipo de Nik en Mundo Gaturro. Este mundo virtual terminó siendo la comunidad infantil más grande de Latinoamérica.",
@@ -99,7 +111,6 @@
   {
     "title": "Links y artículos",
 	"description": "Propias y ajenas",	
-	"image":"images/works/tumba.png",	
 	"links":
 	[
 		{
@@ -145,6 +156,10 @@
 		{
 			"url_text": "Umai - Videojuegos Sobre Ruedas",
 			"url": "https://www.maimonides.edu/videojuegos-sobre-ruedas/"
+		},
+		{
+			"url_text": "Muestra en Tecnópolis",
+			"url": "https://www.argentina.gob.ar/noticias/muestra-interactiva-de-videojuegos-nacionales-en-tecnopolis"
 		}
 	]
   } 
