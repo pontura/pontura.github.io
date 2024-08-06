@@ -20,7 +20,11 @@ function filterGallery_OLD(tag) {
 
 // Add event listeners to the filter buttons
 const filterButtons = document.querySelectorAll('.filter-button');
+var selectedTag = urlParams.get('tag');
 filterButtons.forEach(button => {
+	var buttonTag = button.getAttribute('data-filter');
+	if(selectedTag ==buttonTag )
+		button.className  = "filter-button-active";
   button.addEventListener('click', () => {
     const tag = button.getAttribute('data-filter');
     filterGallery(tag);

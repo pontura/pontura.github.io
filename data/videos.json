@@ -15,6 +15,20 @@
 		"tags": "home videogame kids"
 	},	
 	{
+		"name": "Inventar Pakapaka",
+		"youtube_id": "Vs_wEMhh1O4",
+		"description": "IJuego de arte donde pueden crearse ilustraciones animadas con figuras geométricas y compartirlas como gifs en redes sociales o por email.",
+		"client": "Pakapaka",
+		"tags": "videogame kids educational"
+	},
+	{
+		"name": "Laberinto Sonoro en La Usina del Arte",
+		"youtube_id": "_0C-naQ6Yx8",
+		"description": "Instalación interactiva, parte de la muestra Laberinto Sonoro en La Usina del Arte (2018, Cliente: Plan)",
+		"client": "me",
+		"tags": "videogame kids"
+	},
+	{
 		"name": "MMO - Virtual World",
 		"youtube_id": "8UPVo0ZZQLA",
 		"description": "Shoshiland",
@@ -35,14 +49,6 @@
 		"title": "Tira Leds",
 		"description": "Multiplayer single 1D Party game",
 		"tags": "home exhibition experimental"
-  },
-  {
-    "name": "Inventar",
-    "youtube_id": "C2e322Z0PpU",
-    "client": "Paka-Paka",
-    "title": "Space Adventure",
-    "description": "Juego de arte donde pueden crearse ilustraciones animadas con figuras geométricas y compartirlas como gifs en redes sociales o por email.",
-    "tags": "home kids"
   },
    {
     "name": "Matenautas",
@@ -257,6 +263,19 @@
     "description": "Electric Gigolo",
 	"client": "me",
     "tags": "experimental"
+  },{
+    "name": "Kinect + TV",
+    "youtube_id": "SiMfpCElYz4",
+    "description": "Programa de TV que no sucedió",
+	"client": "me",
+    "tags": "experimental"
+  },{
+    "name": "Conicet - Lengua",
+    "youtube_id": "-Asfz-znt6E",
+    "description": "Desarrollo del castellano y el Qom en niños.",
+	"client": "conicet",
+    "tags": "educational videogame"
   }
+  
   
 ]
