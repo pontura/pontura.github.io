@@ -29,13 +29,6 @@
 		"tags": "videogame kids"
 	},
 	{
-		"name": "MMO - Virtual World",
-		"youtube_id": "8UPVo0ZZQLA",
-		"description": "Shoshiland",
-		"client": "me",
-		"tags": "videogame"
-	},
-	{
 		"name": "Mad Rollers Mobile",
 		"youtube_id": "YixloM3uWy8",
 		"client": "Personal game",
@@ -59,7 +52,14 @@
     "tags": "home educational kids"
   },  
   {
-    "name": "Mobile Game",
+    "name": "Quesu",
+    "youtube_id": "ZSKwkjoUm4g",
+    "description": "Qué sucedió primero - trivia game",
+	"client": "Tano Suarez",
+    "tags": "experimental videogame"
+  },
+  {
+    "name": "Juego de mesa virtual",
     "youtube_id": "C2e322Z0PpU",
     "client": "Tipitap",
     "title": "Space Adventure",
@@ -137,6 +137,13 @@
     "tags": "experimental"
   },
   {
+    "name": "Cámara lúcida",
+    "youtube_id": "dNIw5Dj6Mu0",
+    "description": "Cámara lúcida",
+	"client": "Christian Parsons (and me)",
+    "tags": "experimental"
+  },
+  {
     "name": "Art exhibition",
     "youtube_id": "8jpoFEz9WYc",
     "description": "Fotonautas en 'La Pedrera', San Luis",
@@ -199,6 +206,14 @@
 	"client": "me",
     "tags": "videogame"
   } ,
+   {
+    "name": "Vida Moderna",
+    "youtube_id": "zqPp9pu1bKg",
+    "client": "NOS",
+    "title": "Vida Moderna",
+    "description": "Runner isométrico con física de temática energética para stand de YPF en Tecnópolis.",
+    "tags": "exhibition videogame"
+  }, 
   {
     "name": "Tumba Game",
     "youtube_id": "eIAcuNoYlQY",
@@ -274,8 +289,14 @@
     "youtube_id": "-Asfz-znt6E",
     "description": "Desarrollo del castellano y el Qom en niños.",
 	"client": "conicet",
-    "tags": "educational videogame"
-  }
+    "tags": "educational videogame kids"
+  },{
+		"name": "MMO - Virtual World",
+		"youtube_id": "8UPVo0ZZQLA",
+		"description": "Shoshiland",
+		"client": "me",
+		"tags": "videogame"
+	}
   
   
 ]
