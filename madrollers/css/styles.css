@@ -1,0 +1,171 @@
+body
+{
+	margin:0;
+	padding:0;
+	background-color: black;
+	background-image: url("../images/bg2.png");
+	background-position: center top; 
+    background-repeat: repeat-x;
+	color: white;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+.banner
+{
+	height: 146px;
+	width: 100%;
+	text-align:center;
+}
+.share
+{
+	position: absolute;
+	width: 265px;
+	margin-top: 25px;
+	margin-left: 570px;
+	/* margin-left: 355px; */
+}
+.banner img
+{
+	margin-top:12px;
+	float:left;
+	margin-left:-41px;
+}
+.logo
+{	
+	margin-left: 39px;
+	margin-right: 100px;
+	margin-top: 20px;
+}
+.facebook {
+    position: absolute;
+    width: 45px;
+    margin-left: 749px;
+    /* margin-left: 355px; */
+}
+.facebook img
+{
+	margin-top:75px;
+}
+.descarga img
+{
+	width:100px;
+	height:100px;
+}
+.descarga
+{
+	color:white;
+	float:right;
+	margin-top: 35px;
+}
+.descarga p
+{
+	text-align:center;
+	    width: 99px;
+}
+.descarga a
+{
+	color:white;
+	text-decoration:none;
+}
+.descarga a:hover
+{
+	color:yellow;
+	text-decoration:none;
+}
+.content
+{
+	width:800px;
+	margin:0 auto;
+}
+.content img
+{
+	max-width:100%;
+	/* margin-left: 142px; */
+	/* float: right;*/
+	/* margin-top: 90px;*/
+}
+h1 {
+	margin-top:50px;
+	font-size: 19px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: #8fff83;
+}
+h3 {
+	margin-top:60px;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	color: #8fff83;
+}
+p {
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+.footer
+{
+	width:800px;
+	margin:0 auto;
+	
+}
+.footer img
+{
+	float: left;
+	margin-right:30px;
+	margin-bottom:100px;
+}
+.footer.contents
+{
+	float: left;
+}
+ul
+{
+	margin-left:20px;
+}
+
+
+#calendar{
+	#background-color: #fd01ff;
+	color: white;
+	font-family: "Lucida Console", Monaco, monospace;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	font-size:2em;
+}
+#calendar ul{
+	text-decoration:none;
+	margin:0px;
+	padding: 0px;
+}
+#calendar a{
+	color:white;
+	text-decoration:none;
+}
+#calendar a:hover{
+	color:white;
+	text-decoration:none;
+}
+#calendar li{
+	list-style-type: none;
+	margin:0px;
+	
+}
+#calendar h4{
+	
+}
+#calendar span{
+	color:#a9ff00;
+	margin-left:0px;
+	margin-right:10px;
+}
+#calendar p{
+	font-size:0.7em;
+}

@@ -46,7 +46,14 @@
   },
   {
     "title": "Docencia",
-	"description": "Trabajé los últimos 5 años como docente en la Universidad Maimonides. Disfruté mucho dando la materia del último año de programación. Taqbmién dicté distintos cursos, talleres / workshops relacionados a la programación de piezas interactivas. Di charlas en distintos espacios como el Centro Cultural de la Ciencia, Tecnópolis.. y en distintos medios. Soy egresado de la UBA donde estudié Diseño de Imagen y Sonido. Mucho tiempo antes de comenzar la carrera (a eso de los 9 años) ya había programado mis primeros videojuegos a los que grababa con mi hermano en cintas de cassette."
+	"description": "Trabajé los últimos 5 años como docente en la Universidad Maimonides. Disfruté mucho dando la materia del último año de programación. También dicté distintos cursos, talleres / workshops relacionados a la programación de piezas interactivas y videojuegos. Di charlas en distintos espacios como el Centro Cultural de la Ciencia, Universidad de Córdoba, Tecnópolis, CCK, en distintos medios online, etc.",
+	"links":
+	[
+		{
+			"url_text": "Universidad Maimonides",
+			"url": "https://multimedia.maimonides.edu/profesor/agustin-pontura/"
+		}
+	]	
   },
   {
     "title": "QB9, mi incorporación a la industria de los videojuegos",
@@ -62,6 +69,18 @@
 	]
   },
   {
+		"title": "Mundo Gaturro",
+		"description": "Dentro de QB9, además de haber desarrollado innumerable cantidad de juegos, trabajé (desde el primer prototipo) en Mundo Gaturro y durante muchos años en asociación con Clarín Medios Digitales y el equipo de Nik en Mundo Gaturro. Este mundo virtual terminó siendo la comunidad infantil más grande de Latinoamérica.",
+		"image": "images/works/mundo_gaturro.png",
+		"links":
+		[
+			{
+				"url_text": "Videojuegos para Niñxs",
+				"url": "?tag=kids"
+			}
+		]
+	},
+  {
     "title": "Shoshiland",
 	"description": "En los inicios de los años 2000 me embarqué en la taréa titánica de hacer un MMO. Fué como prácticamente toda taréa titánica en la que me embarqué en mi vida, una excusa para aprender a hacer cosas que desconozco. Llegó a estar online durante varios años y fué mi puerta de acceso a la industria de los videojuegos, además de ser un tesoro importantísimo en mi vida! Dato de color, parte de la tecnoogía que luego se rehizo en QB9 fué la génesis del popular Mundo Gaturro.",
 	"image":"images/works/shoshiland.jpg",	
@@ -76,6 +95,59 @@
   {
     "title": "Egresado de la UBA",
 	"description": "Soy egresado de la carrera Diseño de Imagen y Sonido de la Universidad de Buenos Aires, durante la carrera una materia en particular ->Multimedia, me volvió a acercar al mundo digital del que me había alejado. Mucho tiempo antes de comenzar la carrera, incluso antes del secundario (a eso de los 9 años) ya había programado mis primeros videojuegos a los que grababa con mi hermano en cintas de cassette. Puro amor! y aún lo mantengo vivo."
+  } ,
+  {
+    "title": "Links y artículos",
+	"description": "Propias y ajenas",	
+	"image":"images/works/tumba.png",	
+	"links":
+	[
+		{
+			"url_text": "INCA - Videojuegos sobre ruedas",
+			"url": "https://play.cine.ar/INCAA/produccion/8761"
+		},
+		{
+			"url_text": "Da Vinci - Bit Bang Fest",
+			"url": "https://davinci.edu.ar/noticias/detalle/bit-bang-fest-animando-los-videojuegos"
+		},
+		{
+			"url_text": "Ver el Festival Multiversos",
+			"url": "https://www.dailymotion.com/video/x8jt8n8"
+		},
+		{
+			"url_text": "Expo Eva 2021",
+			"url": "https://expoeva.com/en2/"
+		},
+		{
+			"url_text": "Pressover",
+			"url": "https://pressover.news/noticias/videojuegos-sobre-ruedas/"
+		},
+		{
+			"url_text": "Universidad Católica Argentina",
+			"url": "https://wadmin.uca.edu.ar/public/ckeditor/Pabellon%20de%20Bellas%20Artes/2021/142/2021-Pabellon-Bellas-Artes-Presskit-Signar-la-complejidad.pdf"
+		},
+		{
+			"url_text": "Videojuegos sobre ruedas",
+			"url": "https://www.instagram.com/videojuegossobreruedas/?hl=en"
+		},
+		{
+			"url_text": "Pagina 12",
+			"url": "https://www.pagina12.com.ar/diario/suplementos/no/12-8355-2016-02-11.html"
+		},
+		{
+			"url_text": "Ciudad.com.ar -> Shoshiland",
+			"url": "https://www.ciudad.com.ar/espectaculos/rock-pixelado_262/"
+		},
+		{
+			"url_text": "Buenosaliens.com",
+			"url": "https://www.buenosaliens.com/agenda.cfm/cod.21487.t.south-american-music-conference-2007.htm"
+		},
+		{
+			"url_text": "Umai - Videojuegos Sobre Ruedas",
+			"url": "https://www.maimonides.edu/videojuegos-sobre-ruedas/"
+		}
+	]
   } 
+  
    
 ]
