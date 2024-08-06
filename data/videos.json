@@ -295,8 +295,48 @@
 		"youtube_id": "8UPVo0ZZQLA",
 		"description": "Shoshiland",
 		"client": "me",
+		"tags": "videogame"		
+	},{
+		"name": "Punga Raid Arcade",
+		"youtube_id": "ShoGcpLXnGc",
+		"description": "Punga Raid in Bondizord",
+		"client": "me",
+		"tags": "videogame"
+	},{
+		"name": "Kinect Experimental videogame",
+		"youtube_id": "JlPIowmR42E",
+		"description": "Kinect Head",
+		"client": "me",
+		"tags": "experimental"
+	},{
+		"name": "Fotonautas",
+		"youtube_id": "KtzeRLKN5oc",
+		"description": "Fotonautas",
+		"client": "me",
+		"tags": "exhibition"
+	},{
+		"name": "Mad Rollers exhibited",
+		"youtube_id": "F6QACWdJXbI",
+		"description": "Mad Rollers",
+		"client": "me",
+		"tags": "videogame"
+	},{
+		"name": "Experiencia Sonora",
+		"youtube_id": "HYy_1WT2zYk",
+		"description": "Muestra Experiencia Sonora para el artista argentino Diego Alberti",
+		"client": "me",
+		"tags": "exhibition experimental"
+	},{
+		"name": "Mad Rollers meets Dobotone",
+		"youtube_id": "eebp3mB2W7Y",
+		"description": "En las fiestas Outrun Buenos aires (2019)",
+		"client": "me",
+		"tags": "videogame"
+	},{
+		"name": "Tumba en Centro Cultural de la Ciencia",
+		"youtube_id": "ahypqI9P-jM",
+		"description": "Punga Raid",
+		"client": "me",
 		"tags": "videogame"
 	}
-  
-  
 ]
