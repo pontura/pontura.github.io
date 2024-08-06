@@ -41,7 +41,7 @@ body {
 	float: left;
 	padding: 3px;
 	margin: 0px;
-	width: 50%;
+	width: 49%;
 	padding: 20px;
 }
 .contentDesc
@@ -51,7 +51,7 @@ body {
 }
 .right
 {
-	width: 40%;
+	width: 49%;
 	float:left;
 }
 #filters
