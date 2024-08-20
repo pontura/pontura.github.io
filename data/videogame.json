@@ -2,69 +2,8 @@
 
 
 	{
-		"title": "Haciendo videojuegos desde el 2006",
-		"description": "En el 2006 fuí contratado por la empresa argentina de videojuegos QB9 (hoy CMD) y desde entonces me dedico a la programación y al diseño casi exclusivo de video-juegos. En este tiempo he participado de decenas de proyectos en el rol de programador, de artista 2d y de game-design del área de servicios online desarrollando juegos para empresas como Lego, Mattel, Comedy Central, American Greetings, VH1, entre muchas otras.",
+		"title": "Haciendo videojuegos desde muy chico",
+		"description": "Desde juegos grabados en cinta de cassette para la Talent MSX (cuando tenía algo aspí como 9 años) hasta la actualidad, siempre sentí motivación por la programación y el desarrollo de videojuegos. En el 2006 fuí contratado por la empresa argentina de videojuegos QB9 (hoy CMD) y desde entonces me dedico a la programación y al diseño casi exclusivo de video-juegos desde dentro y fuera de la industria. En este tiempo he participado de decenas de proyectos en el rol de programador principalmente pero también como artista, productor y game designer. Desarrollando juegos para empresas como Lego, Mattel, Comedy Central, American Greetings, VH1, entre muchas otras. En la actualidad soy socio fundador de Aconcagua Games donde desarrollamos una serie de títulos propios en el universo de los Galaxy Sports. A la vez soy parte de Yaguar, un emprendimiento con foco en lo educativo. Y Tumbagames (juegos políticamente incorrectos).",
 		"image":"images/works/logos.png"
-	},
-	{
-		"title": "Socio Fundador de Aconcagua Games",
-		"description": "En el 2021 fundamos Aconcagua Games donde desarrollamos una serie de títulos propios en el universo de los Galaxy Sports. Títulos como Fulbo Galaxy, Golf Galaxy, y otros en desarrollo.",
-		"image":"images/aconcagua.png"
-	} ,
-	{
-		"title": "Arcade: Tumba Games",
-		"description": "Junto a Darío Georges y hace mucho tiempo hacemos lo que llamamos Tumba Games, un espacio sagrado de creatividad nostálgica y amor al arte.",
-		"image":"images/works/tumba.jpg"
-	} ,
-	{
-		"title": "Colectivo arcade",
-		"description": "Soy parte de este equipo de desarrolladores indie con quienes compartimos la pasión por la creación de videojuegos jugables en sus arcades originales y con quienes hicimos y hacemos fechas a lo largo de todo el país.",
-		"image":"images/works/bondizords.png",
-		"links":
-		[
-			{
-				"url_text": "Videogamo",
-				"url": "https://www.instagram.com/videogamo.inc/"
-			},
-			{
-				"url_text": "Shitty Games",
-				"url": "https://www.instagram.com/shitty.games/?hl=en"
-			},
-			{
-				"url_text": "Trucho Toys",
-				"url": "https://www.instagram.com/truchotoys/?hl=en"
-			},
-			{
-				"url_text": "Jupitron",
-				"url": "https://www.instagram.com/jupitrones/"
-			},
-			{
-				"url_text": "Vino y arduino",
-				"url": "https://www.instagram.com/vinoyarduino/"
-			},
-			{
-				"url_text": "Robin Line-wobbler",
-				"url": "https://www.aipanic.com/projects/wobbler"
-			},
-			{
-				"url_text": "Tumba-games",
-				"url": "https://www.instagram.com/tumbagamesba/?hl=en"
-			}
-		]
-	} ,
-	{
-		"title": "Festival",
-		"description": "Festival Multiversos",
-		"links":
-		[
-			{
-				"url_text": "Ver el Festival Multiversos",
-				"url": "https://www.dailymotion.com/video/x8jt8n8"
-			},
-			{
-				"url_text": "Ver el Festival Multiversos",
-				"url": "https://www.dailymotion.com/video/x8jt8n8"
-			}
-		]
-	}    
+	}
 ]
