@@ -53,6 +53,18 @@
 			}
 		]
 	},
+	
+		"title": "Azul de Monte Spekticalaspoeticfly",
+		"description": "Obra interactiva web",
+		"image": "images/works/azuldemonte.png",
+		"links":
+		[
+			{
+				"url_text": "Ver Online",
+				"url": "https://skepticalasepticfly.click/?fbclid=PAZXh0bgNhZW0CMTEAAaanWOvhCfLRtpEv7l5qw2HLT9Qu1nEHcY01SNq4Rym9_TvcbrIeYfYTM6s_aem_l8Wr5nKiSsmK0AF0A6zZbA"
+			}
+		]
+	} ,
 	{
 		"title": "Realidad Aumentada en Tecnópolis",
 		"description": "Experiencia inmersiva desarrollada para cascos de realidad aumentada que explora el vínculo entre el deporte, la moda, los videojuegos y la música con la tecnología digital. Esta muestra tuvo lugar en Tecnópolis en el 2021 y fué desarrollada por los amigos de Eurínome, junto a Brenda Burgoa desarrollamos la parte de AR qeu inlcuía videojuegos, app musical y otras experiencias de realidad aumentada.",
