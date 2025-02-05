@@ -55,9 +55,9 @@
       var loaderUrl = buildUrl + "/webGL.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/webGL.data.gz",
-        frameworkUrl: buildUrl + "/webGL.framework.js.gz",
-        codeUrl: buildUrl + "/webGL.wasm.gz",
+        dataUrl: buildUrl + "/webGL.data",
+        frameworkUrl: buildUrl + "/webGL.framework.js",
+        codeUrl: buildUrl + "/webGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "pontura",
         productName: "Mad Rollers",
@@ -102,7 +102,6 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/webGL.jpg') center / cover";
       document.querySelector("#unity-loading-bar").style.display = "block";
 
       var script = document.createElement("script");
