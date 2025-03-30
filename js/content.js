@@ -8,6 +8,10 @@ if(urlParams != null)
 var jsonName = "home";
 if(selectedTag == null || selectedTag == "")
 {
+	const template = document.getElementById('homeTemplate');
+	const clone = template.content.cloneNode(true);
+	document.body.appendChild(clone);
+
 	jsonName = 'home';
 	selectedTag = "home";
 } else{	
