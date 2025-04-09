@@ -5,6 +5,22 @@
 	"image":"images/pontura.png"
   },
   {
+    "title": "Yaguar",
+	"description": "Desde 2016 junto a muy cercanos amigos hacemos Yaguar. Una marca donde desarrollamos con muchísimo corazón numeroso proyectos educativos y aplicaciones para montar en distintos eventos.",
+	"image":"images/works/yaguar.png",
+	"links":
+	[
+		{
+			"url_text": "Más sobre Yaguar",
+			"url": "https://yaguar.xyz/"
+		},
+		{
+			"url_text": "Juegos para niñes",
+			"url": "?tag=kids"
+		}
+	]
+  },
+  {
     "title": "Socio fundador de Aconcagua Games",
 	"description": "En el 2021 fundamos Aconcagua Games donde desarrollamos una serie de títulos propios en el universo de los Galaxy Sports. Títulos como Fulbo Galaxy, Golf Galaxy, y otros en desarrollo.",
 	"image":"images/works/aconcagua.jpg",
@@ -28,22 +44,7 @@
 		}
 	]
   },
-   {
-    "title": "Yaguar",
-	"description": "El el 2016 junto a muy cercanos amigos hicimos Yaguar. Una marca donde desarrollamos con muchísimo corazón numeroso proyectos educativos",
-	"image":"images/works/yaguar.png",
-	"links":
-	[
-		{
-			"url_text": "Más sobre Yaguar",
-			"url": "https://yaguar.xyz/"
-		},
-		{
-			"url_text": "Juegos para niñes",
-			"url": "?tag=kids"
-		}
-	]
-  },
+   
   {
     "title": "Docencia",
 	"description": "Trabajé los últimos 5 años como docente en la Universidad Maimonides. Disfruté mucho dando la materia del último año de programación. También dicté distintos cursos, talleres / workshops relacionados a la programación de piezas interactivas y videojuegos. Di charlas en distintos espacios como el Centro Cultural de la Ciencia, Universidad de Córdoba, Tecnópolis, CCK, en distintos medios online, etc.",
