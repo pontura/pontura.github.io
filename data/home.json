@@ -2,10 +2,17 @@
 	{
     "title": "Desarrollador de experiencias interactivas",
 	"description": "Disfruto mucho y desde muy chico siempre disfruté programar. Durante los últimos 15 años me estoy dedicando casi exclusivamente al desarrollo integral de videojuegos y experiencias interactivas usando Unity como principal herramienta combinandola con distintos tipos de tecnologías como VR, AR, uso de Kinects, y también inputs más raros. Actualmente trabajo de forma independiente y a la vez soy parte de Yaguar, un estudio donde desarrollamos diferentes tipos de productos tecnológicos.",
-	"image":"images/pontura.png"
+	"image":"images/pontura.png",
+	"links":
+	[
+		{
+			"url_text": "linkedin",
+			"url": "https://www.linkedin.com/in/agust%C3%ADn-pontura-3308b745/"
+		}
+	]
   },
   {
-    "title": "Yaguar",
+    "title": "Yaguar (2016-actualidad)",
 	"description": "Desde 2016 junto a muy cercanos amigos hacemos Yaguar. Una marca donde desarrollamos con muchísimo corazón numeroso proyectos educativos y aplicaciones para montar en distintos eventos.",
 	"image":"images/works/yaguar.png",
 	"links":
@@ -21,7 +28,7 @@
 	]
   },
   {
-    "title": "Socio fundador de Aconcagua Games",
+    "title": "Socio fundador de Aconcagua Games (2021-2024)",
 	"description": "En el 2021 fundamos Aconcagua Games donde desarrollamos una serie de títulos propios en el universo de los Galaxy Sports. Títulos como Fulbo Galaxy, Golf Galaxy, y otros en desarrollo.",
 	"image":"images/works/aconcagua.jpg",
 	"links":
@@ -33,8 +40,8 @@
 	]
   },
    {
-    "title": "Fulbo Galaxy",
-	"description": "En el 2020 junto a mis socios Darío Georges y Nacho Rud hicimos FulboStars, lo que nos llevó a asociarnos con Guillermo y Pato y a fundar Aconcagua Games en el 2021",
+    "title": "Fulbo Galaxy (2020)",
+	"description": "En el 2020 junto a mis socios Darío Georges y Nacho Rud hicimos FulboStars, lo que nos llevó a asociarnos y fundar Aconcagua Games en el 2021.",
 	"image":"images/works/fulbogalaxy.jpg",
 	"links":
 	[
@@ -46,7 +53,7 @@
   },
    
   {
-    "title": "Docencia",
+    "title": "Docencia (2018-2023)",
 	"description": "Trabajé los últimos 5 años como docente en la Universidad Maimonides. Disfruté mucho dando la materia del último año de programación. También dicté distintos cursos, talleres / workshops relacionados a la programación de piezas interactivas y videojuegos. Di charlas en distintos espacios como el Centro Cultural de la Ciencia, Universidad de Córdoba, Tecnópolis, CCK, en distintos medios online, etc.",
 	"links":
 	[
@@ -57,14 +64,14 @@
 	]	
   },
  {
-	"title": "Colectivo Arcade",
+	"title": "Colectivo Arcade (2020)",
 		"description": "Hace años que formo parte de lo que llamamos colectivo arcade, que es un grupo de desarrolladores de videojuegos independientes argentinos que armamos eventos en distintos espacios culturales y conlcuimos comprando un colectivo y lo formateamos para que sea una auténtica sala de juegos móbil con gabinetes custom 100% desarrolos propios. En el 2021 Mulata Films filmó una serie que muestra un viaje qeu hicimos por todo el país, generando un encuentro inusual entre jugadores y máquinas en cada destino. Experiencias, historia, industria y nuevas propuestas lúdicas confluyen en este recorrido sin precedentes.",
 		"image": "images/works/vjsr.png",
 		"links":
 		[
 			{
 				"url_text": "Videojuegos sobre Ruedas",
-				"url": "https://play.cine.ar/INCAA/produccion/8761"
+				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
 			},
 			{
 				"url_text": "En CineAR",
@@ -77,7 +84,7 @@
 		]
 	},
   {
-    "title": "QB9, mi incorporación a la industria de los videojuegos",
+    "title": "QB9, mi incorporación a la industria de los videojuegos (2006-2015)",
 	"description": "En el año 2006 me convocaron para formar parte de la empresa QB9 que recién arrancaba, empresa sobre la que tuve un pequeñisimo porcentaje y sentí una verdadera familia y de la que estoy inmensamente agradecido por la oportunidad de trabajar con gente muy profesional y aprender los standards necesarios para el trabajo en equipos grandes.",
 	"image":"images/works/logos.png",
 	
@@ -90,7 +97,7 @@
 	]
   },
    {
-    "title": "Tumba Games // Games to f☠ck the system.",
+    "title": "Tumba Games // Games to f☠ck the system. (2010-actualidad)",
 	"description": "Desde el 2008 (+-), junto a Darío Georges venimos armando esta banda de punk rock que en vez de canciones hace videojuegos.",
 	"image":"images/works/tumbagames.png",	
 	"links":
