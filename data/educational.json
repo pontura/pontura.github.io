@@ -1,6 +1,21 @@
 [
 	{
 		"title": "Educationals",
+		"description": "Desde 2016 junto a muy cercanos amigos hacemos Yaguar. Una marca donde desarrollamos con muchísimo corazón numeroso proyectos educativos y aplicaciones para montar en distintos eventos.",
+		"image":"images/works/yaguar.png",
+		"links":
+		[
+			{
+				"url_text": "Yaguar",
+				"url": "https://yaguar.xyz/"
+			},
+			{
+				"url_text": "Juegos para niñes",
+				"url": "?tag=kids"
+			}
+		]
+  },
+  {
 		"description": "Desarrollé muchos proyectos educacionales para muy chiquitos y no tanto, desde experiencias abstractas y lúdicas para clientes como Paka-Paka hasta muy apps para ejercitar las matemáticas, las lenguas o instrucciones para lavarse correctamente en épocas del COVID 19. Muchos de estos proyectos los hice con Yaguar y algunos ganaron premios bastante importantes como el concurso MásMAT, que tuvo como objetivo promover y mejorar las habilidades matemáticas de chicas y chicos de entre 10 y 12 años o una licitación para Paka Paka donde desarrollamos una experiencia creativa para niñxs llamada: Inventar",
 		"image": "images/works/matenautas.jpg"
 	},

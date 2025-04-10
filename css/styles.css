@@ -53,8 +53,9 @@ body {
 }
 
 .videos {
-	width: 93%;
-	float: left;
+	/* width: 93%; */
+	/* float: left; */
+	padding: 20px;
 }
 
 #filters {
@@ -69,7 +70,7 @@ body {
 .gallery {
 	float: left;
 	width: 100%;
-	margin-left: 26px;
+	/* margin-left: 26px; */
 }
 .contentImagesHome img {
 	max-width: 25%;float:left;
@@ -93,8 +94,8 @@ body {
 /* Gallery container */
 #gallery {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-	gap: 5px;
+	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+	gap: 14px;
 }
 
 /* Gallery item */
@@ -141,56 +142,46 @@ h1 {
 
 h2 {
 	font-size: 2.4ex;
-	line-height: 2.7ex;
+	line-height: 2.8ex;
 	margin: 5px 0;
 	font-weight: 400;
 	margin-bottom: 2em;
 }
 
 p {
-	font-size: 1.4ex;
-	line-height: 2.7ex;
+	font-size: 2.4ex;
+	line-height: 2.8ex;
 	margin: 5px 0;
 	font-weight: 400;
 }
-
+li{
+}
 a {
-  position: relative;
-  display: inline-block;
-  color: #0077ff;
+  background-color: black;
+  color: white;
   text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
-  font-size: 1.8em;
+  padding: 0.1em 0.6em;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  display: inline-block;
 }
-a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 2px;
-  background-color: #0077ff;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.3s ease;
+.links a{
+	
+	font-size: 2.4ex;
 }
-
 a:hover {
-  color: #005dc1;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0 2px black inset;
+  transform: translateY(-2px);
 }
-
-a:hover::after {
-  transform: scaleX(1);
-}
-
 
 
 .thumbnail-container {
       position: relative;
-      width: 100%;
-      max-width: 640px;
-      margin: 40px auto;
+      /* width: 100%; */
+      max-width: 340px;
+      /* margin: 40px auto; */
       cursor: pointer;
     }
 

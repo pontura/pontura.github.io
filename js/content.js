@@ -32,7 +32,7 @@ fetch("data/" + jsonName + '.json')
 	}
 	if(item.description != null)
 	{
-		const description = document.createElement('h2'); description.innerText = item.description;
+		const description = document.createElement('h2'); description.innerHTML  = item.description;
 		itemData.appendChild(description);
 		itemData.className = "contentDesc";	
 	}
@@ -44,6 +44,9 @@ fetch("data/" + jsonName + '.json')
 	}
 	if(item.links != null)
 	{	
+		const links = document.createElement('div');	
+		links.className = "links";	
+		itemData.appendChild(links);
         for (var i = 0; i < item.links.length; i++){
 			var obj = item.links[i];			
 			var a = document.createElement('a');
@@ -53,7 +56,7 @@ fetch("data/" + jsonName + '.json')
 			a.appendChild(linkText);
 			a.title = _text;
 			a.href = _url;
-			itemData.appendChild(a);
+			links.appendChild(a);
 			a.className = "contentLinks";			
 		}
 	}

@@ -16,7 +16,19 @@ function filterGallery_OLD(tag) {
   });
 }
 
+  function openVideo(videoId) {
+    const overlay = document.getElementById('videoOverlay');
+    const frame = document.getElementById('videoFrame');
+    frame.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    overlay.style.display = 'flex';
+  }
 
+  function closeVideo() {
+    const overlay = document.getElementById('videoOverlay');
+    const frame = document.getElementById('videoFrame');
+    frame.src = "";
+    overlay.style.display = 'none';
+  }
 
 // Add event listeners to the filter buttons
 const filterButtons = document.querySelectorAll('.filter-button');
@@ -47,31 +59,31 @@ fetch('data/videos.json')
   
 	data.forEach(item => {	  
 	const itemTags = item.tags.split(' ');	
-    if (itemTags.includes(selectedTag)) {	
+    if (itemTags.includes(selectedTag)) {
+	
 	
 		const galleryItem = document.createElement('div');
 		galleryItem.setAttribute('data-tags', item.tags);
 		
-		galleryItem.className = 'gallery-item';
+		galleryItem.className = 'thumbnail-container';
 
-		const youtubeEmbed = document.createElement('iframe');
-		youtubeEmbed.src = `https://www.youtube.com/embed/${item.youtube_id}`;
-		youtubeEmbed.allowfullscreen = true;
+		const youtubeEmbed = document.createElement('img');
+		youtubeEmbed.src = `https://img.youtube.com/vi/${item.youtube_id}/hqdefault.jpg`;
 
 		const name = document.createElement('p');
 		name.innerText = item.name;
-
-		//const description = document.createElement('p');
-		//description.innerText = item.description;
 		
-
-		// Append elements to the gallery item
 		galleryItem.appendChild(youtubeEmbed);
 		galleryItem.appendChild(name);
-		//galleryItem.appendChild(description);
-
-		// Append the gallery item to the gallery container
+		galleryItem.addEventListener("click", () => openVideo(item.youtube_id));
+		
+		
+		const playBtn = document.createElement('div');
+		playBtn.className = 'play-button';
+		galleryItem.appendChild(playBtn);
+		
 		gallery.appendChild(galleryItem);
+		
 	}
 	
   });
@@ -79,6 +91,9 @@ fetch('data/videos.json')
   
 })
 .catch(error => console.error(error));
+
+
+
 
 
 
