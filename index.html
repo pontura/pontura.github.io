@@ -1,19 +1,24 @@
 <html>
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pontura Works</title> 
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>	
-	<div id="tab" class="tab">
-		<button class="filter-button" data-filter="home">Home</button>
-		<button class="filter-button" data-filter="videogame">videogames</button>
-		<button class="filter-button" data-filter="exhibition">exhibitions</button>
-		<button class="filter-button" data-filter="educational">educational</button>
-		<button class="filter-button" data-filter="vr">VR</button>
-		<button class="filter-button" data-filter="experimental">experimental</button>
-		<button class="filter-button" data-filter="links">Links</button>
-		<button class="filter-button" data-filter="cv">CV</button>
-	</div>	
+
+<nav class="menu tab" id="tab">
+   <button class="filter-button" data-filter="home">Home</button>
+	<button class="filter-button" data-filter="videogame">videogames</button>
+	<button class="filter-button" data-filter="exhibition">exhibitions</button>
+	<button class="filter-button" data-filter="educational">educational</button>
+	<button class="filter-button" data-filter="vr">VR</button>
+	<button class="filter-button" data-filter="experimental">experimental</button>
+	<button class="filter-button" data-filter="links">Links</button>
+	<button class="filter-button" data-filter="cv">CV</button>
+</nav>
+
+  <main class="mainContent"> 
 	<div class="video-overlay" id="videoOverlay">
 		<div class="close-overlay" onclick="closeVideo()">&times;</div>
 		<iframe id="videoFrame" src="" allowfullscreen></iframe>
@@ -23,7 +28,10 @@
 	<div class="videos">	
 		
 		<div id="gallery" class = "gallery"></div>  
-	</div>  
+	</div> 
+   </main> 
+
+	 
 </body>
  <script src="js/content.js"></script>
  <script src="js/videos.js"></script>
