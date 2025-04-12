@@ -7,7 +7,6 @@ function filterGallery_OLD(tag) {
 
   galleryItems.forEach(item => {
     const itemTags = item.getAttribute('data-tags').split(' ');
-
     if (itemTags.includes(tag)) {
       item.style.display = 'block';
     } else {
@@ -63,24 +62,55 @@ fetch('data/videos.json')
 	
 	
 		const galleryItem = document.createElement('div');
+		const youtubeContainer = document.createElement('div');
 		galleryItem.setAttribute('data-tags', item.tags);
+		galleryItem.appendChild(youtubeContainer);
+		galleryItem.className = 'galleryItem';
 		
-		galleryItem.className = 'thumbnail-container';
+		youtubeContainer.className = 'thumbnail-container';
 
 		const youtubeEmbed = document.createElement('img');
 		youtubeEmbed.src = `https://img.youtube.com/vi/${item.youtube_id}/hqdefault.jpg`;
 
-		const name = document.createElement('p');
+		youtubeContainer.appendChild(youtubeEmbed);
+
+		const name = document.createElement('h3');
 		name.innerText = item.name;
-		
-		galleryItem.appendChild(youtubeEmbed);
 		galleryItem.appendChild(name);
+		
+		const description = document.createElement('p');
+		description.innerHTML = item.description;
+		galleryItem.appendChild(description);
+		
 		galleryItem.addEventListener("click", () => openVideo(item.youtube_id));
+		
+		if(item.links != null)
+		{	
+			const links = document.createElement('div');	
+			links.className = "links";	
+			galleryItem.appendChild(links);
+			
+			for (var i = 0; i < item.links.length; i++){
+				
+				var obj = item.links[i];			
+				var a = document.createElement('a');
+				var _text = obj["url_text"];
+				var _url = obj["url"];
+				var linkText = document.createTextNode(_text);
+				a.appendChild(linkText);
+				a.title = _text;
+				a.href = _url;
+				links.appendChild(a);
+				a.className = "videoLinks";			
+			}
+		}
+	
+		
 		
 		
 		const playBtn = document.createElement('div');
 		playBtn.className = 'play-button';
-		galleryItem.appendChild(playBtn);
+		youtubeContainer.appendChild(playBtn);
 		
 		gallery.appendChild(galleryItem);
 		
