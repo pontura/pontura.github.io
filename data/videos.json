@@ -64,7 +64,23 @@
 		"youtube_id": "Crl_8X1YU-Y",
 		"description": "Participé desde la génesis (e incluso antes, ya que el juego está basado en un MMO que empecé a desarrollar años antes) Es un juego en línea multijugador para niños basada en el personaje Gaturro. Lo desarrollamos en el año 2010 en la empresa argentina QB9 Entertainment, donde trabajé durante muchos años.",
 		"client": "Clarín Medios Digitales",
-		"tags": "home videogame kids"
+		"tags": "home videogame kids",
+		"links":
+		[
+			{
+				"url_text": "Instagram",
+				"url": "https://www.instagram.com/mundogaturro/?hl=en"
+			},
+			{
+				"url_text": "El Cronista",
+				"url": "https://www.cronista.com/infotechnology/gadgets/Gaturro-desembarca-en-el-mundo-de-las-apps-20121029-0004.html"
+			},
+			{
+				"url_text": "wiki",
+				"url": "https://mundogaturro.fandom.com/es/wiki/MundoGaturro_Wiki"
+			}
+			
+		]
 	},	
 	{
 		"name": "Vida Cotidiana",
