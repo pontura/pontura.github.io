@@ -138,7 +138,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2.4ex;
+	font-size: 2.2ex;
 	line-height: 2.8ex;
 	margin: 5px 0;
 	font-weight: 400;
@@ -146,8 +146,8 @@ h2 {
 }
 
 p {
-	font-size: 2.4ex;
-	line-height: 2.8ex;
+	font-size: 2.2ex;
+	line-height: 2.6ex;
 	margin: 5px 0;
 	font-weight: 400;
 }
@@ -341,7 +341,7 @@ body {
 		margin-right: 25px;
 		margin-bottom: 18px;
 		float: left;
-		width:40%;
+		width:100%;
 	}
 }
 
