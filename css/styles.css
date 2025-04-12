@@ -328,13 +328,13 @@ body {
     /* flex: 1; */
     text-align: center;
     /* padding: 1rem 0.5rem; */
-    height: 40px;
+    height: 33px;
     float: left;
     /* width: 50px; */
   }
   
   .mainContent {
-    margin-top: 344px; /* Deja espacio para el menú */
+    margin-top: 280px; /* Deja espacio para el menú */
   }
 	.homeImage
 	{
