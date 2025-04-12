@@ -81,11 +81,18 @@
 		"tags": "videogame kids"
 	},
 	{
-		"name": "Mad Rollers Mobile",
+		"name": "Mad Rollers (Party Game)",
 		"youtube_id": "YixloM3uWy8",
 		"client": "Personal game",
-		"description": "Mad Rollers",
-		"tags": "videogame"
+		"description": "Creación propia. Mad Rollers es un Party Game, un viaje en el tiempo de un team de hasta 4 jugadores, hacia los gloriosos 80s.",
+		"tags": "videogame",
+		"links":
+		[
+			{
+				"url_text": "Mas data",
+				"url": "/madrollers/"
+			}
+		]
 	  },	
 	{
 		"name": "Led Strip Game",
