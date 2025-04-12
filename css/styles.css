@@ -343,10 +343,6 @@ body {
 		float: left;
 		width:100%;
 	}
-	.galleryItem
-	{
-		margin-bottom:40px;
-	}
 }
 
 /* Desktop: menú vertical a la izquierda */
@@ -361,6 +357,10 @@ body {
   }
 }
 
+  .galleryItem
+	{
+		margin-bottom:40px;
+	}
 
 .filter-button-active {
 	color: #000000;

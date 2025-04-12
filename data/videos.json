@@ -2,7 +2,7 @@
 	{
 		"name": "Inventar Pakapaka",
 		"youtube_id": "Vs_wEMhh1O4",
-		"description": "Juguete para crear pequeñas obras animadas partiendo de figuras geométricas básicas. Las obras son compartidas como gifs animados en redes sociales.<br><br>Ganadora del premio Mejor App Para Niñes en comKids 2022.<br><br>Finalista del Japan Prize 2022, categoría digital",
+		"description": "Juguete para crear pequeñas obras animadas partiendo de figuras geométricas básicas. Las obras son compartidas como gifs animados en redes sociales.<br><ul><li>Ganadora del premio Mejor App Para Niñes en comKids 2022.</li><li>Finalista del Japan Prize 2022, categoría digital</li>",
 		"client": "Pakapaka",
 		"tags": "home videogame kids educational",
 		"links": 
@@ -18,17 +18,39 @@
     "youtube_id": "a6qcpWbs1Uw",
     "client": "Fundación Bunge y Born",
     "title": "Space Adventure",
-    "description": "Matenautas es un juego de ciencia ficción desarrollado por Yaguar, Fundación Hagamos Todo Para Educar en Ciencias y Edutrama. Este proyecto es uno de los finalistas del concurso MásMAT, organizado por la Fundación Bunge y Born.",
-    "tags": "home educational kids"
+    "description": "Matenautas es un juego de ciencia ficción desarrollado por Yaguar, Fundación Hagamos Todo Para Educar en Ciencias y Edutrama. Este proyecto es uno de los finalistas del concurso MásMAT, organizado por la Fundación Bunge y Born.<br><ul><li>Ganadora del concurso MásMAT, organizado por la Fundación Bunge y Born.</li>",
+    "tags": "home educational kids",
+	"links": 
+		[
+			{
+				"url_text": "PlayStore",
+				"url": "https://play.google.com/store/apps/details?id=com.yaguar.Matenautas"
+			}
+		]
   }, 
 	{
 		"name": "Mobile Educational game",
 		"youtube_id": "8qtQc6aPgbQ",  
 		"client": "Tipitap",
 		"title": "Hand Wash Squad",
-		"description": "Hand Wash Squad for Tipitap",
+		"description": "Juego sobre higiene y prevención de infecciones desarrollado con el aval de la UK Infection Prevention Society.",
 		"tags": "home mobile educational"
 	  },
+	  {
+		"name": "Lyna World",
+		"youtube_id": "YxJfULVpnGA",
+		"client": "4FInteractive",
+		"title": "Lyna World",
+		"description": "Creador de personajes e historias basado en el universo de la estrella de Youtube Lyna Vallejos.",
+		"tags": "home videogame kids",
+		"links": 
+		[
+			{
+				"url_text": "Apple Store",
+				"url": "https://apps.apple.com/cr/app/lyna-world/id1490883187"
+			}
+		]
+	  }, 
 	{
 		"name": "Mobile Game",
 		"youtube_id": "G6Ijvv1tovY",
