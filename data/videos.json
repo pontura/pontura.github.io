@@ -17,7 +17,7 @@
     "name": "Matenautas",
     "youtube_id": "a6qcpWbs1Uw",
     "client": "Fundación Bunge y Born",
-    "title": "Space Adventure",
+    "title": "Matenautas",
     "description": "Matenautas es un juego de ciencia ficción desarrollado por Yaguar, Fundación Hagamos Todo Para Educar en Ciencias y Edutrama. Este proyecto es uno de los finalistas del concurso MásMAT, organizado por la Fundación Bunge y Born.<br><ul><li>Ganadora del concurso MásMAT, organizado por la Fundación Bunge y Born.</li>",
     "tags": "home educational kids",
 	"links": 
@@ -52,7 +52,7 @@
 		]
 	  }, 
 	{
-		"name": "Mobile Game",
+		"name": "Fulbo Galaxy",
 		"youtube_id": "G6Ijvv1tovY",
 		"client": "Aconcagua Games (me)",
 		"title": "Fulbo Galaxy",
@@ -66,7 +66,13 @@
 		"client": "Clarín Medios Digitales",
 		"tags": "home videogame kids"
 	},	
-	
+	{
+		"name": "Vida Cotidiana",
+		"youtube_id": "u-3UeSB3FIA",
+		"description": "Aplicación interactiva sobre la vida en Buenos Aires en la época colonial, instalada en la sala interactiva del Museo Nacional del Cabildo de Buenos Aires y de la Revolución de Mayo.",
+		"client": "Plan",
+		"tags": "home educational kids"
+	},	
 	{
 		"name": "Laberinto Sonoro en La Usina del Arte",
 		"youtube_id": "_0C-naQ6Yx8",
@@ -86,7 +92,7 @@
 		"youtube_id": "jKFu5yeOJhU",
 		"client": "me",
 		"title": "Tira Leds",
-		"description": "Multiplayer single 1D Party game",
+		"description": "Party-game de 5 metros de leds representado en la extrema síntesis visual de una única dimensión y síntesis sonora. Consiste en una tira de leds desde cuyos extremos se encuentran los inputs de cada jugador.",
 		"tags": "home exhibition experimental"
   }, 
   {
@@ -100,9 +106,9 @@
     "name": "Juego de mesa virtual",
     "youtube_id": "C2e322Z0PpU",
     "client": "Tipitap",
-    "title": "Space Adventure",
-    "description": "Space Adventure ",
-    "tags": "home kids"
+    "title": "Groovles Photo Safari",
+    "description": "Groovles Photo Safari es un juego de mesa mobile para niños, con temática de exploración espacial y minijuegos de fotografía.",
+    "tags": "home videogame kids"
   },
   
   {
@@ -177,9 +183,9 @@
   {
     "name": "Art exhibition",
     "youtube_id": "8jpoFEz9WYc",
-    "description": "Fotonautas en 'La Pedrera', San Luis",
+    "description": "Instalación interactiva: Generador de avatares y sandbox masivo para stand en la muestra Digitalia, San Luis.",
 	"client": "Plan",
-    "tags": "exhibition"
+    "tags": "home exhibition"
   },
   {
     "name": "VR Vaccine App",
