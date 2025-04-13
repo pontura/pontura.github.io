@@ -43,29 +43,41 @@
   let lastScrollY = window.scrollY;
   let menuHidden = false;
 
-  // Toggle con hamburguesa
+  function updateHamburgerVisibility() {
+    if (menuHidden) {
+      hamburger.style.display = 'block';
+    } else {
+      hamburger.style.display = 'none';
+    }
+  }
+
+  // Toggle con botón hamburguesa
   hamburger.addEventListener('click', () => {
     menu.classList.toggle('hidden');
     menuHidden = !menuHidden;
+    updateHamburgerVisibility();
   });
 
   // Control del scroll
   window.addEventListener('scroll', () => {
     const currentScrollY = window.scrollY;
 
-    // Mostrar menú si estás en el top
     if (currentScrollY === 0) {
       menu.classList.remove('hidden');
       menuHidden = false;
+      updateHamburgerVisibility();
       return;
     }
 
-    // Ocultar si scrollea hacia abajo
     if (currentScrollY > lastScrollY && !menuHidden) {
       menu.classList.add('hidden');
       menuHidden = true;
+      updateHamburgerVisibility();
     }
 
     lastScrollY = currentScrollY;
   });
+
+  // Inicializar correctamente al cargar la página
+  updateHamburgerVisibility();
 </script>

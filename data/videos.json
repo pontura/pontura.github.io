@@ -300,7 +300,14 @@
     "description": "Suicide Snipper is a videogame by Tumbagames (me and partners)",
 	"client": "me",
     "tags": "videogame"
-  } ,
+  },
+  {
+		"name": "C.C. Recoleta Muestra arcade",
+		"youtube_id": "kQia9rf5VlY",
+		"description": "Explorando formas de proyectar sobre Tags QR",
+		"client": "me",
+		"tags": "exhibition"
+  },
   {
     "name": "Tumba Game",
     "youtube_id": "7YMELEtFoAA",
@@ -382,7 +389,7 @@
     "tags": "experimental"
   },{
     "name": "Kinect + TV",
-    "youtube_id": "SiMfpCElYz4",
+    "youtube_id": "VG3n9u9YYjw",
     "description": "Programa de TV que no sucedió",
 	"client": "me",
     "tags": "experimental"
@@ -422,7 +429,7 @@
 		"description": "Mad Rollers",
 		"client": "me",
 		"tags": "videogame"
-	},{
+	},{ 
 		"name": "Experiencia Sonora",
 		"youtube_id": "HYy_1WT2zYk",
 		"description": "Muestra Experiencia Sonora para el artista argentino Diego Alberti",
@@ -440,5 +447,24 @@
 		"description": "Punga Raid",
 		"client": "me",
 		"tags": "videogame"
+	},{
+		"name": "Exploración del espacio",
+		"youtube_id": "-pTAZAd88vs",
+		"description": "Explorando formas de navegar 3 dimensiones en 2 dimensiones",
+		"client": "me",
+		"tags": "experimental"
+	},{
+		"name": "iOS AR - Vuforia + ARkit",
+		"youtube_id": "CU32KNr3Z6M",
+		"description": "Prototipo de experiencia interactiva. Analizando el espacio. Videojuego de Jungla para sacar fotos a distintos seres",
+		"client": "me",
+		"tags": "experimental vr"
+	},{
+		"name": "QR - spacial test",
+		"youtube_id": "gSI6wx69bUY",
+		"description": "Explorando formas de proyectar sobre Tags QR",
+		"client": "me",
+		"tags": "experimental"
 	}
+	
 ]
