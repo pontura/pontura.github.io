@@ -322,19 +322,20 @@ body {
    /* flex-direction: unset; */
    top: 0;
    padding-top: 0px;
+   padding-bottom: 10px;
   }
 
   .menu button {
     /* flex: 1; */
     text-align: center;
-    /* padding: 1rem 0.5rem; */
+    padding: 7px;
+    margin-bottom: 0px;
     height: 33px;
     float: left;
-    /* width: 50px; */
   }
   
   .mainContent {
-    margin-top: 280px; /* Deja espacio para el menú */
+    margin-top: 312px; /* Deja espacio para el menú */
   }
 	.homeImage
 	{
@@ -375,4 +376,51 @@ body {
 	margin-right: 25px;
 	margin-bottom: 18px;
 	float: left;
+}
+
+
+
+
+
+
+
+
+/* Estilos base */
+.menu {
+  transition: transform 0.3s ease;
+}
+
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  background: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Modo mobile */
+@media (max-width: 768px) {
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 999;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu.hidden {
+    transform: translateY(-100%);
+  }
+
+  .hamburger {
+    display: block;
+  }
 }

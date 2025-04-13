@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>	
-
+<button id="hamburger" class="hamburger" aria-label="Toggle menu">☰</button>
 <nav class="menu tab" id="tab">
    <button class="filter-button" data-filter="home">home</button>
 	<button class="filter-button" data-filter="videogame">videogames</button>
@@ -37,3 +37,35 @@
  <script src="js/videos.js"></script>
 </html>
 
+<script>
+  const menu = document.getElementById('tab');
+  const hamburger = document.getElementById('hamburger');
+  let lastScrollY = window.scrollY;
+  let menuHidden = false;
+
+  // Toggle con hamburguesa
+  hamburger.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+    menuHidden = !menuHidden;
+  });
+
+  // Control del scroll
+  window.addEventListener('scroll', () => {
+    const currentScrollY = window.scrollY;
+
+    // Mostrar menú si estás en el top
+    if (currentScrollY === 0) {
+      menu.classList.remove('hidden');
+      menuHidden = false;
+      return;
+    }
+
+    // Ocultar si scrollea hacia abajo
+    if (currentScrollY > lastScrollY && !menuHidden) {
+      menu.classList.add('hidden');
+      menuHidden = true;
+    }
+
+    lastScrollY = currentScrollY;
+  });
+</script>
