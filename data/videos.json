@@ -29,12 +29,19 @@
 		]
   }, 
 	{
-		"name": "Mobile Educational game",
+		"name": "Hand Wash (COVID 19)",
 		"youtube_id": "8qtQc6aPgbQ",  
 		"client": "Tipitap",
 		"title": "Hand Wash Squad",
 		"description": "Juego sobre higiene y prevención de infecciones desarrollado con el aval de la UK Infection Prevention Society.",
-		"tags": "home mobile educational"
+		"tags": "home mobile educational videogame",
+		"links": 
+		[
+			{
+				"url_text": "Más videojuegos",
+				"url": "/?tag=videogame"
+			}
+		]
 	  },
 	  {
 		"name": "Lyna World",
@@ -57,7 +64,14 @@
 		"client": "Aconcagua Games (me)",
 		"title": "Fulbo Galaxy",
 		"description": "Compete in tournaments and ranked PvP or train with the PvE cups.Play for free or invest in Digital Collectibles for rewards",
-		"tags": "home videogame"
+		"tags": "home videogame",
+		"links": 
+		[
+			{
+				"url_text": "Más videojuegos",
+				"url": "/?tag=videogame"
+			}
+		]
 	},
 	{
 		"name": "Mundo Gaturro",
@@ -87,14 +101,28 @@
 		"youtube_id": "u-3UeSB3FIA",
 		"description": "Aplicación interactiva sobre la vida en Buenos Aires en la época colonial, instalada en la sala interactiva del Museo Nacional del Cabildo de Buenos Aires y de la Revolución de Mayo.",
 		"client": "Plan",
-		"tags": "home educational kids"
+		"tags": "home educational kids exhibition",
+		"links": 
+		[
+			{
+				"url_text": "Más exposiciones",
+				"url": "/?tag=exhibition"
+			}
+		]
 	},	
 	{
 		"name": "Laberinto Sonoro en La Usina del Arte",
 		"youtube_id": "_0C-naQ6Yx8",
 		"description": "Instalación interactiva, parte de la muestra Laberinto Sonoro en La Usina del Arte (2018, Cliente: Plan)",
 		"client": "me",
-		"tags": "videogame kids"
+		"tags": "videogame exhibition",
+		"links": 
+		[
+			{
+				"url_text": "Más exposiciones",
+				"url": "/?tag=exhibition"
+			}
+		]
 	},
 	{
 		"name": "Mad Rollers (Party Game)",
@@ -116,14 +144,28 @@
 		"client": "me",
 		"title": "Tira Leds",
 		"description": "Party-game de 5 metros de leds representado en la extrema síntesis visual de una única dimensión y síntesis sonora. Consiste en una tira de leds desde cuyos extremos se encuentran los inputs de cada jugador.",
-		"tags": "home exhibition experimental"
+		"tags": "home exhibition experimental",
+		"links": 
+		[
+			{
+				"url_text": "Otros controles alt",
+				"url": "/?tag=experimental"
+			}
+		]
   }, 
   {
     "name": "Quesu",
     "youtube_id": "ZSKwkjoUm4g",
     "description": "Qué sucedió primero - trivia game",
 	"client": "Tano Suarez",
-    "tags": "experimental videogame"
+    "tags": "experimental videogame",
+	"links": 
+	[
+		{
+			"url_text": "Más",
+			"url": "/?tag=experimental"
+		}
+	]
   },
   {
     "name": "Juego de mesa virtual",

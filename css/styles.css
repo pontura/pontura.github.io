@@ -92,7 +92,7 @@ body {
 #gallery {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-	gap: 14px;
+	gap: 8px;
 }
 
 /* Gallery item */
@@ -177,7 +177,7 @@ a:hover {
 .thumbnail-container {
       position: relative;
       /* width: 100%; */
-      max-width: 340px;
+      /* max-width: 340px; */
       /* margin: 40px auto; */
       cursor: pointer;
     }
