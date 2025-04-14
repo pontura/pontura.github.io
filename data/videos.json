@@ -156,7 +156,7 @@
   {
     "name": "Quesu",
     "youtube_id": "ZSKwkjoUm4g",
-    "description": "Qué sucedió primero - trivia game",
+    "description": "Qué sucedió primero. Es una trivia minimalista que desarrollamos en dos modalidades, mobile y arcade - presencial para eventos.",
 	"client": "Tano Suarez",
     "tags": "experimental videogame",
 	"links": 
@@ -193,7 +193,7 @@
   {
     "name": "Planetas Arcade 4p",
     "youtube_id": "zK_1_XmxuLs",
-    "description": "Un Experimento 4 players",
+    "description": "Un Experimento personal para montar en eventos. Una especie de capture de flag de a 4 players en un espacio donde hay que orbitar entre diferentes gravedades.",
     "tags": "videogame experimental"
   },
   {
@@ -213,7 +213,7 @@
   {
     "name": "Totem + Lector QR",
     "youtube_id": "LNyEoA7gzxI",
-    "description": "QR Trabajo realizado para Tienda Inglesa (Uruguay)",
+    "description": "Trabajo realizado para Tienda Inglesa (Uruguay). Se usa hace años en distintas sedes de la cadena de supermercados uruguaya. Informa, escaneando el QR de cada vino, sobre distintas cepas, maridajes, etc.",
     "tags": "experimental"
   },
  
@@ -255,7 +255,7 @@
   {
     "name": "VR Vaccine App",
     "youtube_id": "p9e8LDt6m6s",
-    "description": "VR Vaccine App",
+    "description": "Apliacación VR para vacunación infantil. Invita a los niñes a experimentar el maravilloso mundo de los dragones mientras son vacunados. Lo que en el mundo real muchas veces es traumático, a través de la app fluye de una manera lúdica y recreativa.",
 	"client": "tipitap",
     "tags": "vr"
   },{
@@ -274,9 +274,9 @@
 	
   },
   {
-    "name": "VR for architecture",
+    "name": "VR para arquitectura",
     "youtube_id": "cR5J0ntVcD0",
-    "description": "VR For architects",
+    "description": "Fué un desarrollo que hice para el prestigioso estudio de arquitectura de Rafael Viñoly. Permite prototipar o modelar espacios arquitectónicos en el mapa real de una ciudad determinada.",
 	"client": "Viñoly studio",
     "tags": "vr"
   },
@@ -309,9 +309,9 @@
 	]	
   },
   {
-    "name": "VR game (experimental)",
+    "name": "VR Tower Defense (experimental)",
     "youtube_id": "735LvLfv1w4",
-    "description": "Tower Defense",
+    "description": "Es mi primer juego VR. Un tower defense dentro de un pequeño pueblo, el gamplay consiste en saltar de torre en torre y plantar los distintos tiradores a la vez que tiene el componente arcade de apuintar y tirar con arco.",
 	"client": "me",
     "tags": "vr"
   },
@@ -332,7 +332,7 @@
   {
     "name": "VR for Kids",
     "youtube_id": "7poUxYl25yA",
-    "description": "Experiments with VR",
+    "description": "Herramienta lúdica para niños. Permite construir espacios tridimensionales con las manos usando combinando bloques, escalándolos, transformándolos, etc. Todo con física real",
 	"client": "me",
     "tags": "vr"
   },
