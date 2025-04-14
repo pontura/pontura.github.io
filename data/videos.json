@@ -336,10 +336,18 @@
 	"client": "me",
     "tags": "vr"
   },
+   {
+    "name": "Vida Moderna",
+    "youtube_id": "zqPp9pu1bKg",
+    "client": "NOS",
+    "title": "Vida Moderna",
+    "description": "Runner isométrico con física de temática energética para stand de YPF en Tecnópolis.",
+    "tags": "exhibition videogame"
+  }, 
   {
-    "name": "Tumba Game",
+    "name": "Suicide Sniper (Tumba)",
     "youtube_id": "-QNFE7NdefY",
-    "description": "Suicide Snipper is a videogame by Tumbagames (me and partners)",
+    "description": "Suicide Sniper has been designed exclusively for those who want to get revenge of humanity but don't want to go to jail. Did you ever desire to get a few weapons and kill a lot of bastards in the streets? Then you might enjoy this game as hell!",
 	"client": "me",
     "tags": "videogame"
   },
@@ -351,45 +359,37 @@
 		"tags": "exhibition"
   },
   {
-    "name": "Tumba Game",
+    "name": "Metro Punga (Tumba)",
     "youtube_id": "7YMELEtFoAA",
-    "description": "Metro Punga",
+    "description": "Help Punga Punga, a teenage outlaw from the third world get rid of the fucking middle class by punging their stuff in the subway trains.",
 	"client": "me",
     "tags": "videogame"
-  } ,
-   {
-    "name": "Vida Moderna",
-    "youtube_id": "zqPp9pu1bKg",
-    "client": "NOS",
-    "title": "Vida Moderna",
-    "description": "Runner isométrico con física de temática energética para stand de YPF en Tecnópolis.",
-    "tags": "exhibition videogame"
-  }, 
+  },
   {
-    "name": "Tumba Game",
+    "name": "Mega Chumbo (Tumba)",
     "youtube_id": "eIAcuNoYlQY",
-    "description": "Mega Chumbo",
+    "description": "You are Punga Punga and you want to enter the coolest club in town. But Patovika will try to stop you by throwing grasas to your face! Kill garching dogs to get pako to increase the power of your weapon up to MEGA CHUMBO!",
 	"client": "me",
     "tags": "videogame"
   } ,
   {
-    "name": "Tumba Game",
+    "name": "Insane Imbelice Dancing",
     "youtube_id": "zrV8sLO5Otw",
-    "description": "Insane Imbelice Dancing",
+    "description": "You are a specialist in pogo dancing: the most imbecile and destructive dance style ever developed by the human. Your mission is to start a massive deadly dance in an ultraviolent massacre metal show by Eugenetics, but beware of the security guys! If you dig the violence of extreme metal music, you must play Insane Imbecile Dancing... or die!",
 	"client": "me",
     "tags": "videogame"
   } ,
   {
-    "name": "Tumba Game",
+    "name": "Canniball (Tumba)",
     "youtube_id": "7gCmwD2NaOM",
-    "description": "Canniball",
+    "description": "After a plane crash in the Andes the best rugby teams of all times created a fascinating and dynamic sport, so extreme only the bravest can play it. Are you hungry enough to play WINTER CANNIBALL?",
 	"client": "me",
     "tags": "videogame"
   } ,
   {
-    "name": "Tumba Game",
+    "name": "Brutal Battle (Tumba)",
     "youtube_id": "qYdnP8So4eI",
-    "description": "Brutal Battle",
+    "description": "Kill the meanest criminals in the ring. Become the master of the world in an age of anarchy and gore.",
 	"client": "me",
     "tags": "videogame"
   },{
@@ -402,12 +402,6 @@
     "name": "Bondizord - (Rosario 2019)",
     "youtube_id": "GdZAIKxhyGo",
     "description": "Colectivo Arcade",
-	"client": "me",
-    "tags": "exhibition"
-  },{
-    "name": "Exhibition Mad Rollers",
-    "youtube_id": "VBP-_EEJw4E",
-    "description": "Mad Rollers live",
 	"client": "me",
     "tags": "exhibition"
   },
@@ -459,12 +453,6 @@
 		"description": "Fotonautas",
 		"client": "me",
 		"tags": "exhibition"
-	},{
-		"name": "Mad Rollers exhibited",
-		"youtube_id": "F6QACWdJXbI",
-		"description": "Mad Rollers",
-		"client": "me",
-		"tags": "videogame"
 	},{ 
 		"name": "Experiencia Sonora",
 		"youtube_id": "HYy_1WT2zYk",
@@ -501,6 +489,30 @@
 		"description": "Explorando formas de proyectar sobre Tags QR",
 		"client": "me",
 		"tags": "experimental"
+	},{
+		"name": "Fulbo Galaxy (Tumba) MEME",
+		"youtube_id": "Q_g6Y0diM-E",
+		"description": "Este es un MEME que hicimos sobre nuestro amado FulboGalaxy",
+		"client": "me",
+		"tags": "videogame experimental"
+	},{
+		"name": "Exhibition Mad Rollers",
+		"youtube_id": "VBP-_EEJw4E",
+		"description": "Mad Rollers en alguna de sus tantas fechas a lo largo del país.",
+		"client": "me",
+		"tags": "exhibition"
+	 },{
+		"name": "Mad Rollers (old version)",
+		"youtube_id": "b-2cxosHVZA",
+		"description": "Mad Rollers empezó siendo este 4 Players para niños (y no tan niños). Salió para un evento de Tecnópolis y me gustó tanto que lo transformé en el Mad Rollers que se juega hoy en distintos espacios de CABA.",
+		"client": "me",
+		"tags": "videogame exhibition"
+	},{
+		"name": "Mad Rollers exhibited",
+		"youtube_id": "F6QACWdJXbI",
+		"description": "Mad Rollers en vivo en el antro favorito de los Tumba (El Arcade Club Social, CABA)",
+		"client": "me",
+		"tags": "videogame exhibition"
 	}
 	
 ]
