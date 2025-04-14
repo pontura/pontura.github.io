@@ -6,7 +6,15 @@ body {
 
 
 
-
+li{
+	margin:10px;
+}
+.links{
+	margin-top:10px;
+}
+.links a{
+	margin-right:10px;
+}
 
 .tab {
 	overflow: hidden;
@@ -154,7 +162,7 @@ p {
 li{
 }
 a {
-  background-color: black;
+  background-color: #fa306a;;
   color: white;
   text-decoration: none;
   padding: 0.1em 0.6em;
@@ -303,6 +311,13 @@ body {
 .contenido {
   flex: 1;
   padding: 2rem;
+}
+.footer
+{
+	width:100%;
+	margin-bottom:100px;
+	float:left;
+	height: 150px;
 }
 
 
