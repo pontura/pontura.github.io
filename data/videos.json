@@ -58,6 +58,33 @@
 			}
 		]
 	  }, 
+	  {
+    "name": "Videojuegos sobre ruedas (Mini Serie)",
+    "youtube_id": "i4SYqu5eMWw",
+    "description": "Un colectivo de videojuegos arcade argentinos viaja por todo el país, generando un encuentro inusual entre jugadores y máquinas en cada destino. Experiencias, Historia, industria y nuevas propuestas lúdicas confluyen en un recorrido sin precedentes. Una vivencia real, que propone al videojuego como un lenguaje universal.",
+	"client": "with Friends",
+    "tags": "home exhibition",
+	"links": 
+	[
+		{
+			"url_text": "cap 1",
+			"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+		},
+		{
+			"url_text": "cap 2",
+			"url": "https://www.youtube.com/watch?v=kjXvM-wZ0to"
+		},
+		{
+			"url_text": "cap 3",
+			"url": "https://www.youtube.com/watch?v=EjzY2sPuiyw"
+		},
+		{
+			"url_text": "cap 4",
+			"url": "https://www.youtube.com/watch?v=xvvPfASdPNo"
+		}
+	]
+	
+  },
 	{
 		"name": "Fulbo Galaxy",
 		"youtube_id": "G6Ijvv1tovY",
@@ -215,14 +242,6 @@
     "youtube_id": "LNyEoA7gzxI",
     "description": "Trabajo realizado para Tienda Inglesa (Uruguay). Se usa hace años en distintas sedes de la cadena de supermercados uruguaya. Informa, escaneando el QR de cada vino, sobre distintas cepas, maridajes, etc.",
     "tags": "experimental"
-  },
- 
-  {
-    "name": "Mini Serie (actor? or...)",
-    "youtube_id": "i4SYqu5eMWw",
-    "description": "Videojuegos sobre ruedas",
-	"client": "with Friends",
-    "tags": "exhibition"
   },
   {
     "name": "Arcade parties",
