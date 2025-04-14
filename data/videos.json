@@ -57,8 +57,15 @@
 				"url": "https://apps.apple.com/cr/app/lyna-world/id1490883187"
 			}
 		]
-	  }, 
+	  },
 	  {
+		"name": "Beldent - Personal Fest",
+		"youtube_id": "RB3NW9b88LE",
+		"description": "En el 2018 hicimos, con Yaguar, este juego con su arcade propio para ser jugado durante el Personal Fest. Es un survival multiplayer, gana el que más lejos llega sin ser tacleado para que le quiten el paquetito de Beldent!",
+		"client": "beldent",
+		"tags": "home videogame exhibition"		
+	}, 
+	{
     "name": "Videojuegos sobre ruedas (Mini Serie)",
     "youtube_id": "i4SYqu5eMWw",
     "description": "Un colectivo de videojuegos arcade argentinos viaja por todo el país, generando un encuentro inusual entre jugadores y máquinas en cada destino. Experiencias, Historia, industria y nuevas propuestas lúdicas confluyen en un recorrido sin precedentes. Una vivencia real, que propone al videojuego como un lenguaje universal.",
@@ -95,8 +102,12 @@
 		"links": 
 		[
 			{
-				"url_text": "Más videojuegos",
-				"url": "/?tag=videogame"
+				"url_text": "gameplay",
+				"url": "https://www.youtube.com/watch?v=z55O1K59zTc&t=78s"
+			},
+			{
+				"url_text": "Review Dothaking115",
+				"url": "https://www.youtube.com/watch?v=hKCWTcHsHR4&list=LL&index=10&t=5s"
 			}
 		]
 	},
@@ -136,7 +147,22 @@
 				"url": "/madrollers/"
 			}
 		]
-	  },	
+	  },
+	{
+		"name": "Liga Combate Space",
+		"youtube_id": "RB3NW9b88LE",
+		"description": "Desarrollamos para WarnerMedia Digital este juego de Box en primera persona con gyroscopio y relatos de Larena!",
+		"client": "Warner Media",
+		"tags": "videogame",
+		"links":
+		[
+			{
+				"url_text": "PlayStore",
+				"url": "https://play.google.com/store/apps/details?id=com.space.turner.combatespace&hl=es_419"
+			}
+		]
+		
+	}, 	  
 	{
 		"name": "Vida Cotidiana",
 		"youtube_id": "u-3UeSB3FIA",
@@ -201,8 +227,14 @@
     "title": "Groovles Photo Safari",
     "description": "Groovles Photo Safari es un juego de mesa mobile para niños, con temática de exploración espacial y minijuegos de fotografía.",
     "tags": "home videogame kids"
+  },{
+	"name": "Cine en videojuego (proto)",
+	"youtube_id": "_KMy6Vwph-g",
+	"client": "Rei Cine",
+	"title": "Cine videojuego",
+	"description": "Fué un prototipo de película interactiva que hicimos junto a Rei Cine SRL con mi amiga Alejandra Bruno.",
+	"tags": "experimental"
   },
-  
   {
     "name": "Superdimensional Sex Shop",
 	"client": "Nutaku",
@@ -277,7 +309,8 @@
     "description": "Apliacación VR para vacunación infantil. Invita a los niñes a experimentar el maravilloso mundo de los dragones mientras son vacunados. Lo que en el mundo real muchas veces es traumático, a través de la app fluye de una manera lúdica y recreativa.",
 	"client": "tipitap",
     "tags": "vr"
-  },{
+  },
+  {
     "name": "Conicet - Huo'o na Cuentos",
     "youtube_id": "-Asfz-znt6E",
     "description": "Huo'o na cuentos es una aplicación que busca promover el desarrollo lingüístico y la alfabetización temprana de niños y niñas pequeños.",
@@ -514,6 +547,7 @@
 		"description": "Este es un MEME que hicimos sobre nuestro amado FulboGalaxy",
 		"client": "me",
 		"tags": "videogame experimental"
+		
 	},{
 		"name": "Exhibition Mad Rollers",
 		"youtube_id": "VBP-_EEJw4E",
@@ -532,6 +566,44 @@
 		"description": "Mad Rollers en vivo en el antro favorito de los Tumba (El Arcade Club Social, CABA)",
 		"client": "me",
 		"tags": "videogame exhibition"
-	}
+	},{
+		"name": "Pikala",
+		"youtube_id": "7ZHjvOvkO3U",
+		"client": "Tipitap",
+		"title": "Pikala",
+		"description": "Juego educativo que ayuda y fomenta el desarrollo de la segunda lengua.",
+		"tags": "videogame educational"
+	  },{
+		"name": "Shell: Conciencia Vial",
+		"youtube_id": "TET-qRB1ep0",
+		"client": "Shell",
+		"title": "Conciencia Vial",
+		"description": "Juego educativo que da tips sobre cómo comportarse correctamente a la hora de manejar.",
+		"tags": "educational"
+	  },{
+		"name": "Música con AR",
+		"youtube_id": "eaKh695zAXg",
+		"client": "Eurínome",
+		"title": "AR + iPAD",
+		"description": "Juego que terminó siendo exhibido en Tecnópolis. Consiste en un iPAD que filma un espacio con tags QR y con los movimientos del gyroscope se van generando distintos tipos de música.",
+		"tags": "experimental"
+	  },{
+		"name": "Kinect controls bones",
+		"youtube_id": "uEVVsAZGajk",
+		"client": "Personal",
+		"title": "Kinect + bones",
+		"description": "Prototipo de controlador de huesos con una Kinect (cámara infrarroja que levanta los movimientos del cuerpo)",
+		"tags": "experimental"
+	  },{
+		"name": "Demo online multiplayer",
+		"youtube_id": "HTHxbzNSjM8",
+		"client": "Personal",
+		"title": "Hoops",
+		"description": "Prototipo de juego online multiplayer que murió en un proto...",
+		"tags": "experimental videogame"
+	  }
+	  
+	  
+	  
 	
 ]
