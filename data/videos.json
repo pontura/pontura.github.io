@@ -258,6 +258,20 @@
     "description": "VR Vaccine App",
 	"client": "tipitap",
     "tags": "vr"
+  },{
+    "name": "Conicet - Huo'o na Cuentos",
+    "youtube_id": "-Asfz-znt6E",
+    "description": "Huo'o na cuentos es una aplicación que busca promover el desarrollo lingüístico y la alfabetización temprana de niños y niñas pequeños.",
+	"client": "conicet",
+    "tags": "educational videogame kids",
+	"links": 
+		[
+			{
+				"url_text": "PlayStore (PLAY)",
+				"url": "https://play.google.com/store/apps/details?id=com.pontura.conicet&hl=es"
+			}
+		]
+	
   },
   {
     "name": "VR for architecture",
@@ -421,20 +435,6 @@
     "description": "Programa de TV que no sucedió",
 	"client": "me",
     "tags": "experimental"
-  },{
-    "name": "Conicet - Huo'o na Cuentos",
-    "youtube_id": "-Asfz-znt6E",
-    "description": "Huo'o na cuentos es una aplicación que busca promover el desarrollo lingüístico y la alfabetización temprana de niños y niñas pequeños.",
-	"client": "conicet",
-    "tags": "educational videogame kids",
-	"links": 
-		[
-			{
-				"url_text": "PlayStore (PLAY)",
-				"url": "https://play.google.com/store/apps/details?id=com.pontura.conicet&hl=es"
-			}
-		]
-	
   },{
 		"name": "MMO - Virtual World",
 		"youtube_id": "8UPVo0ZZQLA",
