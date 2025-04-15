@@ -57,14 +57,7 @@
 				"url": "https://apps.apple.com/cr/app/lyna-world/id1490883187"
 			}
 		]
-	  },
-	  {
-		"name": "Beldent - Personal Fest",
-		"youtube_id": "RB3NW9b88LE",
-		"description": "En el 2018 hicimos, con Yaguar, este juego con su arcade propio para ser jugado durante el Personal Fest. Es un survival multiplayer, gana el que más lejos llega sin ser tacleado para que le quiten el paquetito de Beldent!",
-		"client": "beldent",
-		"tags": "home videogame exhibition"		
-	}, 
+	  }, 
 	{
     "name": "Videojuegos sobre ruedas (Mini Serie)",
     "youtube_id": "i4SYqu5eMWw",
@@ -150,7 +143,7 @@
 	  },
 	{
 		"name": "Liga Combate Space",
-		"youtube_id": "RB3NW9b88LE",
+		"youtube_id": "VclFN6ZLaYc",
 		"description": "Desarrollamos para WarnerMedia Digital este juego de Box en primera persona con gyroscopio y relatos de Larena!",
 		"client": "Warner Media",
 		"tags": "videogame",
@@ -160,9 +153,14 @@
 				"url_text": "PlayStore",
 				"url": "https://play.google.com/store/apps/details?id=com.space.turner.combatespace&hl=es_419"
 			}
-		]
-		
-	}, 	  
+		]		
+	},{
+		"name": "Beldent - Personal Fest",
+		"youtube_id": "RB3NW9b88LE",
+		"description": "En el 2018 hicimos, con Yaguar, este juego con su arcade propio para ser jugado durante el Personal Fest. Es un survival multiplayer, gana el que más lejos llega sin ser tacleado para que le quiten el paquetito de Beldent!",
+		"client": "beldent",
+		"tags": "home videogame exhibition"		
+	}, 
 	{
 		"name": "Vida Cotidiana",
 		"youtube_id": "u-3UeSB3FIA",
@@ -241,7 +239,34 @@
     "youtube_id": "T2Yj2ZvhvjM",
     "description": "Superdimensional Sex Shop (Nutaku Porn Game)",
     "tags": "videogame"
-  },
+  },{
+    "name": "Desafío Celi",
+    "youtube_id": "GtbbI822uRQ",
+    "description": "Trivia en vivo presentada por una persona humana filmada. Algo así como un programa de TV interactivo desde los celulares. Lo hicimos con el team Yaguar para el municipio de Escobar",
+	"client": "me",
+    "tags": "videogame experimental",
+	"links":
+	[
+		{
+			"url_text": "En facebook",
+			"url": "https://www.facebook.com/ASujarchuk/videos/1624508587686364/"
+		}
+	]	
+  }, 
+  {
+    "name": "Conicet - Huo'o na Cuentos",
+    "youtube_id": "-Asfz-znt6E",
+    "description": "Huo'o na cuentos es una aplicación que busca promover el desarrollo lingüístico y la alfabetización temprana de niños y niñas pequeños.",
+	"client": "conicet",
+    "tags": "educational videogame kids",
+	"links": 
+	[
+		{
+			"url_text": "PlayStore (PLAY)",
+			"url": "https://play.google.com/store/apps/details?id=com.pontura.conicet&hl=es"
+		}
+	]	
+  }, 
   {
     "name": "4 players Arcade game",
 	"client": "Me",
@@ -309,21 +334,6 @@
     "description": "Apliacación VR para vacunación infantil. Invita a los niñes a experimentar el maravilloso mundo de los dragones mientras son vacunados. Lo que en el mundo real muchas veces es traumático, a través de la app fluye de una manera lúdica y recreativa.",
 	"client": "tipitap",
     "tags": "vr"
-  },
-  {
-    "name": "Conicet - Huo'o na Cuentos",
-    "youtube_id": "-Asfz-znt6E",
-    "description": "Huo'o na cuentos es una aplicación que busca promover el desarrollo lingüístico y la alfabetización temprana de niños y niñas pequeños.",
-	"client": "conicet",
-    "tags": "educational videogame kids",
-	"links": 
-		[
-			{
-				"url_text": "PlayStore (PLAY)",
-				"url": "https://play.google.com/store/apps/details?id=com.pontura.conicet&hl=es"
-			}
-		]
-	
   },
   {
     "name": "VR para arquitectura",
