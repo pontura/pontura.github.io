@@ -27,7 +27,28 @@
 				"url": "https://play.google.com/store/apps/details?id=com.yaguar.Matenautas"
 			}
 		]
-  }, 
+  },  
+  {
+		"name": "Lego Ninjago",
+		"youtube_id": "AhZp1OpCCrM",
+		"client": "Lego",
+		"description": "Spinjitzu Spinball es uno de los tantos juegos que hicimos para Lego en QB9.",
+		"tags": "videogame"
+  },
+  {
+		"name": "South park Pandemic",
+		"youtube_id": "wAEQkcOWo10",
+		"client": "South park",
+		"description": "Clásico juego de plataformas con el humor de mi serie de cabecera. Desarrollado en el 2009, es uno de los varios juegos que hicimos en QB9 de South Park para Comedy Central.",
+		"tags": "videogame"
+	  },
+	   {
+		"name": "Strawberry Shortcake",
+		"youtube_id": "3ya5EYGCmnY",
+		"client": "Personal game",
+		"description": "Reach for the Stars: Desarrollamos este lindo juego mobile de ritmo y sincro en el último tramo de mis tiempos por QB9",
+		"tags": "videogame"
+	  },
 	{
 		"name": "Hand Wash (COVID 19)",
 		"youtube_id": "8qtQc6aPgbQ",  
@@ -127,13 +148,6 @@
 			
 		]
 	},	
-	{
-		"name": "Strawberry Shortcake",
-		"youtube_id": "3ya5EYGCmnY",
-		"client": "Personal game",
-		"description": "Reach for the Stars: Desarrollamos este lindo juego mobile de ritmo y sincro en el último tramo de mis tiempos por QB9",
-		"tags": "videogame"
-	  },
 	{
 		"name": "Mad Rollers (Party Game)",
 		"youtube_id": "lKchgbLdyuw",
