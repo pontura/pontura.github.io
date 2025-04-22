@@ -427,11 +427,11 @@
     "tags": "vr"
   },
    {
-    "name": "Vida Moderna",
-    "youtube_id": "zqPp9pu1bKg",
-    "client": "NOS",
+    "name": "Vida Moderna - Arcade",
+    "youtube_id": "QEOwhXjk8mo",
+    "client": "YPF",
     "title": "Vida Moderna",
-    "description": "Runner isométrico con física de temática energética para stand de YPF en Tecnópolis.",
+    "description": "Runner isométrico con física de temática energética para stand de YPF en Tecnópolis. El juego se montó con un gabinete construido para el evento",
     "tags": "exhibition videogame"
   }, 
   {
@@ -639,6 +639,13 @@
 		"title": "Hoops",
 		"description": "Prototipo de juego online multiplayer que murió en un proto...",
 		"tags": "experimental videogame"
+	  },{
+		"name": "Residuos Como Recursos",
+		"youtube_id": "3czHfR7uiC0",
+		"client": "CEAMSE",
+		"title": "Residuos Como Recursos",
+		"description": "Es un juego desarrollado para stand de Ceamse, sobre la categorización de los residuos reciclables. El juego se jogó en una pantalla touch gigante.",
+		"tags": "exhibition"
 	  }
 	  
 	  
