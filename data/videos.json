@@ -646,9 +646,54 @@
 		"title": "Residuos Como Recursos",
 		"description": "Es un juego desarrollado para stand de Ceamse, sobre la categorización de los residuos reciclables. El juego se jogó en una pantalla touch gigante.",
 		"tags": "exhibition"
+	  },{
+		"name": "UCA - Muestra Mariano Giraud",
+		"youtube_id": "L2vzRwtFbak",
+		"client": "UCA",
+		"title": "Muestra Mariano Giraud",
+		"description": "Exposición de 4 artistas en un espacio virtual",
+		"tags": "exhibition",
+		"links": 
+		[
+			{
+				"url_text": "Ergo Proxy",
+				"url": "https://uca.edu.ar/es/pabellon-de-bellas-artes/ergo-proxy"
+			}
+		]
+	  },{
+		"name": "MOMA - website",
+		"youtube_id": "KLQc5XUVO54",
+		"client": "MOMA",
+		"title": "Moma the band",
+		"description": "Website para la banda MOMA en la que toqué durante varios años. Consistía en la escucha del disco acompañada de videoclips generados en tiempo real por la API de Giphy en base a ciertos tags curados tema por tema.",
+		"tags": "exhibition experimental",
+		"links": 
+		[
+			{
+				"url_text": "Spotify",
+				"url": "https://open.spotify.com/intl-es/artist/5djb21n45Io59qbGUxfq55"
+			}
+		]
+	  },{
+		"name": "Electric Gogiolo + Tumba",
+		"youtube_id": "Eez3clQQu7U",
+		"client": "MOMA",
+		"title": "Moma the band",
+		"description": "Una de las tantas fechas que hicimos en el bar Local de palermo con los arcades de tumba",
+		"tags": "exhibition",
+		"links": 
+		[
+			{
+				"url_text": "Spotify",
+				"url": "https://open.spotify.com/intl-es/artist/5djb21n45Io59qbGUxfq55"
+			}
+		]
+	  },{
+		"name": "Demo Bones en liquidos",
+		"youtube_id": "g9HjOjwQbMs",
+		"client": "MOMA",
+		"title": "Demo",
+		"description": "Bones under Water Experiment",
+		"tags": "exhibition"
 	  }
-	  
-	  
-	  
-	
 ]
