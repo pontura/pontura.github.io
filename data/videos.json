@@ -327,6 +327,24 @@
     "youtube_id": "LNyEoA7gzxI",
     "description": "Trabajo realizado para Tienda Inglesa (Uruguay). Se usa hace años en distintas sedes de la cadena de supermercados uruguaya. Informa, escaneando el QR de cada vino, sobre distintas cepas, maridajes, etc.",
     "tags": "experimental"
+  },  
+  {
+    "name": "Honda Marine",
+    "youtube_id": "C_zwaWpo3kY",
+    "description": "Con Yaguar trabajamos los shaders, la programación de animaciones y eyecandy general para que esta app termine siendo un producto bien vistoso.",
+	"client": "Honda",
+    "tags": "home experimental",
+	"links":
+	[
+		{
+			"url_text": "PlayStore (PLAY)",
+			"url": "https://play.google.com/store/apps/details?id=com.hondaeu.marine&hl=es_AR"
+		},
+		{
+			"url_text": "iOS",
+			"url": "https://apps.apple.com/es/app/honda-marine/id1560296078"
+		}
+	]	
   },
   {
     "name": "Arcade parties",
