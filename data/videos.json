@@ -316,6 +316,21 @@
     "tags": "exhibition"
   },
   {
+    "name": "Gol-e-Gol de Videogamo",
+    "youtube_id": "DoKBIu04WkQ",
+	"client": "Videogamo",
+    "description": "Participé en el código base de esta joyita de la escena argentina. El gol-e-gol, un videojuego del estudio amigo Videogamo. Un hermoso metegol virtual.",
+    "tags": "experimental",
+	"links":
+	[
+		{
+			"url_text": "Videogamo",
+			"url": "https://www.videogamo.com/"
+		}
+	]	
+  },
+  },
+  {
     "name": "Arcade 4 players",
     "youtube_id": "YBpcUbTObl0",
 	"client": "TumbaGames (me)",
