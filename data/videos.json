@@ -407,7 +407,14 @@
     "youtube_id": "qPj60IqPKwQ",
 	"client": "Fundacion Sadosky",
     "description": "Junto a Brenda Burgoa, @Groenlandia.juegos y Eurínome montamos esta habitación en Tecnópolis que contaba con un mapping sobre todas las paredes y una app con AR que se activaba con ciertos tags y brindaba información a los estudiantes sobre las carreras del futuro e intentaba orientar vocacionalmente.",
-    "tags": "vr"
+    "tags": "vr",
+	"links":
+	[
+		{
+			"url_text": "Más info",
+			"url": "https://fundacionsadosky.org.ar/vocaciones-educacion/"
+		}
+	]	
   },
   {
     "name": "Mariano Giraud - Cristal",
