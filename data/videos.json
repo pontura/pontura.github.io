@@ -330,13 +330,6 @@
 	]
   },
   {
-    "name": "Stand en Tecnópolis con AR",
-    "youtube_id": "qPj60IqPKwQ",
-	"client": "Fundacion Sadosky",
-    "description": "Junto a Brenda Burgoa, @Groenlandia.juegos y Eurínome montamos esta habitación en Tecnópolis que contaba con un mapping sobre todas las paredes y una app con AR que se activaba con ciertos tags y brindaba información a los estudiantes sobre las carreras del futuro e intentaba orientar vocacionalmente.",
-    "tags": "vr experimental"
-  },
-  {
     "name": "Arcade 4 players",
     "youtube_id": "YBpcUbTObl0",
 	"client": "TumbaGames (me)",
@@ -407,6 +400,13 @@
     "youtube_id": "cR5J0ntVcD0",
     "description": "Fué un desarrollo que hice para el prestigioso estudio de arquitectura de Rafael Viñoly. Permite prototipar o modelar espacios arquitectónicos en el mapa real de una ciudad determinada.",
 	"client": "Viñoly studio",
+    "tags": "vr"
+  },
+  {
+    "name": "Stand en Tecnópolis con AR",
+    "youtube_id": "qPj60IqPKwQ",
+	"client": "Fundacion Sadosky",
+    "description": "Junto a Brenda Burgoa, @Groenlandia.juegos y Eurínome montamos esta habitación en Tecnópolis que contaba con un mapping sobre todas las paredes y una app con AR que se activaba con ciertos tags y brindaba información a los estudiantes sobre las carreras del futuro e intentaba orientar vocacionalmente.",
     "tags": "vr"
   },
   {
