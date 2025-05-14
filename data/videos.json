@@ -19,7 +19,7 @@
     "client": "Fundación Bunge y Born",
     "title": "Matenautas",
     "description": "Matenautas es un juego de ciencia ficción desarrollado por Yaguar, Fundación Hagamos Todo Para Educar en Ciencias y Edutrama. Este proyecto es uno de los finalistas del concurso MásMAT, organizado por la Fundación Bunge y Born.<br><ul><li>Ganadora del concurso MásMAT, organizado por la Fundación Bunge y Born.</li>",
-    "tags": "home educational kids",
+    "tags": "home educational kids videogame",
 	"links": 
 		[
 			{
@@ -154,7 +154,14 @@
 			}
 			
 		]
-	},	
+	},
+	  {
+		"name": "Superdimensional Sex Shop",
+		"client": "Nutaku",
+		"youtube_id": "T2Yj2ZvhvjM",
+		"description": "Superdimensional Sex Shop (Nutaku Porn Game)",
+		"tags": "videogame"
+	  },	
 	{
 		"name": "Mad Rollers (Party Game)",
 		"youtube_id": "lKchgbLdyuw",
@@ -223,7 +230,7 @@
 		"client": "me",
 		"title": "Tira Leds",
 		"description": "Party-game de 5 metros de leds representado en la extrema síntesis visual de una única dimensión y síntesis sonora. Consiste en una tira de leds desde cuyos extremos se encuentran los inputs de cada jugador.",
-		"tags": "home exhibition experimental",
+		"tags": "home exhibition experimental videogame",
 		"links": 
 		[
 			{
@@ -260,13 +267,6 @@
 	"title": "Cine videojuego",
 	"description": "Fué un prototipo de película interactiva que hicimos junto a Rei Cine SRL con mi amiga Alejandra Bruno.",
 	"tags": "experimental"
-  },
-  {
-    "name": "Superdimensional Sex Shop",
-	"client": "Nutaku",
-    "youtube_id": "T2Yj2ZvhvjM",
-    "description": "Superdimensional Sex Shop (Nutaku Porn Game)",
-    "tags": "videogame"
   },{
     "name": "Desafío Celi",
     "youtube_id": "GtbbI822uRQ",
