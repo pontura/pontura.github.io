@@ -735,26 +735,26 @@
 			}
 		]
 	  },{
-		"name": "Demo AR Musical",
-		"youtube_id": "mCqqou6O5mw",
+		"name": "Demo AR Mini-juego",
+		"youtube_id": "bci-YTeH2aw",
 		"client": "Fundacion Sadosky",
 		"title": "Demo",
-		"description": "Demo de juego musical con AR",
-		"tags": "experimental"
+		"description": "Es el proceso de un minijuego activado en AR que terminó siendo parte de un stand en Tecnópolis.",
+		"tags": "experimental vr"
 	  },{
 		"name": "Demo AR Musical",
 		"youtube_id": "mCqqou6O5mw",
 		"client": "Fundacion Sadosky",
 		"title": "Demo",
 		"description": "Es el proceso de una experiencia musical activada por AR que terminó siendo parte de un stand en Tecnópolis.",
-		"tags": "experimental"
+		"tags": "experimental vr"
 	  },{
 		"name": "AR Presentación",
 		"youtube_id": "VWmJhHl3IhI",
 		"client": "Fundacion Sadosky",
 		"title": "Demo",
 		"description": "Es una activación AR que terminó siendo parte de un stand en Tecnópolis.",
-		"tags": "exhibition"
+		"tags": "exhibition vr"
 	  },{
 		"name": "Demo Bones en liquidos",
 		"youtube_id": "g9HjOjwQbMs",
