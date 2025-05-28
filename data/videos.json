@@ -735,6 +735,20 @@
 			}
 		]
 	  },{
+		"name": "Kinect para YPF",
+		"youtube_id": "i0BTrhjItA0",
+		"client": "Planetario BA",
+		"title": "Lumma",
+		"description": "Esta fué una exploración que terminó siendo parte de un trailer itinerante de YPF para el estudio amigo: Lumma",
+		"tags": "experimental",
+		"links": 
+		[
+			{
+				"url_text": "Ypf Truk",
+				"url": "https://lumma.com.ar/projects/ypf-truck-energy-in-motion/"
+			}
+		]
+	  },{
 		"name": "Kinect Control (Planetario de BA)",
 		"youtube_id": "uyN37Ml6G-M",
 		"client": "Planetario BA",
