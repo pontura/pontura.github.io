@@ -735,6 +735,13 @@
 			}
 		]
 	  },{
+		"name": "Kinect Control (Planetario de BA)",
+		"youtube_id": "uyN37Ml6G-M",
+		"client": "Planetario BA",
+		"title": "Demo",
+		"description": "Es un registro de un controlador con el cuerpo hecho para Kinect. Esta pieza fué parte de una exposición en el Planetario de Buenos Aires.",
+		"tags": "experimental"
+	  },{
 		"name": "Demo AR Mini-juego",
 		"youtube_id": "bci-YTeH2aw",
 		"client": "Fundacion Sadosky",
