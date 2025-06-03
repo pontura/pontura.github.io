@@ -177,6 +177,13 @@
 		]
 	  },
 	{
+		"name": "Lidar Sensor Game",
+		"youtube_id": "NSQmZp5yR6Y",
+		"description": "Desarrollé este videojuego físico para Martial Games, que usa como input las flechas sensadas por el Lidar.",
+		"client": "Martial Games",
+		"tags": "videogame, experimental"		
+	},
+	{
 		"name": "Liga Combate Space",
 		"youtube_id": "VclFN6ZLaYc",
 		"description": "Desarrollamos para WarnerMedia Digital este juego de Box en primera persona con gyroscopio y relatos de Larena!",
