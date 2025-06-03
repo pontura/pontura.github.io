@@ -5,6 +5,11 @@
 		"image": "images/works/tira_.png"
 	},
 	{
+		"title": "Juego Físico (sensor Lidar)",
+		"description": "En el 2025 me convocan para hacer este proyecto para la muestra de artes marciales: Marcial Games. Armamos junto a Eric Sauerhering una pantalla de 3x2.5 metros sensada por el Lidar desde la parte inferior. Sobre esta pantalla se proyecta y se reciben los flechasos!. Una PC conectada con un cable de red hace el resto.",
+		"image": "images/works/lidar.png"
+	},
+	{
 		"title": "El libro-app de Werner Pertot",
 		"description": "Junto a Juan Pablo Amato desarrollamos hace varios años esta aventura gráfica en formato Mobile del libro del periodista con ilustraciones de Gustavo Sala y CJ Camba.",
 		"image": "images/works/macria.png",
