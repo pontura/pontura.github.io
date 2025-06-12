@@ -403,6 +403,13 @@
     "tags": "vr"
   },
   {
+    "name": "VR Tower Defense (experimental)",
+    "youtube_id": "735LvLfv1w4",
+    "description": "Es mi primer juego VR. Un tower defense dentro de un pequeño pueblo, el gamplay consiste en saltar de torre en torre y plantar los distintos tiradores a la vez que tiene el componente arcade de apuintar y tirar con arco.",
+	"client": "me",
+    "tags": "vr"
+  },
+  {
     "name": "VR para arquitectura",
     "youtube_id": "cR5J0ntVcD0",
     "description": "Fué un desarrollo que hice para el prestigioso estudio de arquitectura de Rafael Viñoly. Permite prototipar o modelar espacios arquitectónicos en el mapa real de una ciudad determinada.",
@@ -450,13 +457,6 @@
 			"url": "https://azuldemonte.com/"
 		}		
 	]	
-  },
-  {
-    "name": "VR Tower Defense (experimental)",
-    "youtube_id": "735LvLfv1w4",
-    "description": "Es mi primer juego VR. Un tower defense dentro de un pequeño pueblo, el gamplay consiste en saltar de torre en torre y plantar los distintos tiradores a la vez que tiene el componente arcade de apuintar y tirar con arco.",
-	"client": "me",
-    "tags": "vr"
   },
   {
     "name": "VR art",
