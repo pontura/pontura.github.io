@@ -133,11 +133,11 @@
 		]
 	},
 	{
-		"name": "Stand con IA",
+		"name": "IA para Stand",
 		"youtube_id": "EOX3PXFYaWw",
 		"description": "Es un stand muy simple que saca una foto a los visitantes, la procesa una IA según un prompt específico con un modelo de <i>Replicate</i> y genera una imagen nueva que termina siendo impresa y obsequiada para llevar de souvenier. Lo hicimos con Yaguar en sociedad con Plan, para EPSON.",
 		"client": "EPSON",
-		"tags": "exhibition"
+		"tags": "home exhibition"
 	},
 	{
 		"name": "Mundo Gaturro",
