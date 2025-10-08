@@ -162,6 +162,27 @@
 			
 		]
 	},
+	{
+		"name": "Museo Mercedes Sosa",
+		"youtube_id": "a4YFO3gnW4E?si=B8GfS-UDRraNCZwB&t=144",
+		"description": "Biographical timeline of Mercedes Sosa’s life and musical career, developed for the Mercedes Sosa Casa Natal Museum.",
+		"client": "Plan",
+		"tags": "exhibition",
+		"links":
+		[
+			{
+				"url_text": "Instagram",
+				"url": "https://www.instagram.com/museomercedesosa/reels/"
+			}			
+		]
+	}
+	, {
+		"name": "Museo CATA de Catamarca",
+		"client": "Plan",
+		"youtube_id": "qd9JjF5Faz8",
+		"description": "Trivia sobre minerales regionales desarrollada para el Museo CATA de Catamarca. El juego está instalado en estaciones de 2 jugadores y es operado mediante botones físicos. De jugadas cortas y desafiantes, Operación Rosita invita a los visitantes del museo a poner en acción los aprendizajes recién adquiridos. Cliente: Plan / Museo CATA",
+		"tags": "exhibition"
+	  },	
 	  {
 		"name": "Superdimensional Sex Shop",
 		"client": "Nutaku",
