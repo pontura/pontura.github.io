@@ -1,828 +1,837 @@
 [
-	{
-		"name": "Inventar Pakapaka",
-		"youtube_id": "Vs_wEMhh1O4",
-		"description": "Juguete para crear pequeñas obras animadas partiendo de figuras geométricas básicas. Las obras son compartidas como gifs animados en redes sociales.<br><ul><li>Ganadora del premio Mejor App Para Niñes en comKids 2022.</li><li>Finalista del Japan Prize 2022, categoría digital</li>",
-		"client": "Pakapaka",
-		"tags": "home videogame kids educational",
-		"links": 
-		[
-			{
-				"url_text": "Paka-Paka (PLAY)",
-				"url": "https://inventar.pakapaka.gob.ar/juego/"
-			}
-		]
-	},
-   {
-    "name": "Matenautas",
-    "youtube_id": "a6qcpWbs1Uw",
-    "client": "Fundación Bunge y Born",
-    "title": "Matenautas",
-    "description": "Matenautas es un juego de ciencia ficción desarrollado por Yaguar, Fundación Hagamos Todo Para Educar en Ciencias y Edutrama. Este proyecto es uno de los finalistas del concurso MásMAT, organizado por la Fundación Bunge y Born.<br><ul><li>Ganadora del concurso MásMAT, organizado por la Fundación Bunge y Born.</li>",
-    "tags": "home educational kids videogame",
-	"links": 
-		[
-			{
-				"url_text": "PlayStore",
-				"url": "https://play.google.com/store/apps/details?id=com.yaguar.Matenautas"
-			}
-		]
-  },   
-  {
-		"name": "Strawberry Shortcake",
-		"youtube_id": "3ya5EYGCmnY",
-		"client": "Personal game",
-		"description": "Reach for the Stars: Desarrollamos este lindo juego mobile de ritmo y sincro en el último tramo de mis tiempos por QB9",
-		"tags": "videogame"
-  },
-  {
-		"name": "Lego Ninjago",
-		"youtube_id": "AhZp1OpCCrM",
-		"client": "Lego",
-		"description": "Spinjitzu Spinball es uno de los tantos juegos que hicimos para Lego en QB9.",
-		"tags": "home videogame"
-  }, {
-		"name": "SOUTH PARK: DOUBLE BUNNY",
-		"youtube_id": "p30fjwSTvnc",
-		"client": "South park",
-		"description": "Hermoso plataformero parodia a Double Dragon, de los tantos juegos en los que participé en QB9 de la serie South Park para Comedy Central.",
-		"tags": "videogame"
-	  },
-  {
-		"name": "South park Pandemic",
-		"youtube_id": "wAEQkcOWo10",
-		"client": "South park",
-		"description": "Clásico juego de plataformas con el humor de mi serie de cabecera. Desarrollado en el 2009, es uno de los varios juegos que hicimos en QB9 de South Park para Comedy Central.",
-		"tags": "videogame"
-	  },
-	  
-	{
-		"name": "Hand Wash (COVID 19)",
-		"youtube_id": "8qtQc6aPgbQ",  
-		"client": "Tipitap",
-		"title": "Hand Wash Squad",
-		"description": "Juego sobre higiene y prevención de infecciones desarrollado con el aval de la UK Infection Prevention Society.",
-		"tags": "home mobile educational videogame",
-		"links": 
-		[
-			{
-				"url_text": "Más videojuegos",
-				"url": "/?tag=videogame"
-			}
-		]
-	  },
-	  {
-		"name": "Lyna World",
-		"youtube_id": "YxJfULVpnGA",
-		"client": "4FInteractive",
-		"title": "Lyna World",
-		"description": "Creador de personajes e historias basado en el universo de la estrella de Youtube Lyna Vallejos.",
-		"tags": "home videogame kids",
-		"links": 
-		[
-			{
-				"url_text": "Apple Store",
-				"url": "https://apps.apple.com/cr/app/lyna-world/id1490883187"
-			}
-		]
-	  }, 
-	{
-    "name": "Videojuegos sobre ruedas (Mini Serie)",
-    "youtube_id": "i4SYqu5eMWw",
-    "description": "Un colectivo de videojuegos arcade argentinos viaja por todo el país, generando un encuentro inusual entre jugadores y máquinas en cada destino. Experiencias, Historia, industria y nuevas propuestas lúdicas confluyen en un recorrido sin precedentes. Una vivencia real, que propone al videojuego como un lenguaje universal.",
-	"client": "with Friends",
-    "tags": "home exhibition",
-	"links": 
-	[
-		{
-			"url_text": "cap 1",
-			"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
-		},
-		{
-			"url_text": "cap 2",
-			"url": "https://www.youtube.com/watch?v=kjXvM-wZ0to"
-		},
-		{
-			"url_text": "cap 3",
-			"url": "https://www.youtube.com/watch?v=EjzY2sPuiyw"
-		},
-		{
-			"url_text": "cap 4",
-			"url": "https://www.youtube.com/watch?v=xvvPfASdPNo"
-		}
-	]
-	
-  },
-	{
-		"name": "Fulbo Galaxy",
-		"youtube_id": "llmHVR5Kn6g",
-		"client": "Aconcagua Games (me)",
-		"title": "Fulbo Galaxy",
-		"description": "Compete in tournaments and ranked PvP or train with the PvE cups.Play for free or invest in Digital Collectibles for rewards",
-		"tags": "home videogame",
-		"links": 
-		[
-			{
-				"url_text": "gameplay",
-				"url": "https://www.youtube.com/watch?v=z55O1K59zTc&t=78s"
-			},
-			{
-				"url_text": "Review Dothaking115",
-				"url": "https://www.youtube.com/watch?v=hKCWTcHsHR4&list=LL&index=10&t=5s"
-			}
-		]
-	},
-	{
-		"name": "IA para Stand",
-		"youtube_id": "EOX3PXFYaWw",
-		"description": "Es un stand muy simple que saca una foto a los visitantes, la procesa una IA según un prompt específico con un modelo de <i>Replicate</i> y genera una imagen nueva que termina siendo impresa y obsequiada para llevar de souvenier. Lo hicimos con Yaguar en sociedad con Plan, para EPSON.",
-		"client": "EPSON",
-		"tags": "home exhibition"
-	},
-	{
-		"name": "Mundo Gaturro",
-		"youtube_id": "Crl_8X1YU-Y",
-		"description": "Participé desde la génesis (e incluso antes, ya que el juego está basado en un MMO que empecé a desarrollar años antes) Es un juego en línea multijugador para niños basada en el personaje Gaturro. Lo desarrollamos en el año 2010 en la empresa argentina QB9 Entertainment, donde trabajé durante muchos años.",
-		"client": "Clarín Medios Digitales",
-		"tags": "home videogame kids",
-		"links":
-		[
-			{
-				"url_text": "Instagram",
-				"url": "https://www.instagram.com/mundogaturro/?hl=en"
-			},
-			{
-				"url_text": "El Cronista",
-				"url": "https://www.cronista.com/infotechnology/gadgets/Gaturro-desembarca-en-el-mundo-de-las-apps-20121029-0004.html"
-			},
-			{
-				"url_text": "wiki",
-				"url": "https://mundogaturro.fandom.com/es/wiki/MundoGaturro_Wiki"
-			}
-			
-		]
-	},
-	  {
-		"name": "Superdimensional Sex Shop",
-		"client": "Nutaku",
-		"youtube_id": "T2Yj2ZvhvjM",
-		"description": "Superdimensional Sex Shop (Nutaku Porn Game)",
-		"tags": "videogame"
-	  },	
-	{
-		"name": "Mad Rollers (Party Game)",
-		"youtube_id": "lKchgbLdyuw",
-		"client": "Personal game",
-		"description": "Creación propia. Mad Rollers es un Party Game, un viaje en el tiempo de un team de hasta 4 jugadores, hacia los gloriosos 80s.",
-		"tags": "videogame home",
-		"links":
-		[
-			{
-				"url_text": "Mas data",
-				"url": "/madrollers/"
-			}
-		]
-	  },
-	{
-		"name": "Liga Combate Space",
-		"youtube_id": "VclFN6ZLaYc",
-		"description": "Desarrollamos para WarnerMedia Digital este juego de Box en primera persona con gyroscopio y relatos de Larena!",
-		"client": "Warner Media",
-		"tags": "videogame",
-		"links":
-		[
-			{
-				"url_text": "PlayStore",
-				"url": "https://play.google.com/store/apps/details?id=com.space.turner.combatespace&hl=es_419"
-			}
-		]		
-	},{
-		"name": "Beldent - Personal Fest",
-		"youtube_id": "RB3NW9b88LE",
-		"description": "En el 2018 hicimos, con Yaguar, este juego con su arcade propio para ser jugado durante el Personal Fest. Es un survival multiplayer, gana el que más lejos llega sin ser tacleado para que le quiten el paquetito de Beldent!",
-		"client": "beldent",
-		"tags": "home videogame exhibition"		
-	}, 
-	{
-		"name": "Vida Cotidiana",
-		"youtube_id": "u-3UeSB3FIA",
-		"description": "Aplicación interactiva sobre la vida en Buenos Aires en la época colonial, instalada en la sala interactiva del Museo Nacional del Cabildo de Buenos Aires y de la Revolución de Mayo.",
-		"client": "Plan",
-		"tags": "home educational kids exhibition",
-		"links": 
-		[
-			{
-				"url_text": "Más exposiciones",
-				"url": "/?tag=exhibition"
-			}
-		]
-	},	
-	{
-		"name": "Laberinto Sonoro en La Usina del Arte",
-		"youtube_id": "_0C-naQ6Yx8",
-		"description": "Instalación interactiva, parte de la muestra Laberinto Sonoro en La Usina del Arte (2018, Cliente: Plan)",
-		"client": "me",
-		"tags": "videogame exhibition",
-		"links": 
-		[
-			{
-				"url_text": "Más exposiciones",
-				"url": "/?tag=exhibition"
-			}
-		]
-	},
-	{
-		"name": "Led Strip Game",
-		"youtube_id": "jKFu5yeOJhU",
-		"client": "me",
-		"title": "Tira Leds",
-		"description": "Party-game de 5 metros de leds representado en la extrema síntesis visual de una única dimensión y síntesis sonora. Consiste en una tira de leds desde cuyos extremos se encuentran los inputs de cada jugador.",
-		"tags": "home exhibition experimental videogame",
-		"links": 
-		[
-			{
-				"url_text": "Otros controles alt",
-				"url": "/?tag=experimental"
-			}
-		]
-  }, 
-  {
-		"name": "Lidar Sensor Game",
-		"youtube_id": "NSQmZp5yR6Y",
-		"description": "Desarrollé este videojuego físico para Martial Games, que usa como input las flechas sensadas por el Lidar. El juego se exhibe sobre una pantalla de 3 metros x 2.5",
-		"client": "Martial Games",
-		"tags": "exhibition experimental"		
-	},
-  {
-    "name": "Quesu",
-    "youtube_id": "ZSKwkjoUm4g",
-    "description": "Qué sucedió primero. Es una trivia minimalista que desarrollamos en dos modalidades, mobile y arcade - presencial para eventos.",
-	"client": "Tano Suarez",
-    "tags": "experimental videogame",
-	"links": 
-	[
-		{
-			"url_text": "Más",
-			"url": "/?tag=experimental"
-		}
-	]
-  },{
-		"name": "Museo Mercedes Sosa",
-		"youtube_id": "a4YFO3gnW4E?si=B8GfS-UDRraNCZwB&t=144",
-		"description": "Biographical timeline of Mercedes Sosa’s life and musical career, developed for the Mercedes Sosa Casa Natal Museum.",
-		"client": "Plan",
-		"tags": "exhibition",
-		"links":
-		[
-			{
-				"url_text": "Instagram",
-				"url": "https://www.instagram.com/museomercedesosa/reels/"
-			}			
-		]
-	},
-	{
-		"name": "Museo CATA de Catamarca",
-		"client": "Plan",
-		"youtube_id": "qd9JjF5Faz8",
-		"description": "Trivia sobre minerales regionales desarrollada para el Museo CATA de Catamarca. El juego está instalado en estaciones de 2 jugadores y es operado mediante botones físicos. De jugadas cortas y desafiantes, Operación Rosita invita a los visitantes del museo a poner en acción los aprendizajes recién adquiridos. Cliente: Plan / Museo CATA",
-		"tags": "exhibition"
-  },	
-  {
-    "name": "Juego de mesa virtual",
-    "youtube_id": "C2e322Z0PpU",
-    "client": "Tipitap",
-    "title": "Groovles Photo Safari",
-    "description": "Groovles Photo Safari es un juego de mesa mobile para niños, con temática de exploración espacial y minijuegos de fotografía.",
-    "tags": "home videogame kids"
-  },{
-	"name": "Cine en videojuego (proto)",
-	"youtube_id": "_KMy6Vwph-g",
-	"client": "Rei Cine",
-	"title": "Cine videojuego",
-	"description": "Fué un prototipo de película interactiva que hicimos junto a Rei Cine SRL con mi amiga Alejandra Bruno.",
-	"tags": "experimental"
-  },{
-    "name": "Desafío Celi",
-    "youtube_id": "GtbbI822uRQ",
-    "description": "Trivia en vivo presentada por una persona humana filmada. Algo así como un programa de TV interactivo desde los celulares. Lo hicimos con el team Yaguar para el municipio de Escobar",
-	"client": "me",
-    "tags": "videogame experimental",
-	"links":
-	[
-		{
-			"url_text": "En facebook",
-			"url": "https://www.facebook.com/ASujarchuk/videos/1624508587686364/"
-		}
-	]	
-  }, 
-  {
-    "name": "Conicet - Huo'o na Cuentos",
-    "youtube_id": "-Asfz-znt6E",
-    "description": "Huo'o na cuentos es una aplicación que busca promover el desarrollo lingüístico y la alfabetización temprana de niños y niñas pequeños.",
-	"client": "conicet",
-    "tags": "educational videogame kids",
-	"links": 
-	[
-		{
-			"url_text": "PlayStore (PLAY)",
-			"url": "https://play.google.com/store/apps/details?id=com.pontura.conicet&hl=es"
-		}
-	]	
-  }, 
-  {
-    "name": "4 players Arcade game",
-	"client": "Me",
-    "youtube_id": "z7sfRJhs4fU",
-    "description": "Arcade videogame for 4 players",
-    "tags": "videogame"
-  },
-  {
-    "name": "Planetas Arcade 4p",
-    "youtube_id": "zK_1_XmxuLs",
-    "description": "Un Experimento personal para montar en eventos. Una especie de capture de flag de a 4 players en un espacio donde hay que orbitar entre diferentes gravedades.",
-    "tags": "videogame experimental"
-  },
-  {
-    "name": "Interactive exhibition",
-    "youtube_id": "3eSyKJ4VU1o",
-	"client": "UCA",
-    "description": "UCA",
-    "tags": "exhibition"
-  },
-  {
-    "name": "Gol-e-Gol de Videogamo",
-    "youtube_id": "DoKBIu04WkQ",
-	"client": "Videogamo",
-    "description": "Participé en el código base de esta joyita de la escena argentina. El gol-e-gol, un videojuego del estudio amigo Videogamo. Un hermoso metegol virtual.",
-    "tags": "experimental",
-	"links":
-	[
-		{
-			"url_text": "Videogamo",
-			"url": "https://www.videogamo.com/"
-		}
-	]
-  },
-  {
-    "name": "Arcade 4 players",
-    "youtube_id": "YBpcUbTObl0",
-	"client": "TumbaGames (me)",
-    "description": "Perra Force",
-    "tags": "videogame"
-  },
-  {
-    "name": "Totem + Lector QR",
-    "youtube_id": "LNyEoA7gzxI",
-    "description": "Trabajo realizado para Tienda Inglesa (Uruguay). Se usa hace años en distintas sedes de la cadena de supermercados uruguaya. Informa, escaneando el QR de cada vino, sobre distintas cepas, maridajes, etc.",
-    "tags": "experimental"
-  },  
-  {
-    "name": "Honda Marine",
-    "youtube_id": "C_zwaWpo3kY",
-    "description": "Con Yaguar trabajamos los shaders, la programación de animaciones y eyecandy general para que esta app termine siendo un producto bien vistoso.",
-	"client": "Honda",
-    "tags": "home experimental",
-	"links":
-	[
-		{
-			"url_text": "PlayStore (PLAY)",
-			"url": "https://play.google.com/store/apps/details?id=com.hondaeu.marine&hl=es_AR"
-		},
-		{
-			"url_text": "iOS",
-			"url": "https://apps.apple.com/es/app/honda-marine/id1560296078"
-		}
-	]	
-  },
-  {
-    "name": "Arcade parties",
-    "youtube_id": "gqDZrLVmnk0",
-    "description": "Arcade parties",
-	"client": "Friends Love",
-    "tags": "exhibition"
-  },
-  {
-    "name": "Physical Hardware",
-    "youtube_id": "khuKRaBGFsU",
-    "description": "Cámara lúcida",
-	"client": "Christian Parsons (and me)",
-    "tags": "experimental"
-  },
-  {
-    "name": "Cámara lúcida",
-    "youtube_id": "dNIw5Dj6Mu0",
-    "description": "Cámara lúcida",
-	"client": "Christian Parsons (and me)",
-    "tags": "experimental"
-  },
-  {
-    "name": "Art exhibition",
-    "youtube_id": "8jpoFEz9WYc",
-    "description": "Instalación interactiva: Generador de avatares y sandbox masivo para stand en la muestra Digitalia, San Luis.",
-	"client": "Plan",
-    "tags": "home exhibition"
-  },
-  {
-    "name": "VR Vaccine App",
-    "youtube_id": "p9e8LDt6m6s",
-    "description": "Apliacación VR para vacunación infantil. Invita a los niñes a experimentar el maravilloso mundo de los dragones mientras son vacunados. Lo que en el mundo real muchas veces es traumático, a través de la app fluye de una manera lúdica y recreativa.",
-	"client": "tipitap",
-    "tags": "vr"
-  },
-  {
-    "name": "VR Tower Defense (experimental)",
-    "youtube_id": "735LvLfv1w4",
-    "description": "Es mi primer juego VR. Un tower defense dentro de un pequeño pueblo, el gamplay consiste en saltar de torre en torre y plantar los distintos tiradores a la vez que tiene el componente arcade de apuintar y tirar con arco.",
-	"client": "me",
-    "tags": "vr"
-  },
-  {
-    "name": "VR para arquitectura",
-    "youtube_id": "cR5J0ntVcD0",
-    "description": "Fué un desarrollo que hice para el prestigioso estudio de arquitectura de Rafael Viñoly. Permite prototipar o modelar espacios arquitectónicos en el mapa real de una ciudad determinada.",
-	"client": "Viñoly studio",
-    "tags": "vr"
-  },
-  {
-    "name": "Stand en Tecnópolis con AR",
-    "youtube_id": "qPj60IqPKwQ",
-	"client": "Fundacion Sadosky",
-    "description": "Junto a Brenda Burgoa, @Groenlandia.juegos y Eurínome montamos esta habitación en Tecnópolis que contaba con un mapping sobre todas las paredes y una app con AR que se activaba con ciertos tags y brindaba información a los estudiantes sobre las carreras del futuro e intentaba orientar vocacionalmente.",
-    "tags": "vr",
-	"links":
-	[
-		{
-			"url_text": "Más info",
-			"url": "https://fundacionsadosky.org.ar/vocaciones-educacion/"
-		}
-	]	
-  },
-  {
-    "name": "Mariano Giraud - Cristal",
-    "youtube_id": "Tb7_ve-j7PU",
-    "description": "Tótem cristal animal. Mariano Giraud. Agosto 2015. Espacio de Arte - Fundacion OSDE. Buenos Aires.",
-	"client": "mariano giraud",
-    "tags": "vr exhibition",
-	"links":
-		[
-			{
-				"url_text": "Mariano Giraud",
-				"url": "https://www.instagram.com/marianogiraud/"
-			}
-		]
-  },
-  {
-    "name": "Spekticalaspoeticfly",
-    "youtube_id": "nEowAtcLDfQ",
-    "description": "Obra digital para la artista Azul de Monte.",
-	"client": "me",
-    "tags": "exhibition experimental",
-	"links":
-	[
-		{
-			"url_text": "Azul de Monte",
-			"url": "https://azuldemonte.com/"
-		}		
-	]	
-  },
-  {
-    "name": "VR art",
-    "youtube_id": "O6IFqWnyuIs",
-    "description": "Muestra del artista Diego Ciruli",
-	"client": "Diego Ciruli",
-    "tags": "vr exhibition",
-	"links":
-		[
-			{
-				"url_text": "Diego Ciruli",
-				"url": "https://www.instagram.com/diegocirulli/"
-			}
-		]
-  },  
-  {
-    "name": "VR for Kids",
-    "youtube_id": "7poUxYl25yA",
-    "description": "Herramienta lúdica para niños. Permite construir espacios tridimensionales con las manos usando combinando bloques, escalándolos, transformándolos, etc. Todo con física real",
-	"client": "me",
-    "tags": "vr"
-  },
-   {
-    "name": "Vida Moderna - Arcade",
-    "youtube_id": "QEOwhXjk8mo",
-    "client": "YPF",
-    "title": "Vida Moderna",
-    "description": "Runner isométrico con física de temática energética para stand de YPF en Tecnópolis. El juego se montó con un gabinete construido para el evento",
-    "tags": "exhibition videogame"
-  }, 
-  {
-    "name": "Misterio en la Biblioteca",
-    "youtube_id": "cUUE-Jqius0",
-    "description": "Aventura Gráfica de literatura, fomenta la lectura y ayuda a la interpretación de textos. Desarrollado para los almnos del Colegio Nacional de Buenos Aires.",
-	"client": "me",
-    "tags": "videogame educational"
-  },
-  {
-    "name": "Suicide Sniper (Tumba)",
-    "youtube_id": "-QNFE7NdefY",
-    "description": "Suicide Sniper has been designed exclusively for those who want to get revenge of humanity but don't want to go to jail. Did you ever desire to get a few weapons and kill a lot of bastards in the streets? Then you might enjoy this game as hell!",
-	"client": "me",
-    "tags": "videogame"
-  },
-  {
-		"name": "C.C. Recoleta Muestra arcade",
-		"youtube_id": "kQia9rf5VlY",
-		"description": "Explorando formas de proyectar sobre Tags QR",
-		"client": "me",
-		"tags": "exhibition"
-  },
-  {
-    "name": "Metro Punga (Tumba)",
-    "youtube_id": "7YMELEtFoAA",
-    "description": "Help Punga Punga, a teenage outlaw from the third world get rid of the fucking middle class by punging their stuff in the subway trains.",
-	"client": "me",
-    "tags": "videogame"
-  },
-  {
-    "name": "Mega Chumbo (Tumba)",
-    "youtube_id": "eIAcuNoYlQY",
-    "description": "You are Punga Punga and you want to enter the coolest club in town. But Patovika will try to stop you by throwing grasas to your face! Kill garching dogs to get pako to increase the power of your weapon up to MEGA CHUMBO!",
-	"client": "me",
-    "tags": "videogame"
-  } ,
-  {
-    "name": "Insane Imbelice Dancing",
-    "youtube_id": "zrV8sLO5Otw",
-    "description": "You are a specialist in pogo dancing: the most imbecile and destructive dance style ever developed by the human. Your mission is to start a massive deadly dance in an ultraviolent massacre metal show by Eugenetics, but beware of the security guys! If you dig the violence of extreme metal music, you must play Insane Imbecile Dancing... or die!",
-	"client": "me",
-    "tags": "videogame"
-  } ,
-  {
-    "name": "Canniball (Tumba)",
-    "youtube_id": "7gCmwD2NaOM",
-    "description": "After a plane crash in the Andes the best rugby teams of all times created a fascinating and dynamic sport, so extreme only the bravest can play it. Are you hungry enough to play WINTER CANNIBALL?",
-	"client": "me",
-    "tags": "videogame"
-  } ,
-  {
-    "name": "Brutal Battle (Tumba)",
-    "youtube_id": "qYdnP8So4eI",
-    "description": "Kill the meanest criminals in the ring. Become the master of the world in an age of anarchy and gore.",
-	"client": "me",
-    "tags": "videogame"
-  },{
-    "name": "Tecnópolis 2021",
-    "youtube_id": "2S389874xZI",
-    "description": "Muestra de Realidad Aumentada",
-	"client": "eurinome",
-    "tags": "exhibition"
-  },{
-    "name": "Bondizord - (Rosario 2019)",
-    "youtube_id": "GdZAIKxhyGo",
-    "description": "Colectivo Arcade",
-	"client": "me",
-    "tags": "exhibition"
-  },
-  {
-    "name": "Android Watch",
-    "youtube_id": "C5b6fndoJ7c",
-    "description": "Experiments hacking an Android Watch",
-	"client": "me",
-    "tags": "experimental"
-  },{
-    "name": "Exploring Virtual Space",
-    "youtube_id": "5rzclF2hL8c",
-    "description": "Experiments with the virtual space movements",
-	"client": "me",
-    "tags": "experimental"
-  },{
-    "name": "80s Music Game",
-    "youtube_id": "SiMfpCElYz4",
-    "description": "Electric Gigolo",
-	"client": "me",
-    "tags": "experimental"
-  },{
-    "name": "Kinect + TV",
-    "youtube_id": "VG3n9u9YYjw",
-    "description": "Programa de TV que no sucedió",
-	"client": "me",
-    "tags": "experimental"
-  },{
-		"name": "Shoshiland - Virtual World",
-		"youtube_id": "qTHGZudKJo8",
-		"description": "Shoshiland ",
-		"client": "me",
-		"tags": "videogame"		
-	},{
-		"name": "Punga Raid Arcade",
-		"youtube_id": "ShoGcpLXnGc",
-		"description": "Punga Raid in Bondizord",
-		"client": "me",
-		"tags": "videogame"
-	},{
-		"name": "Kinect Experimental videogame",
-		"youtube_id": "JlPIowmR42E",
-		"description": "Kinect Head",
-		"client": "me",
-		"tags": "experimental"
-	},{
-		"name": "Fotonautas",
-		"youtube_id": "KtzeRLKN5oc",
-		"description": "Generador de avatares y sandbox masivo para stand en la muestra Digitalia, San Luis.",
-		"client": "me",
-		"tags": "exhibition"
-	},{ 
-		"name": "Experiencia Sonora",
-		"youtube_id": "HYy_1WT2zYk",
-		"description": "Muestra Experiencia Sonora para el artista argentino Diego Alberti",
-		"client": "me",
-		"tags": "exhibition experimental"
-	},{
-		"name": "Mad Rollers meets Dobotone",
-		"youtube_id": "eebp3mB2W7Y",
-		"description": "En las fiestas Outrun Buenos aires (2019)",
-		"client": "me",
-		"tags": "videogame"
-	},{
-		"name": "Tumba en Centro Cultural de la Ciencia",
-		"youtube_id": "ahypqI9P-jM",
-		"description": "Punga Raid",
-		"client": "me",
-		"tags": "videogame"
-	},{
-		"name": "Exploración del espacio",
-		"youtube_id": "-pTAZAd88vs",
-		"description": "Explorando formas de navegar 3 dimensiones en 2 dimensiones",
-		"client": "me",
-		"tags": "experimental"
-	},{
-		"name": "iOS AR - Vuforia + ARkit",
-		"youtube_id": "CU32KNr3Z6M",
-		"description": "Prototipo de experiencia interactiva. Analizando el espacio. Videojuego de Jungla para sacar fotos a distintos seres",
-		"client": "me",
-		"tags": "experimental vr"
-	},{
-		"name": "QR - spacial test",
-		"youtube_id": "gSI6wx69bUY",
-		"description": "Explorando formas de proyectar sobre Tags QR",
-		"client": "me",
-		"tags": "experimental"
-	},{
-		"name": "Fulbo Galaxy (Tumba) MEME",
-		"youtube_id": "Q_g6Y0diM-E",
-		"description": "Este es un MEME que hicimos sobre nuestro amado FulboGalaxy",
-		"client": "me",
-		"tags": "videogame experimental"
-		
-	},{
-		"name": "Mad Rollers exhibited",
-		"youtube_id": "F6QACWdJXbI",
-		"description": "Mad Rollers en vivo en el antro favorito de los Tumba (El Arcade Club Social, CABA)",
-		"client": "me",
-		"tags": "videogame exhibition"
-	},{
-		"name": "Pikala",
-		"youtube_id": "7ZHjvOvkO3U",
-		"client": "Tipitap",
-		"title": "Pikala",
-		"description": "Juego educativo que ayuda y fomenta el desarrollo de la segunda lengua.",
-		"tags": "videogame educational"
-	  },{
-		"name": "Shell: Conciencia Vial",
-		"youtube_id": "TET-qRB1ep0",
-		"client": "Shell",
-		"title": "Conciencia Vial",
-		"description": "Juego educativo que da tips sobre cómo comportarse correctamente a la hora de manejar.",
-		"tags": "educational"
-	  },{
-		"name": "Música con AR",
-		"youtube_id": "eaKh695zAXg",
-		"client": "Eurínome",
-		"title": "AR + iPAD",
-		"description": "Juego que terminó siendo exhibido en Tecnópolis. Consiste en un iPAD que filma un espacio con tags QR y con los movimientos del gyroscope se van generando distintos tipos de música.",
-		"tags": "experimental"
-	  },{
-		"name": "Kinect controls bones",
-		"youtube_id": "uEVVsAZGajk",
-		"client": "Personal",
-		"title": "Kinect + bones",
-		"description": "Prototipo de controlador de huesos con una Kinect (cámara infrarroja que levanta los movimientos del cuerpo)",
-		"tags": "experimental"
-	  },{
-		"name": "Demo online multiplayer",
-		"youtube_id": "HTHxbzNSjM8",
-		"client": "Personal",
-		"title": "Hoops",
-		"description": "Prototipo de juego online multiplayer que murió en un proto...",
-		"tags": "experimental videogame"
-	  },{
-		"name": "Residuos Como Recursos",
-		"youtube_id": "3czHfR7uiC0",
-		"client": "CEAMSE",
-		"title": "Residuos Como Recursos",
-		"description": "Es un juego desarrollado para stand de Ceamse, sobre la categorización de los residuos reciclables. El juego se jogó en una pantalla touch gigante.",
-		"tags": "educational"
-	  },{
-		"name": "UCA - Muestra Mariano Giraud",
-		"youtube_id": "L2vzRwtFbak",
-		"client": "UCA",
-		"title": "Muestra Mariano Giraud",
-		"description": "Exposición de 4 artistas en un espacio virtual",
-		"tags": "exhibition",
-		"links": 
-		[
-			{
-				"url_text": "Ergo Proxy",
-				"url": "https://uca.edu.ar/es/pabellon-de-bellas-artes/ergo-proxy"
-			}
-		]
-	  },{
-		"name": "MOMA - website",
-		"youtube_id": "KLQc5XUVO54",
-		"client": "MOMA",
-		"title": "Moma the band",
-		"description": "Website para la banda MOMA en la que toqué durante varios años. Consistía en la escucha del disco acompañada de videoclips generados en tiempo real por la API de Giphy en base a ciertos tags curados tema por tema.",
-		"tags": "experimental",
-		"links": 
-		[
-			{
-				"url_text": "Spotify",
-				"url": "https://open.spotify.com/intl-es/artist/5djb21n45Io59qbGUxfq55"
-			}
-		]
-	  },{
-		"name": "Electric Gogiolo + Tumba",
-		"youtube_id": "Eez3clQQu7U",
-		"client": "MOMA",
-		"title": "Moma the band",
-		"description": "Una de las tantas fechas que hicimos en el bar Local de palermo con los arcades de tumba",
-		"tags": "exhibition",
-		"links": 
-		[
-			{
-				"url_text": "Spotify",
-				"url": "https://open.spotify.com/intl-es/artist/5djb21n45Io59qbGUxfq55"
-			}
-		]
-	  },{
-		"name": "Kinect para YPF",
-		"youtube_id": "i0BTrhjItA0",
-		"client": "Planetario BA",
-		"title": "Lumma",
-		"description": "Esta fué una exploración que terminó siendo parte de un trailer itinerante de YPF para el estudio amigo: Lumma",
-		"tags": "experimental",
-		"links": 
-		[
-			{
-				"url_text": "Ypf Truk",
-				"url": "https://lumma.com.ar/projects/ypf-truck-energy-in-motion/"
-			}
-		]
-	  },{
-		"name": "Kinect Control (Planetario de BA)",
-		"youtube_id": "uyN37Ml6G-M",
-		"client": "Planetario BA",
-		"title": "Demo",
-		"description": "Es un registro de un controlador con el cuerpo hecho para Kinect. Esta pieza fué parte de una exposición en el Planetario de Buenos Aires.",
-		"tags": "experimental"
-	  },{
-		"name": "Demo AR Mini-juego",
-		"youtube_id": "bci-YTeH2aw",
-		"client": "Fundacion Sadosky",
-		"title": "Demo",
-		"description": "Es el proceso de un minijuego activado en AR que terminó siendo parte de un stand en Tecnópolis.",
-		"tags": "experimental vr"
-	  },{
-		"name": "Demo AR Musical",
-		"youtube_id": "mCqqou6O5mw",
-		"client": "Fundacion Sadosky",
-		"title": "Demo",
-		"description": "Es el proceso de una experiencia musical activada por AR que terminó siendo parte de un stand en Tecnópolis.",
-		"tags": "experimental vr"
-	  },{
-		"name": "AR Presentación",
-		"youtube_id": "VWmJhHl3IhI",
-		"client": "Fundacion Sadosky",
-		"title": "Demo",
-		"description": "Es una activación AR que terminó siendo parte de un stand en Tecnópolis.",
-		"tags": "exhibition vr"
-	  },{
-		"name": "Demo Bones en liquidos",
-		"youtube_id": "g9HjOjwQbMs",
-		"client": "MOMA",
-		"title": "Demo",
-		"description": "Bones under Water Experiment",
-		"tags": "experimental"
-	  },{
-		"name": "Exhibition Mad Rollers",
-		"youtube_id": "VBP-_EEJw4E",
-		"description": "Mad Rollers en alguna de sus tantas fechas a lo largo del país.",
-		"client": "me",
-		"tags": "exhibition"
-	 },{
-		"name": "Mad Rollers (old version)",
-		"youtube_id": "b-2cxosHVZA",
-		"description": "Mad Rollers empezó siendo este 4 Players para niños (y no tan niños). Salió para un evento de Tecnópolis y me gustó tanto que lo transformé en el Mad Rollers que se juega hoy en distintos espacios de CABA.",
-		"client": "me",
-		"tags": "videogame exhibition"
-	}
+    {
+        "name": "Inventar Pakapaka",
+        "youtube_id": "Vs_wEMhh1O4",
+        "description": "Juguete para crear pequeñas obras animadas partiendo de figuras geométricas básicas. Las obras son compartidas como gifs animados en redes sociales.<br><ul><li>Ganadora del premio Mejor App Para Niñes en comKids 2022.</li><li>Finalista del Japan Prize 2022, categoría digital</li>",
+        "client": "Pakapaka",
+        "tags": "home videogame kids educational",
+        "links": [
+            {
+                "url_text": "Paka-Paka (PLAY)",
+                "url": "https://inventar.pakapaka.gob.ar/juego/"
+            }
+        ]
+    },
+    {
+        "name": "Matenautas",
+        "youtube_id": "a6qcpWbs1Uw",
+        "client": "Fundación Bunge y Born",
+        "title": "Matenautas",
+        "description": "Matenautas es un juego de ciencia ficción desarrollado por Yaguar, Fundación Hagamos Todo Para Educar en Ciencias y Edutrama. Este proyecto es uno de los finalistas del concurso MásMAT, organizado por la Fundación Bunge y Born.<br><ul><li>Ganadora del concurso MásMAT, organizado por la Fundación Bunge y Born.</li>",
+        "tags": "home educational kids videogame",
+        "links": [
+            {
+                "url_text": "PlayStore",
+                "url": "https://play.google.com/store/apps/details?id=com.yaguar.Matenautas"
+            }
+        ]
+    },
+    {
+        "name": "Strawberry Shortcake",
+        "youtube_id": "3ya5EYGCmnY",
+        "client": "Personal game",
+        "description": "Reach for the Stars: Desarrollamos este lindo juego mobile de ritmo y sincro en el último tramo de mis tiempos por QB9",
+        "tags": "videogame"
+    },
+    {
+        "name": "Lego Ninjago",
+        "youtube_id": "AhZp1OpCCrM",
+        "client": "Lego",
+        "description": "Spinjitzu Spinball es uno de los tantos juegos que hicimos para Lego en QB9.",
+        "tags": "home videogame"
+    },
+    {
+        "name": "SOUTH PARK: DOUBLE BUNNY",
+        "youtube_id": "p30fjwSTvnc",
+        "client": "South park",
+        "description": "Hermoso plataformero parodia a Double Dragon, de los tantos juegos en los que participé en QB9 de la serie South Park para Comedy Central.",
+        "tags": "videogame"
+    },
+    {
+        "name": "South park Pandemic",
+        "youtube_id": "wAEQkcOWo10",
+        "client": "South park",
+        "description": "Clásico juego de plataformas con el humor de mi serie de cabecera. Desarrollado en el 2009, es uno de los varios juegos que hicimos en QB9 de South Park para Comedy Central.",
+        "tags": "videogame"
+    },
+    {
+        "name": "Hand Wash (COVID 19)",
+        "youtube_id": "8qtQc6aPgbQ",
+        "client": "Tipitap",
+        "title": "Hand Wash Squad",
+        "description": "Juego sobre higiene y prevención de infecciones desarrollado con el aval de la UK Infection Prevention Society.",
+        "tags": "home mobile educational videogame",
+        "links": [
+            {
+                "url_text": "Más videojuegos",
+                "url": "/?tag=videogame"
+            }
+        ]
+    },
+    {
+        "name": "Lyna World",
+        "youtube_id": "YxJfULVpnGA",
+        "client": "4FInteractive",
+        "title": "Lyna World",
+        "description": "Creador de personajes e historias basado en el universo de la estrella de Youtube Lyna Vallejos.",
+        "tags": "home videogame kids",
+        "links": [
+            {
+                "url_text": "Apple Store",
+                "url": "https://apps.apple.com/cr/app/lyna-world/id1490883187"
+            }
+        ]
+    },
+    {
+        "name": "Videojuegos sobre ruedas (Mini Serie)",
+        "youtube_id": "i4SYqu5eMWw",
+        "description": "Un colectivo de videojuegos arcade argentinos viaja por todo el país, generando un encuentro inusual entre jugadores y máquinas en cada destino. Experiencias, Historia, industria y nuevas propuestas lúdicas confluyen en un recorrido sin precedentes. Una vivencia real, que propone al videojuego como un lenguaje universal.",
+        "client": "with Friends",
+        "tags": "home exhibition",
+        "links": [
+            {
+                "url_text": "cap 1",
+                "url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+            },
+            {
+                "url_text": "cap 2",
+                "url": "https://www.youtube.com/watch?v=kjXvM-wZ0to"
+            },
+            {
+                "url_text": "cap 3",
+                "url": "https://www.youtube.com/watch?v=EjzY2sPuiyw"
+            },
+            {
+                "url_text": "cap 4",
+                "url": "https://www.youtube.com/watch?v=xvvPfASdPNo"
+            }
+        ]
+    },
+    {
+        "name": "Fulbo Galaxy",
+        "youtube_id": "llmHVR5Kn6g",
+        "client": "Aconcagua Games (me)",
+        "title": "Fulbo Galaxy",
+        "description": "Compete in tournaments and ranked PvP or train with the PvE cups.Play for free or invest in Digital Collectibles for rewards",
+        "tags": "home videogame",
+        "links": [
+            {
+                "url_text": "gameplay",
+                "url": "https://www.youtube.com/watch?v=z55O1K59zTc&t=78s"
+            },
+            {
+                "url_text": "Review Dothaking115",
+                "url": "https://www.youtube.com/watch?v=hKCWTcHsHR4&list=LL&index=10&t=5s"
+            }
+        ]
+    },
+    {
+        "name": "IA para Stand",
+        "youtube_id": "EOX3PXFYaWw",
+        "description": "Es un stand muy simple que saca una foto a los visitantes, la procesa una IA según un prompt específico con un modelo de <i>Replicate</i> y genera una imagen nueva que termina siendo impresa y obsequiada para llevar de souvenier. Lo hicimos con Yaguar en sociedad con Plan, para EPSON.",
+        "client": "EPSON",
+        "tags": "home exhibition"
+    },
+    {
+        "name": "Mundo Gaturro",
+        "youtube_id": "Crl_8X1YU-Y",
+        "description": "Participé desde la génesis (e incluso antes, ya que el juego está basado en un MMO que empecé a desarrollar años antes) Es un juego en línea multijugador para niños basada en el personaje Gaturro. Lo desarrollamos en el año 2010 en la empresa argentina QB9 Entertainment, donde trabajé durante muchos años.",
+        "client": "Clarín Medios Digitales",
+        "tags": "home videogame kids",
+        "links": [
+            {
+                "url_text": "Instagram",
+                "url": "https://www.instagram.com/mundogaturro/?hl=en"
+            },
+            {
+                "url_text": "El Cronista",
+                "url": "https://www.cronista.com/infotechnology/gadgets/Gaturro-desembarca-en-el-mundo-de-las-apps-20121029-0004.html"
+            },
+            {
+                "url_text": "wiki",
+                "url": "https://mundogaturro.fandom.com/es/wiki/MundoGaturro_Wiki"
+            }
+        ]
+    },
+    {
+        "name": "Superdimensional Sex Shop",
+        "client": "Nutaku",
+        "youtube_id": "T2Yj2ZvhvjM",
+        "description": "Superdimensional Sex Shop (Nutaku Porn Game)",
+        "tags": "videogame"
+    },
+    {
+        "name": "Mad Rollers (Party Game)",
+        "youtube_id": "lKchgbLdyuw",
+        "client": "Personal game",
+        "description": "Creación propia. Mad Rollers es un Party Game, un viaje en el tiempo de un team de hasta 4 jugadores, hacia los gloriosos 80s.",
+        "tags": "videogame home",
+        "links": [
+            {
+                "url_text": "Mas data",
+                "url": "/madrollers/"
+            }
+        ]
+    },
+    {
+        "name": "Liga Combate Space",
+        "youtube_id": "VclFN6ZLaYc",
+        "description": "Desarrollamos para WarnerMedia Digital este juego de Box en primera persona con gyroscopio y relatos de Larena!",
+        "client": "Warner Media",
+        "tags": "videogame",
+        "links": [
+            {
+                "url_text": "PlayStore",
+                "url": "https://play.google.com/store/apps/details?id=com.space.turner.combatespace&hl=es_419"
+            }
+        ]
+    },
+    {
+        "name": "Beldent - Personal Fest",
+        "youtube_id": "RB3NW9b88LE",
+        "description": "En el 2018 hicimos, con Yaguar, este juego con su arcade propio para ser jugado durante el Personal Fest. Es un survival multiplayer, gana el que más lejos llega sin ser tacleado para que le quiten el paquetito de Beldent!",
+        "client": "beldent",
+        "tags": "home videogame exhibition"
+    },
+    {
+        "name": "Vida Cotidiana",
+        "youtube_id": "u-3UeSB3FIA",
+        "description": "Aplicación interactiva sobre la vida en Buenos Aires en la época colonial, instalada en la sala interactiva del Museo Nacional del Cabildo de Buenos Aires y de la Revolución de Mayo.",
+        "client": "Plan",
+        "tags": "home educational kids exhibition",
+        "links": [
+            {
+                "url_text": "Más exposiciones",
+                "url": "/?tag=exhibition"
+            }
+        ]
+    },
+    {
+        "name": "Laberinto Sonoro en La Usina del Arte",
+        "youtube_id": "_0C-naQ6Yx8",
+        "description": "Instalación interactiva, parte de la muestra Laberinto Sonoro en La Usina del Arte (2018, Cliente: Plan)",
+        "client": "me",
+        "tags": "videogame exhibition",
+        "links": [
+            {
+                "url_text": "Más exposiciones",
+                "url": "/?tag=exhibition"
+            }
+        ]
+    },
+    {
+        "name": "Led Strip Game",
+        "youtube_id": "jKFu5yeOJhU",
+        "client": "me",
+        "title": "Tira Leds",
+        "description": "Party-game de 5 metros de leds representado en la extrema síntesis visual de una única dimensión y síntesis sonora. Consiste en una tira de leds desde cuyos extremos se encuentran los inputs de cada jugador.",
+        "tags": "home exhibition experimental videogame",
+        "links": [
+            {
+                "url_text": "Otros controles alt",
+                "url": "/?tag=experimental"
+            }
+        ]
+    },
+    {
+        "name": "Lidar Sensor Game",
+        "youtube_id": "NSQmZp5yR6Y",
+        "description": "Desarrollé este videojuego físico para Martial Games, que usa como input las flechas sensadas por el Lidar. El juego se exhibe sobre una pantalla de 3 metros x 2.5",
+        "client": "Martial Games",
+        "tags": "exhibition experimental"
+    },
+    {
+        "name": "Quesu",
+        "youtube_id": "ZSKwkjoUm4g",
+        "description": "Qué sucedió primero. Es una trivia minimalista que desarrollamos en dos modalidades, mobile y arcade - presencial para eventos.",
+        "client": "Tano Suarez",
+        "tags": "experimental videogame",
+        "links": [
+            {
+                "url_text": "Más",
+                "url": "/?tag=experimental"
+            }
+        ]
+    },
+    {
+        "name": "Museo CATA de Catamarca",
+        "client": "Plan",
+        "youtube_id": "qd9JjF5Faz8",
+        "description": "Trivia sobre minerales regionales desarrollada para el Museo CATA de Catamarca. El juego está instalado en estaciones de 2 jugadores y es operado mediante botones físicos. De jugadas cortas y desafiantes, Operación Rosita invita a los visitantes del museo a poner en acción los aprendizajes recién adquiridos. Cliente: Plan / Museo CATA",
+        "tags": "exhibition"
+    },
+    {
+        "name": "Museo Mercedes Sosa",
+        "youtube_id": "a4YFO3gnW4E?si=B8GfS-UDRraNCZwB&t=144",
+        "description": "Biographical timeline of Mercedes Sosa’s life and musical career, developed for the Mercedes Sosa Casa Natal Museum.",
+        "client": "Plan",
+        "tags": "exhibition",
+        "links": [
+            {
+                "url_text": "Instagram",
+                "url": "https://www.instagram.com/museomercedesosa/reels/"
+            }
+        ]
+    },
+    {
+        "name": "Juego de mesa virtual",
+        "youtube_id": "C2e322Z0PpU",
+        "client": "Tipitap",
+        "title": "Groovles Photo Safari",
+        "description": "Groovles Photo Safari es un juego de mesa mobile para niños, con temática de exploración espacial y minijuegos de fotografía.",
+        "tags": "home videogame kids"
+    },
+    {
+        "name": "Cine en videojuego (proto)",
+        "youtube_id": "_KMy6Vwph-g",
+        "client": "Rei Cine",
+        "title": "Cine videojuego",
+        "description": "Fué un prototipo de película interactiva que hicimos junto a Rei Cine SRL con mi amiga Alejandra Bruno.",
+        "tags": "experimental"
+    },
+    {
+        "name": "Desafío Celi",
+        "youtube_id": "GtbbI822uRQ",
+        "description": "Trivia en vivo presentada por una persona humana filmada. Algo así como un programa de TV interactivo desde los celulares. Lo hicimos con el team Yaguar para el municipio de Escobar",
+        "client": "me",
+        "tags": "videogame experimental",
+        "links": [
+            {
+                "url_text": "En facebook",
+                "url": "https://www.facebook.com/ASujarchuk/videos/1624508587686364/"
+            }
+        ]
+    },
+    {
+        "name": "Conicet - Huo'o na Cuentos",
+        "youtube_id": "-Asfz-znt6E",
+        "description": "Huo'o na cuentos es una aplicación que busca promover el desarrollo lingüístico y la alfabetización temprana de niños y niñas pequeños.",
+        "client": "conicet",
+        "tags": "educational videogame kids",
+        "links": [
+            {
+                "url_text": "PlayStore (PLAY)",
+                "url": "https://play.google.com/store/apps/details?id=com.pontura.conicet&hl=es"
+            }
+        ]
+    },
+    {
+        "name": "4 players Arcade game",
+        "client": "Me",
+        "youtube_id": "z7sfRJhs4fU",
+        "description": "Arcade videogame for 4 players",
+        "tags": "videogame"
+    },
+    {
+        "name": "Planetas Arcade 4p",
+        "youtube_id": "zK_1_XmxuLs",
+        "description": "Un Experimento personal para montar en eventos. Una especie de capture de flag de a 4 players en un espacio donde hay que orbitar entre diferentes gravedades.",
+        "tags": "videogame experimental"
+    },
+    {
+        "name": "Interactive exhibition",
+        "youtube_id": "3eSyKJ4VU1o",
+        "client": "UCA",
+        "description": "UCA",
+        "tags": "exhibition"
+    },
+    {
+        "name": "Gol-e-Gol de Videogamo",
+        "youtube_id": "DoKBIu04WkQ",
+        "client": "Videogamo",
+        "description": "Participé en el código base de esta joyita de la escena argentina. El gol-e-gol, un videojuego del estudio amigo Videogamo. Un hermoso metegol virtual.",
+        "tags": "experimental",
+        "links": [
+            {
+                "url_text": "Videogamo",
+                "url": "https://www.videogamo.com/"
+            }
+        ]
+    },
+    {
+        "name": "Arcade 4 players",
+        "youtube_id": "YBpcUbTObl0",
+        "client": "TumbaGames (me)",
+        "description": "Perra Force",
+        "tags": "videogame"
+    },
+    {
+        "name": "Totem + Lector QR",
+        "youtube_id": "LNyEoA7gzxI",
+        "description": "Trabajo realizado para Tienda Inglesa (Uruguay). Se usa hace años en distintas sedes de la cadena de supermercados uruguaya. Informa, escaneando el QR de cada vino, sobre distintas cepas, maridajes, etc.",
+        "tags": "experimental"
+    },
+    {
+        "name": "Honda Marine",
+        "youtube_id": "C_zwaWpo3kY",
+        "description": "Con Yaguar trabajamos los shaders, la programación de animaciones y eyecandy general para que esta app termine siendo un producto bien vistoso.",
+        "client": "Honda",
+        "tags": "home experimental",
+        "links": [
+            {
+                "url_text": "PlayStore (PLAY)",
+                "url": "https://play.google.com/store/apps/details?id=com.hondaeu.marine&hl=es_AR"
+            },
+            {
+                "url_text": "iOS",
+                "url": "https://apps.apple.com/es/app/honda-marine/id1560296078"
+            }
+        ]
+    },
+    {
+        "name": "Arcade parties",
+        "youtube_id": "gqDZrLVmnk0",
+        "description": "Arcade parties",
+        "client": "Friends Love",
+        "tags": "exhibition"
+    },
+    {
+        "name": "Physical Hardware",
+        "youtube_id": "khuKRaBGFsU",
+        "description": "Cámara lúcida",
+        "client": "Christian Parsons (and me)",
+        "tags": "experimental"
+    },
+    {
+        "name": "Cámara lúcida",
+        "youtube_id": "dNIw5Dj6Mu0",
+        "description": "Cámara lúcida",
+        "client": "Christian Parsons (and me)",
+        "tags": "experimental"
+    },
+    {
+        "name": "Art exhibition",
+        "youtube_id": "8jpoFEz9WYc",
+        "description": "Instalación interactiva: Generador de avatares y sandbox masivo para stand en la muestra Digitalia, San Luis.",
+        "client": "Plan",
+        "tags": "home exhibition"
+    },
+    {
+        "name": "VR Vaccine App",
+        "youtube_id": "p9e8LDt6m6s",
+        "description": "Apliacación VR para vacunación infantil. Invita a los niñes a experimentar el maravilloso mundo de los dragones mientras son vacunados. Lo que en el mundo real muchas veces es traumático, a través de la app fluye de una manera lúdica y recreativa.",
+        "client": "tipitap",
+        "tags": "vr"
+    },
+    {
+        "name": "VR Tower Defense (experimental)",
+        "youtube_id": "735LvLfv1w4",
+        "description": "Es mi primer juego VR. Un tower defense dentro de un pequeño pueblo, el gamplay consiste en saltar de torre en torre y plantar los distintos tiradores a la vez que tiene el componente arcade de apuintar y tirar con arco.",
+        "client": "me",
+        "tags": "vr"
+    },
+    {
+        "name": "VR para arquitectura",
+        "youtube_id": "cR5J0ntVcD0",
+        "description": "Fué un desarrollo que hice para el prestigioso estudio de arquitectura de Rafael Viñoly. Permite prototipar o modelar espacios arquitectónicos en el mapa real de una ciudad determinada.",
+        "client": "Viñoly studio",
+        "tags": "vr"
+    },
+    {
+        "name": "Stand en Tecnópolis con AR",
+        "youtube_id": "qPj60IqPKwQ",
+        "client": "Fundacion Sadosky",
+        "description": "Junto a Brenda Burgoa, @Groenlandia.juegos y Eurínome montamos esta habitación en Tecnópolis que contaba con un mapping sobre todas las paredes y una app con AR que se activaba con ciertos tags y brindaba información a los estudiantes sobre las carreras del futuro e intentaba orientar vocacionalmente.",
+        "tags": "vr",
+        "links": [
+            {
+                "url_text": "Más info",
+                "url": "https://fundacionsadosky.org.ar/vocaciones-educacion/"
+            }
+        ]
+    },
+    {
+        "name": "Mariano Giraud - Cristal",
+        "youtube_id": "Tb7_ve-j7PU",
+        "description": "Tótem cristal animal. Mariano Giraud. Agosto 2015. Espacio de Arte - Fundacion OSDE. Buenos Aires.",
+        "client": "mariano giraud",
+        "tags": "vr exhibition",
+        "links": [
+            {
+                "url_text": "Mariano Giraud",
+                "url": "https://www.instagram.com/marianogiraud/"
+            }
+        ]
+    },
+    {
+        "name": "Spekticalaspoeticfly",
+        "youtube_id": "nEowAtcLDfQ",
+        "description": "Obra digital para la artista Azul de Monte.",
+        "client": "me",
+        "tags": "exhibition experimental",
+        "links": [
+            {
+                "url_text": "Azul de Monte",
+                "url": "https://azuldemonte.com/"
+            }
+        ]
+    },
+    {
+        "name": "VR art",
+        "youtube_id": "O6IFqWnyuIs",
+        "description": "Muestra del artista Diego Ciruli",
+        "client": "Diego Ciruli",
+        "tags": "vr exhibition",
+        "links": [
+            {
+                "url_text": "Diego Ciruli",
+                "url": "https://www.instagram.com/diegocirulli/"
+            }
+        ]
+    },
+    {
+        "name": "VR for Kids",
+        "youtube_id": "7poUxYl25yA",
+        "description": "Herramienta lúdica para niños. Permite construir espacios tridimensionales con las manos usando combinando bloques, escalándolos, transformándolos, etc. Todo con física real",
+        "client": "me",
+        "tags": "vr"
+    },
+    {
+        "name": "Vida Moderna - Arcade",
+        "youtube_id": "QEOwhXjk8mo",
+        "client": "YPF",
+        "title": "Vida Moderna",
+        "description": "Runner isométrico con física de temática energética para stand de YPF en Tecnópolis. El juego se montó con un gabinete construido para el evento",
+        "tags": "exhibition videogame"
+    },
+    {
+        "name": "Misterio en la Biblioteca",
+        "youtube_id": "cUUE-Jqius0",
+        "description": "Aventura Gráfica de literatura, fomenta la lectura y ayuda a la interpretación de textos. Desarrollado para los almnos del Colegio Nacional de Buenos Aires.",
+        "client": "me",
+        "tags": "videogame educational"
+    },
+    {
+        "name": "Suicide Sniper (Tumba)",
+        "youtube_id": "-QNFE7NdefY",
+        "description": "Suicide Sniper has been designed exclusively for those who want to get revenge of humanity but don't want to go to jail. Did you ever desire to get a few weapons and kill a lot of bastards in the streets? Then you might enjoy this game as hell!",
+        "client": "me",
+        "tags": "videogame"
+    },
+    {
+        "name": "C.C. Recoleta Muestra arcade",
+        "youtube_id": "kQia9rf5VlY",
+        "description": "Explorando formas de proyectar sobre Tags QR",
+        "client": "me",
+        "tags": "exhibition"
+    },
+    {
+        "name": "Metro Punga (Tumba)",
+        "youtube_id": "7YMELEtFoAA",
+        "description": "Help Punga Punga, a teenage outlaw from the third world get rid of the fucking middle class by punging their stuff in the subway trains.",
+        "client": "me",
+        "tags": "videogame"
+    },
+    {
+        "name": "Mega Chumbo (Tumba)",
+        "youtube_id": "eIAcuNoYlQY",
+        "description": "You are Punga Punga and you want to enter the coolest club in town. But Patovika will try to stop you by throwing grasas to your face! Kill garching dogs to get pako to increase the power of your weapon up to MEGA CHUMBO!",
+        "client": "me",
+        "tags": "videogame"
+    },
+    {
+        "name": "Insane Imbelice Dancing",
+        "youtube_id": "zrV8sLO5Otw",
+        "description": "You are a specialist in pogo dancing: the most imbecile and destructive dance style ever developed by the human. Your mission is to start a massive deadly dance in an ultraviolent massacre metal show by Eugenetics, but beware of the security guys! If you dig the violence of extreme metal music, you must play Insane Imbecile Dancing... or die!",
+        "client": "me",
+        "tags": "videogame"
+    },
+    {
+        "name": "Canniball (Tumba)",
+        "youtube_id": "7gCmwD2NaOM",
+        "description": "After a plane crash in the Andes the best rugby teams of all times created a fascinating and dynamic sport, so extreme only the bravest can play it. Are you hungry enough to play WINTER CANNIBALL?",
+        "client": "me",
+        "tags": "videogame"
+    },
+    {
+        "name": "Brutal Battle (Tumba)",
+        "youtube_id": "qYdnP8So4eI",
+        "description": "Kill the meanest criminals in the ring. Become the master of the world in an age of anarchy and gore.",
+        "client": "me",
+        "tags": "videogame"
+    },
+    {
+        "name": "Tecnópolis 2021",
+        "youtube_id": "2S389874xZI",
+        "description": "Muestra de Realidad Aumentada",
+        "client": "eurinome",
+        "tags": "exhibition"
+    },
+    {
+        "name": "Bondizord - (Rosario 2019)",
+        "youtube_id": "GdZAIKxhyGo",
+        "description": "Colectivo Arcade",
+        "client": "me",
+        "tags": "exhibition"
+    },
+    {
+        "name": "Android Watch",
+        "youtube_id": "C5b6fndoJ7c",
+        "description": "Experiments hacking an Android Watch",
+        "client": "me",
+        "tags": "experimental"
+    },
+    {
+        "name": "Exploring Virtual Space",
+        "youtube_id": "5rzclF2hL8c",
+        "description": "Experiments with the virtual space movements",
+        "client": "me",
+        "tags": "experimental"
+    },
+    {
+        "name": "80s Music Game",
+        "youtube_id": "SiMfpCElYz4",
+        "description": "Electric Gigolo",
+        "client": "me",
+        "tags": "experimental"
+    },
+    {
+        "name": "Kinect + TV",
+        "youtube_id": "VG3n9u9YYjw",
+        "description": "Programa de TV que no sucedió",
+        "client": "me",
+        "tags": "experimental"
+    },
+    {
+        "name": "Shoshiland - Virtual World",
+        "youtube_id": "qTHGZudKJo8",
+        "description": "Shoshiland ",
+        "client": "me",
+        "tags": "videogame"
+    },
+    {
+        "name": "Punga Raid Arcade",
+        "youtube_id": "ShoGcpLXnGc",
+        "description": "Punga Raid in Bondizord",
+        "client": "me",
+        "tags": "videogame"
+    },
+    {
+        "name": "Kinect Experimental videogame",
+        "youtube_id": "JlPIowmR42E",
+        "description": "Kinect Head",
+        "client": "me",
+        "tags": "experimental"
+    },
+    {
+        "name": "Fotonautas",
+        "youtube_id": "KtzeRLKN5oc",
+        "description": "Generador de avatares y sandbox masivo para stand en la muestra Digitalia, San Luis.",
+        "client": "me",
+        "tags": "exhibition"
+    },
+    {
+        "name": "Experiencia Sonora",
+        "youtube_id": "HYy_1WT2zYk",
+        "description": "Muestra Experiencia Sonora para el artista argentino Diego Alberti",
+        "client": "me",
+        "tags": "exhibition experimental"
+    },
+    {
+        "name": "Mad Rollers meets Dobotone",
+        "youtube_id": "eebp3mB2W7Y",
+        "description": "En las fiestas Outrun Buenos aires (2019)",
+        "client": "me",
+        "tags": "videogame"
+    },
+    {
+        "name": "Tumba en Centro Cultural de la Ciencia",
+        "youtube_id": "ahypqI9P-jM",
+        "description": "Punga Raid",
+        "client": "me",
+        "tags": "videogame"
+    },
+    {
+        "name": "Exploración del espacio",
+        "youtube_id": "-pTAZAd88vs",
+        "description": "Explorando formas de navegar 3 dimensiones en 2 dimensiones",
+        "client": "me",
+        "tags": "experimental"
+    },
+    {
+        "name": "iOS AR - Vuforia + ARkit",
+        "youtube_id": "CU32KNr3Z6M",
+        "description": "Prototipo de experiencia interactiva. Analizando el espacio. Videojuego de Jungla para sacar fotos a distintos seres",
+        "client": "me",
+        "tags": "experimental vr"
+    },
+    {
+        "name": "QR - spacial test",
+        "youtube_id": "gSI6wx69bUY",
+        "description": "Explorando formas de proyectar sobre Tags QR",
+        "client": "me",
+        "tags": "experimental"
+    },
+    {
+        "name": "Fulbo Galaxy (Tumba) MEME",
+        "youtube_id": "Q_g6Y0diM-E",
+        "description": "Este es un MEME que hicimos sobre nuestro amado FulboGalaxy",
+        "client": "me",
+        "tags": "videogame experimental"
+    },
+    {
+        "name": "Mad Rollers exhibited",
+        "youtube_id": "F6QACWdJXbI",
+        "description": "Mad Rollers en vivo en el antro favorito de los Tumba (El Arcade Club Social, CABA)",
+        "client": "me",
+        "tags": "videogame exhibition"
+    },
+    {
+        "name": "Pikala",
+        "youtube_id": "7ZHjvOvkO3U",
+        "client": "Tipitap",
+        "title": "Pikala",
+        "description": "Juego educativo que ayuda y fomenta el desarrollo de la segunda lengua.",
+        "tags": "videogame educational"
+    },
+    {
+        "name": "Shell: Conciencia Vial",
+        "youtube_id": "TET-qRB1ep0",
+        "client": "Shell",
+        "title": "Conciencia Vial",
+        "description": "Juego educativo que da tips sobre cómo comportarse correctamente a la hora de manejar.",
+        "tags": "educational"
+    },
+    {
+        "name": "Música con AR",
+        "youtube_id": "eaKh695zAXg",
+        "client": "Eurínome",
+        "title": "AR + iPAD",
+        "description": "Juego que terminó siendo exhibido en Tecnópolis. Consiste en un iPAD que filma un espacio con tags QR y con los movimientos del gyroscope se van generando distintos tipos de música.",
+        "tags": "experimental"
+    },
+    {
+        "name": "Kinect controls bones",
+        "youtube_id": "uEVVsAZGajk",
+        "client": "Personal",
+        "title": "Kinect + bones",
+        "description": "Prototipo de controlador de huesos con una Kinect (cámara infrarroja que levanta los movimientos del cuerpo)",
+        "tags": "experimental"
+    },
+    {
+        "name": "Demo online multiplayer",
+        "youtube_id": "HTHxbzNSjM8",
+        "client": "Personal",
+        "title": "Hoops",
+        "description": "Prototipo de juego online multiplayer que murió en un proto...",
+        "tags": "experimental videogame"
+    },
+    {
+        "name": "Residuos Como Recursos",
+        "youtube_id": "3czHfR7uiC0",
+        "client": "CEAMSE",
+        "title": "Residuos Como Recursos",
+        "description": "Es un juego desarrollado para stand de Ceamse, sobre la categorización de los residuos reciclables. El juego se jogó en una pantalla touch gigante.",
+        "tags": "educational"
+    },
+    {
+        "name": "UCA - Muestra Mariano Giraud",
+        "youtube_id": "L2vzRwtFbak",
+        "client": "UCA",
+        "title": "Muestra Mariano Giraud",
+        "description": "Exposición de 4 artistas en un espacio virtual",
+        "tags": "exhibition",
+        "links": [
+            {
+                "url_text": "Ergo Proxy",
+                "url": "https://uca.edu.ar/es/pabellon-de-bellas-artes/ergo-proxy"
+            }
+        ]
+    },
+    {
+        "name": "MOMA - website",
+        "youtube_id": "KLQc5XUVO54",
+        "client": "MOMA",
+        "title": "Moma the band",
+        "description": "Website para la banda MOMA en la que toqué durante varios años. Consistía en la escucha del disco acompañada de videoclips generados en tiempo real por la API de Giphy en base a ciertos tags curados tema por tema.",
+        "tags": "experimental",
+        "links": [
+            {
+                "url_text": "Spotify",
+                "url": "https://open.spotify.com/intl-es/artist/5djb21n45Io59qbGUxfq55"
+            }
+        ]
+    },
+    {
+        "name": "Electric Gogiolo + Tumba",
+        "youtube_id": "Eez3clQQu7U",
+        "client": "MOMA",
+        "title": "Moma the band",
+        "description": "Una de las tantas fechas que hicimos en el bar Local de palermo con los arcades de tumba",
+        "tags": "exhibition",
+        "links": [
+            {
+                "url_text": "Spotify",
+                "url": "https://open.spotify.com/intl-es/artist/5djb21n45Io59qbGUxfq55"
+            }
+        ]
+    },
+    {
+        "name": "Kinect para YPF",
+        "youtube_id": "i0BTrhjItA0",
+        "client": "Planetario BA",
+        "title": "Lumma",
+        "description": "Esta fué una exploración que terminó siendo parte de un trailer itinerante de YPF para el estudio amigo: Lumma",
+        "tags": "experimental",
+        "links": [
+            {
+                "url_text": "Ypf Truk",
+                "url": "https://lumma.com.ar/projects/ypf-truck-energy-in-motion/"
+            }
+        ]
+    },
+    {
+        "name": "Kinect Control (Planetario de BA)",
+        "youtube_id": "uyN37Ml6G-M",
+        "client": "Planetario BA",
+        "title": "Demo",
+        "description": "Es un registro de un controlador con el cuerpo hecho para Kinect. Esta pieza fué parte de una exposición en el Planetario de Buenos Aires.",
+        "tags": "experimental"
+    },
+    {
+        "name": "Demo AR Mini-juego",
+        "youtube_id": "bci-YTeH2aw",
+        "client": "Fundacion Sadosky",
+        "title": "Demo",
+        "description": "Es el proceso de un minijuego activado en AR que terminó siendo parte de un stand en Tecnópolis.",
+        "tags": "experimental vr"
+    },
+    {
+        "name": "Demo AR Musical",
+        "youtube_id": "mCqqou6O5mw",
+        "client": "Fundacion Sadosky",
+        "title": "Demo",
+        "description": "Es el proceso de una experiencia musical activada por AR que terminó siendo parte de un stand en Tecnópolis.",
+        "tags": "experimental vr"
+    },
+    {
+        "name": "AR Presentación",
+        "youtube_id": "VWmJhHl3IhI",
+        "client": "Fundacion Sadosky",
+        "title": "Demo",
+        "description": "Es una activación AR que terminó siendo parte de un stand en Tecnópolis.",
+        "tags": "exhibition vr"
+    },
+    {
+        "name": "Demo Bones en liquidos",
+        "youtube_id": "g9HjOjwQbMs",
+        "client": "MOMA",
+        "title": "Demo",
+        "description": "Bones under Water Experiment",
+        "tags": "experimental"
+    },
+    {
+        "name": "Exhibition Mad Rollers",
+        "youtube_id": "VBP-_EEJw4E",
+        "description": "Mad Rollers en alguna de sus tantas fechas a lo largo del país.",
+        "client": "me",
+        "tags": "exhibition"
+    },
+    {
+        "name": "Mad Rollers (old version)",
+        "youtube_id": "b-2cxosHVZA",
+        "description": "Mad Rollers empezó siendo este 4 Players para niños (y no tan niños). Salió para un evento de Tecnópolis y me gustó tanto que lo transformé en el Mad Rollers que se juega hoy en distintos espacios de CABA.",
+        "client": "me",
+        "tags": "videogame exhibition"
+    }
 ]
