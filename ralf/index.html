@@ -137,16 +137,29 @@
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
 
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/4c9ef76129231d631e4eb166a08c5acb.loader.js";
+        const loaderUrl = buildUrl + "/08fb2e4f2291b5e1bacf1d4601825767.loader.js";
         const config = {
-            dataUrl: buildUrl + "/b651a2703b159744b611af4581fd87bd.data",
-            frameworkUrl: buildUrl + "/48a50a0e24b9307436c8d08a0f255ecb.framework.js",
-            codeUrl: buildUrl + "/d7895ae7c8a0521e360888a5c92edfa6.wasm",
+            dataUrl: buildUrl + "/7cabe42a29c2c463120a24ea65fcd7c2.data",
+            frameworkUrl: buildUrl + "/a34aba9f14311e2d452e2b25c74803d0.framework.js",
+            codeUrl: buildUrl + "/74d7ee00419a383c74ade8bb18a474aa.wasm",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "Rive Example",
             productVersion: "0.1",
         //Useful when used along with Filename as Hashes option
+            cacheControl: function (url) {
+            // typically includes: .data, .bundle, .zpt
+            if (url.match(/\.data/) || url.match(/\.bundle/) || url.match(/\.zpt/)) {
+             return "immutable";
+}
+   
+            if (url.match(/\.mp4/) || url.match(/\.custom/) || url.match(/\.zbin/)) {
+                return "immutable";
+            }   
+            // Disable explicit caching for all other files.
+            // Note: the default browser cache may cache them anyway.
+            return "no-store";
+            },
         };
 
         const container = document.querySelector("#unity-container");
