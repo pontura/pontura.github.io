@@ -4,7 +4,7 @@
         "youtube_id": "Vs_wEMhh1O4",
         "description": "Juguete para crear pequeñas obras animadas partiendo de figuras geométricas básicas. Las obras son compartidas como gifs animados en redes sociales.<br><ul><li>Ganadora del premio Mejor App Para Niñes en comKids 2022.</li><li>Finalista del Japan Prize 2022, categoría digital</li>",
         "client": "Pakapaka",
-        "tags": "home videogame kids educational",
+        "tags": "home videogame kids",
         "links": [
             {
                 "url_text": "Paka-Paka (PLAY)",
@@ -18,7 +18,7 @@
         "client": "Fundación Bunge y Born",
         "title": "Matenautas",
         "description": "Matenautas es un juego de ciencia ficción desarrollado por Yaguar, Fundación Hagamos Todo Para Educar en Ciencias y Edutrama. Este proyecto es uno de los finalistas del concurso MásMAT, organizado por la Fundación Bunge y Born.<br><ul><li>Ganadora del concurso MásMAT, organizado por la Fundación Bunge y Born.</li>",
-        "tags": "home educational kids videogame",
+        "tags": "home kids videogame",
         "links": [
             {
                 "url_text": "PlayStore",
@@ -225,7 +225,7 @@
         "client": "me",
         "title": "Tira Leds",
         "description": "Party-game de 5 metros de leds representado en la extrema síntesis visual de una única dimensión y síntesis sonora. Consiste en una tira de leds desde cuyos extremos se encuentran los inputs de cada jugador.",
-        "tags": "home exhibition experimental videogame",
+        "tags": "home exhibition videogame",
         "links": [
             {
                 "url_text": "Otros controles alt",
@@ -238,7 +238,7 @@
         "youtube_id": "NSQmZp5yR6Y",
         "description": "Desarrollé este videojuego físico para Martial Games, que usa como input las flechas sensadas por el Lidar. El juego se exhibe sobre una pantalla de 3 metros x 2.5",
         "client": "Martial Games",
-        "tags": "exhibition experimental"
+        "tags": "exhibition"
     },
     {
         "name": "Quesu",
@@ -307,7 +307,7 @@
         "youtube_id": "-Asfz-znt6E",
         "description": "Huo'o na cuentos es una aplicación que busca promover el desarrollo lingüístico y la alfabetización temprana de niños y niñas pequeños.",
         "client": "conicet",
-        "tags": "educational videogame kids",
+        "tags": "videogame kids",
         "links": [
             {
                 "url_text": "PlayStore (PLAY)",
@@ -384,13 +384,6 @@
         "description": "Arcade parties",
         "client": "Friends Love",
         "tags": "exhibition"
-    },
-    {
-        "name": "Physical Hardware",
-        "youtube_id": "khuKRaBGFsU",
-        "description": "Cámara lúcida",
-        "client": "Christian Parsons (and me)",
-        "tags": "experimental"
     },
     {
         "name": "Cámara lúcida",

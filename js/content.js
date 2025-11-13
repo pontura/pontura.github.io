@@ -2,6 +2,21 @@ const urlParams = new URLSearchParams(window.location.search);
 
 var selectedTag = "home";
 
+function openVideo(videoId) {
+    const overlay = document.getElementById('videoOverlay');
+    const frame = document.getElementById('videoFrame');
+    frame.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    overlay.style.display = 'flex';
+  }
+
+  function closeVideo() {
+    const overlay = document.getElementById('videoOverlay');
+    const frame = document.getElementById('videoFrame');
+    frame.src = "";
+    overlay.style.display = 'none';
+  }
+  
+
 if(urlParams != null)	
 	selectedTag = urlParams.get('tag');
 
@@ -41,6 +56,22 @@ fetch("data/" + jsonName + '.json')
 		const imageData = document.createElement('img'); imageData.src = `${item.image}`;
 		itemData.appendChild(imageData);
 		itemData.className = "contentImages";	
+	}
+	if(item.video != null)
+	{
+		  const videoId = item.video; // tu ID de video
+		  const iframe = document.createElement("iframe");
+		  
+			iframe.className = "contentVideos";	
+
+		  iframe.width = "100%";
+		  iframe.height = "315";
+		  iframe.src = `https://www.youtube.com/embed/${videoId}`;
+		  iframe.title = "YouTube video player";
+		  iframe.frameBorder = "0";
+		  iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+		  iframe.allowFullscreen = true;
+			itemData.appendChild(iframe);
 	}
 	if(item.links != null)
 	{	
