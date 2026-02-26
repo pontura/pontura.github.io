@@ -7,18 +7,29 @@
 	},
 	{
 		"title": "Controlador 2 players",
-		"description": "Controlador custom para 2 players diseñado para imprimir en MDF.",
+		"description": "Controlador custom para 2 players diseñado para imprimir en MDF en conjunto con el taller de marcos Lumen. Actualmente se puede jugar en el Club 404.",
 		"image": "images/works/tiraControl.png",
-		"video": "Lu9cmo9D5fw"
+		"video": "Lu9cmo9D5fw",
+		"links":
+		[
+			{
+				"url_text": "Lumen, taller de marcos",
+				"url":	"https://marcoslumen.com.ar/"
+			},
+			{
+				"url_text": "club 404",
+				"url":	"https://www.instagram.com/club__404/?hl=en"
+			}
+		]
 	},
 	{
 		"title": "Versión portatil",
-		"description": "Versión de bolsillo (hecho con una caja de alfajores).",
+		"description": "Versión de bolsillo (hecho con una caja de alfajores). Actualmente gira por Barcelona.",
 		"image": "images/works/tiraControl2.png"
 	}	,
 	{
 		"title": "Control por extremos",
-		"description": "En este formato, los jugadores se enfrentan en ambos extremos de la tira",
+		"description": "En este prototipo los jugadores se enfrentan en ambos extremos de una tira de 2 metros.",
 		"image": "images/works/tiraControl4.png"
 	}	,
 	{
