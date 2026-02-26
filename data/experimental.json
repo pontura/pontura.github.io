@@ -1,9 +1,16 @@
 [
 	{
-		"title": "TIRA 1d",
-		"description": "TIRA es un party-game de 5 metros de leds representado en la extrema síntesis visual de una única dimensión y síntesis sonora. Consiste en una tira de leds desde cuyos extremos se encuentran los inputs de cada jugador. Tiene una simple mecánica de “hacer perder al otro” matcheando con precisión y timing bloques de luces de colores que se van secuenciado desde el centro hacia ambos extremos. TIRA es un eterno work in progress mío procesado por un microcontrolador de muy bajo coste",
+		"title": "TIRA",
+		"description": "TIRA es un party-game de 5 metros de leds representado en la extrema síntesis visual de una única dimensión y síntesis sonora. Consiste en una tira de leds desde cuyos extremos se encuentran los inputs de cada jugador. Tiene una simple mecánica de “hacer perder al otro” matcheando con precisión y timing bloques de luces de colores que se van secuenciado desde el centro hacia ambos extremos. TIRA está pensado para ser a futuro una consola de juegos competitivos (1v1) de mi autoría. Está desarrollado usando una raspberry pico, sonido stereo y una tira de led adaptable al tamaño que sea dependiendo de donde se monta.",
 		"image": "images/works/tira_.png",
-		"video": "jKFu5yeOJhU"
+		"video": "jKFu5yeOJhU",
+		"links":
+		[
+			{
+				"url_text": "Más sobre TIRA",
+				"url":	"/?tag=tira"
+			}
+		]
 	},
 	{
 		"title": "Juego Físico (sensor Lidar)",

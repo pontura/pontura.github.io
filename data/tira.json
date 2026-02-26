@@ -1,0 +1,36 @@
+[
+	{
+		"title": "TIRA",
+		"description": "TIRA es un party-game de 5 metros de leds representado en la extrema síntesis visual de una única dimensión y síntesis sonora. Consiste en una tira de leds desde cuyos extremos se encuentran los inputs de cada jugador. Tiene una simple mecánica de “hacer perder al otro” matcheando con precisión y timing bloques de luces de colores que se van secuenciado desde el centro hacia ambos extremos. TIRA está pensado para ser a futuro una consola de juegos competitivos (1v1) de mi autoría. Está desarrollado usando una raspberry pico, sonido stereo y una tira de led adaptable al tamaño que sea dependiendo de donde se monta",
+		"image": "images/works/tira_.png",
+		"video": "jKFu5yeOJhU"
+	},
+	{
+		"title": "Controlador 2 players",
+		"description": "Controlador custom para 2 players diseñado para imprimir en MDF.",
+		"image": "images/works/tiraControl.png",
+		"video": "Lu9cmo9D5fw"
+	},
+	{
+		"title": "Versión portatil",
+		"description": "Versión de bolsillo (hecho con una caja de alfajores).",
+		"image": "images/works/tiraControl2.png"
+	}	,
+	{
+		"title": "Control por extremos",
+		"description": "En este formato, los jugadores se enfrentan en ambos extremos de la tira",
+		"image": "images/works/tiraControl4.png"
+	}	,
+	{
+		"title": "Tec",
+		"description": "TIRA usa una raspberry pico, programada en Micropython, montada en esta una placa propia. 1 Amplificador de audio y salida estereo (una para cada player). Todo el código está disponible en github. Acá hay detalles de su construcción.",
+		"image": "images/works/tiraControl3.png",
+		"links":
+		[
+			{
+				"url_text": "Github",
+				"url":	"https://github.com/pontura/ledsUnity"
+			}
+		]
+	}	
+]
