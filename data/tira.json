@@ -1,15 +1,9 @@
 [
 	{
-		"title": "TIRA",
-		"description": "Se trata de un party-game de 5 metros de leds representado en la extrema síntesis visual de <b>una única dimensión</b> y síntesis sonora. Consiste en una tira de leds desde cuyos extremos se encuentran los inputs de cada jugador. Tiene una simple mecánica de <i>“hacer perder al otro”</i> matcheando con precisión y timing bloques de luces de colores que se van secuenciado desde el centro hacia ambos extremos. TIRA está pensado para ser a futuro una consola de juegos competitivos (1v1) de mi autoría. Está desarrollado en micropython y usa una raspberry pico como microcontrolador, sonido stereo y una tira de leds adaptable al tamaño que sea dependiendo de donde se monta.",
-		"image": "images/works/tira_.png",
-		"video": "jKFu5yeOJhU"
-	},
-	{
 		"title": "Controlador 2 players",
 		"description": "Controlador custom para 2 players diseñado para imprimir en MDF en conjunto con el taller de marcos Lumen. Actualmente se puede jugar en el Club 404.",
 		"image": "images/works/tiraControl.png",
-		"video": "Lu9cmo9D5fw",
+		"video": "sqWN5I-ElXg",
 		"links":
 		[
 			{
@@ -23,6 +17,12 @@
 		]
 	},
 	{
+		"title": "Controlador 2 players",
+		"description": "Controlador custom para 2 players diseñado para imprimir en MDF en conjunto con el taller de marcos Lumen. Actualmente se puede jugar en el Club 404.",
+		"image": "images/works/tiraControl.png",
+		"video": "Lu9cmo9D5fw"
+	},
+	{
 		"title": "Versión portatil",
 		"description": "Versión de bolsillo (hecho con una caja de alfajores). Actualmente gira por Barcelona.",
 		"image": "images/works/tiraControl2.png"
@@ -34,7 +34,7 @@
 	}	,
 	{
 		"title": "Tec",
-		"description": "TIRA usa una raspberry pico, programada en Micropython, montada en esta una placa propia. 1 Amplificador de audio y salida estereo (una para cada player). Todo el código está disponible en github. Acá hay detalles de su construcción.",
+		"description": "TIRA usa una raspberry pico, programada en Micropython, montada en esta una placa propia diseñada por <a href='https://www.instagram.com/mechapoch/'>el robot</a>. 1 Amplificador de audio y salida estereo (una para cada player). Todo el código está disponible en github. Acá hay detalles de su construcción.",
 		"image": "images/works/tiraControl3.png",
 		"links":
 		[
