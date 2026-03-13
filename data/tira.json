@@ -1,8 +1,12 @@
 [
 	{
 		"title": "TIRA",
-		"description": "TIRA es un party-game de 5 metros de leds representado en la extrema síntesis visual de una única dimensión y síntesis sonora. Consiste en una tira de leds desde cuyos extremos se encuentran los inputs de cada jugador. Tiene una simple mecánica de “hacer perder al otro” matcheando con precisión y timing bloques de luces de colores que se van secuenciado desde el centro hacia ambos extremos. TIRA está pensado para ser a futuro una consola de juegos competitivos (1v1) de mi autoría. Está desarrollado usando una raspberry pico, sonido stereo y una tira de led adaptable al tamaño que sea dependiendo de donde se monta.",
-		"image": "images/works/tiraVertical.jpg",
+		"description": "<b>El videojuego de luces que también es una instalación.</b><br>Una tira infinita de LEDs, dos jugadores, un duelo de precisión.<br>TIRA transforma el espacio con patrones de luz en movimiento y lo convierte en un punto de encuentro competitivo.</p><i>Jugar es simple. Dominarlo no.</i>",
+		"image": "images/works/tiraVertical.jpg"
+	},
+	{
+		"title": "Qué es?",
+		"description": "<b>Un videojuego reducido a su mínima expresión.</b><br>TIRA es un sistema de juego físico basado en una única dimensión de luz y sonido.<br>Desde el centro de la tira emergen secuencias de colores que viajan hacia los extremos.<br>Cada jugador debe responder con precisión y timing perfecto para devolver la energía al rival.<br>El objetivo es simple: hacer perder al otro.<br><br><h1>Experiencia visual</h1><b>Mientras nadie juega, TIRA sigue vivo.</b><br>La tira de LEDs genera animaciones dinámicas que transforman el espacio.<br>Funciona como una pieza de iluminación interactiva que atrae miradas y genera curiosidad.<br>Un objeto que invita a jugar.<br><br><h1>Ideal para espacios sociales</h1>TIRA está pensado para lugares donde la gente se reúne:<ul><li>cervecerías</li><li>bares</li><li>discotecas</li><li>eventos</li><li>espacios culturales</li><li>arcades modernos</li></ul>Se convierte rápidamente en un foco de atención y en un disparador de desafíos entre personas.",
 		"video": "sqWN5I-ElXg",
 		"links":
 		[
