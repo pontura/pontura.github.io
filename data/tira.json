@@ -1,51 +1,51 @@
 [
 	{
 		"title": "TIRA",
-		"description": "<b>El videojuego de luces que también es una instalación.</b><br>Una tira infinita de LEDs, dos jugadores, un duelo de precisión.<br>TIRA transforma el espacio con patrones de luz en movimiento y lo convierte en un punto de encuentro competitivo.</p><i>Jugar es simple. Dominarlo no.</i>",
+		"description": "<b>Videojuego + instalación lumínica.</b><br>Una tira infinita de LEDs, dos jugadores, un duelo de precisión.<br>TIRA transforma el espacio con patrones de luz en movimiento y lo convierte en un punto de encuentro competitivo.<br><br><i>Jugar es simple. Dominarlo no.</i>",
 		"image": "images/works/tiraVertical.jpg"
 	},
 	{
-		"title": "Qué es?",
-		"description": "<b>Un videojuego reducido a su mínima expresión.</b><br>TIRA es un sistema de juego físico basado en una única dimensión de luz y sonido.<br>Desde el centro de la tira emergen secuencias de colores que viajan hacia los extremos.<br>Cada jugador debe responder con precisión y timing perfecto para devolver la energía al rival.<br>El objetivo es simple: hacer perder al otro.<br><br><h1>Experiencia visual</h1><b>Mientras nadie juega, TIRA sigue vivo.</b><br>La tira de LEDs genera animaciones dinámicas que transforman el espacio.<br>Funciona como una pieza de iluminación interactiva que atrae miradas y genera curiosidad.<br>Un objeto que invita a jugar.<br><br><h1>Ideal para espacios sociales</h1>TIRA está pensado para lugares donde la gente se reúne:<ul><li>cervecerías</li><li>bares</li><li>discotecas</li><li>eventos</li><li>espacios culturales</li><li>arcades modernos</li></ul>Se convierte rápidamente en un foco de atención y en un disparador de desafíos entre personas.",
+		"title": "Una nueva forma de arcade físico",
+		"description": "<b>TIRA</b> es un sistema de juego físico basado en una única dimensión de luz y sonido.<br>Desde el centro de la tira emergen secuencias de colores que viajan hacia ambos extremos.<br>Cada jugador debe responder con precisión y timing perfecto para devolver la energía al rival.<br>El objetivo es simple: <b>hacer perder al otro.</b><br><br><h1>Experiencia visual</h1><b>Mientras nadie juega, TIRA sigue vivo.</b><br>La tira de LEDs genera animaciones dinámicas que transforman el espacio.<br>Funciona como una pieza de iluminación interactiva que atrae miradas y genera curiosidad.<br>Un objeto que invita a jugar.<br><br><h1>Ideal para espacios sociales</h1>TIRA está pensado para lugares donde la gente se reúne:<ul><li>🍺 cervecerías</li><li>🍸 bares</li><li>🎧 boliches</li><li>🎪 eventos</li><li>🏛️ espacios culturales</li><li>🕹️ arcades modernos</li></ul>Se convierte rápidamente en un foco de atención y en un disparador de desafíos entre personas.",
 		"video": "sqWN5I-ElXg",
 		"links":
 		[
 			{
 				"url_text": "Lumen, taller de marcos",
-				"url":	"https://marcoslumen.com.ar/"
+				"url": "https://marcoslumen.com.ar/"
 			},
 			{
 				"url_text": "club 404",
-				"url":	"https://www.instagram.com/club__404/?hl=en"
+				"url": "https://www.instagram.com/club__404/?hl=en"
 			}
 		]
 	},
 	{
 		"title": "Controlador 2 players",
-		"description": "Controlador custom para 2 players diseñado para imprimir en MDF en conjunto con el taller de marcos Lumen. Actualmente se puede jugar en el Club 404.",
+		"description": "Controlador custom para 2 jugadores diseñado para ser fabricado en MDF junto al taller de marcos Lumen. El sistema está pensado para ser robusto y fácil de instalar en espacios públicos. Actualmente se puede jugar en el Club 404.",
 		"image": "images/works/tiraControl.png",
 		"video": "Lu9cmo9D5fw"
 	},
 	{
-		"title": "Versión portatil",
-		"description": "Versión de bolsillo (hecho con una caja de alfajores). Actualmente gira por Barcelona.",
+		"title": "Versión portátil",
+		"description": "Prototipo de bolsillo construido en una caja de cartón. Una versión mínima del sistema que permite llevar el juego a cualquier lugar. Actualmente está girando por Barcelona.",
 		"image": "images/works/tiraControl2.png"
-	}	,
+	},
 	{
 		"title": "Control por extremos",
-		"description": "En este prototipo los jugadores se enfrentan en ambos extremos de una tira de 2 metros.",
+		"description": "En este prototipo los jugadores se enfrentan desde ambos extremos de una tira de aproximadamente 2 metros, reaccionando a las secuencias de luz que emergen desde el centro.",
 		"image": "images/works/tiraControl4.png"
-	}	,
+	},
 	{
-		"title": "Tec",
-		"description": "TIRA usa una raspberry pico, programada en Micropython, montada en esta una placa propia diseñada por <a href='https://www.instagram.com/mechapoch/'>el robot</a>. 1 Amplificador de audio y salida estereo (una para cada player). Todo el código está disponible en github. Acá hay detalles de su construcción.",
+		"title": "Tecnología",
+		"description": "TIRA utiliza una Raspberry Pico programada en Micropython, montada sobre una placa propia diseñada por <a href='https://www.instagram.com/mechapoch/'>el robot</a>. El sistema incluye un amplificador de audio con salida estéreo (una para cada jugador). Todo el código está disponible en GitHub junto con detalles de su construcción.",
 		"image": "images/works/tiraControl3.png",
 		"links":
 		[
 			{
 				"url_text": "Github",
-				"url":	"https://github.com/pontura/ledsUnity"
+				"url": "https://github.com/pontura/ledsUnity"
 			}
 		]
-	}	
+	}
 ]
