@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TIRA — Videojuego de LEDs</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cyan: #00f5ff;
+    --cyan-dim: #00b8c8;
+    --cyan-dark: #003a40;
+    --orange: #ff6b2b;
+    --orange-dim: #c94e1a;
+    --green: #39ff14;
+    --purple: #bf00ff;
+    --yellow: #ffe000;
+    --bg: #020810;
+    --bg2: #060d18;
+    --bg3: #0a1628;
+    --text: #c8e8f0;
+    --text-dim: #6a8a96;
+    --grid-line: rgba(0,245,255,0.05);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+  }
+
+  /* GRID BACKGROUND */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* SCAN LINE */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,0,0,0.08) 2px,
+      rgba(0,0,0,0.08) 4px
+    );
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 60px;
+    background: rgba(2,8,16,0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0,245,255,0.15);
+  }
+
+  .nav-logo {
+    font-family: 'Orbitron', monospace;
+    font-weight: 900;
+    font-size: 22px;
+    color: var(--cyan);
+    text-shadow: 0 0 20px var(--cyan), 0 0 40px rgba(0,245,255,0.4);
+    letter-spacing: 6px;
+    text-decoration: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 28px;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: color 0.2s, text-shadow 0.2s;
+  }
+
+  .nav-links a:hover {
+    color: var(--cyan);
+    text-shadow: 0 0 10px var(--cyan);
+  }
+
+  /* CONTENT WRAPPER */
+  .wrapper {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 140px 0 80px;
+    position: relative;
+  }
+
+  .hero-label {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--cyan-dim);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .hero-title {
+    font-family: 'Orbitron', monospace;
+    font-weight: 900;
+    font-size: clamp(72px, 14vw, 130px);
+    color: transparent;
+    -webkit-text-stroke: 2px var(--cyan);
+    text-shadow:
+      0 0 20px rgba(0,245,255,0.6),
+      0 0 60px rgba(0,245,255,0.3),
+      0 0 120px rgba(0,245,255,0.15);
+    line-height: 1;
+    letter-spacing: 8px;
+    margin-bottom: 32px;
+    animation: titlePulse 4s ease-in-out infinite;
+  }
+
+  @keyframes titlePulse {
+    0%, 100% { text-shadow: 0 0 20px rgba(0,245,255,0.6), 0 0 60px rgba(0,245,255,0.3), 0 0 120px rgba(0,245,255,0.15); }
+    50% { text-shadow: 0 0 30px rgba(0,245,255,0.9), 0 0 80px rgba(0,245,255,0.5), 0 0 160px rgba(0,245,255,0.25); }
+  }
+
+  .hero-tagline {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+  }
+
+  .hero-sub {
+    font-size: 15px;
+    color: var(--cyan-dim);
+    line-height: 1.7;
+    max-width: 540px;
+    margin-bottom: 8px;
+  }
+
+  .hero-sub span {
+    color: var(--orange);
+  }
+
+  .hero-italic {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 14px;
+    color: var(--text-dim);
+    margin-top: 20px;
+    letter-spacing: 1px;
+  }
+
+  /* HERO IMAGE */
+  .hero-image-wrap {
+    position: relative;
+    margin: 48px 0 0;
+    border: 1px solid rgba(0,245,255,0.25);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .hero-image-wrap::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 60%, var(--bg) 100%);
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .hero-image-wrap::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    box-shadow: inset 0 0 60px rgba(0,245,255,0.08), 0 0 40px rgba(0,245,255,0.15);
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  .hero-image-wrap img {
+    width: 100%;
+    display: block;
+    filter: saturate(1.4) contrast(1.1) brightness(0.9);
+  }
+
+  .img-corner {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 3;
+  }
+  .img-corner.tl { top: 8px; left: 8px; border-top: 2px solid var(--cyan); border-left: 2px solid var(--cyan); }
+  .img-corner.tr { top: 8px; right: 8px; border-top: 2px solid var(--cyan); border-right: 2px solid var(--cyan); }
+  .img-corner.bl { bottom: 8px; left: 8px; border-bottom: 2px solid var(--cyan); border-left: 2px solid var(--cyan); }
+  .img-corner.br { bottom: 8px; right: 8px; border-bottom: 2px solid var(--cyan); border-right: 2px solid var(--cyan); }
+
+  /* SECTION DIVIDER */
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+    margin: 64px 0;
+    opacity: 0.3;
+  }
+
+  /* SECTION */
+  section {
+    padding: 48px 0;
+  }
+
+  .section-num {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--cyan-dim);
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+  }
+
+  h2 {
+    font-family: 'Orbitron', monospace;
+    font-weight: 700;
+    font-size: clamp(22px, 4vw, 32px);
+    color: #fff;
+    text-shadow: 0 0 20px rgba(0,245,255,0.3);
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .section-lead {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 14px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text);
+    margin-bottom: 12px;
+  }
+
+  p span.hl {
+    color: var(--cyan);
+  }
+
+  p span.hl-orange {
+    color: var(--orange);
+  }
+
+  /* LED STRIP VISUAL */
+  .led-strip {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin: 40px 0;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  }
+
+  .led-segment {
+    flex: 1;
+    height: 100%;
+    animation: ledFlow 3s linear infinite;
+  }
+
+  @keyframes ledFlow {
+    0% { filter: brightness(0.4); }
+    50% { filter: brightness(1.5); }
+    100% { filter: brightness(0.4); }
+  }
+
+  /* QUÉ ES */
+  .mechanic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  .mechanic-card {
+    background: rgba(0,245,255,0.03);
+    border: 1px solid rgba(0,245,255,0.12);
+    border-radius: 4px;
+    padding: 24px;
+    position: relative;
+    transition: border-color 0.3s, background 0.3s;
+  }
+
+  .mechanic-card:hover {
+    border-color: rgba(0,245,255,0.4);
+    background: rgba(0,245,255,0.06);
+  }
+
+  .mechanic-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--cyan);
+    box-shadow: 0 0 10px var(--cyan);
+    border-radius: 4px 0 0 4px;
+  }
+
+  .mechanic-card:nth-child(2)::before { background: var(--orange); box-shadow: 0 0 10px var(--orange); }
+  .mechanic-card:nth-child(3)::before { background: var(--green); box-shadow: 0 0 10px var(--green); }
+  .mechanic-card:nth-child(4)::before { background: var(--purple); box-shadow: 0 0 10px var(--purple); }
+
+  .mechanic-card h3 {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--cyan);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .mechanic-card:nth-child(2) h3 { color: var(--orange); }
+  .mechanic-card:nth-child(3) h3 { color: var(--green); }
+  .mechanic-card:nth-child(4) h3 { color: var(--purple); }
+
+  .mechanic-card p {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* EXPERIENCIA VISUAL */
+  /* LUGARES */
+  .places-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 32px;
+  }
+
+  .place-item {
+    background: rgba(0,245,255,0.03);
+    border: 1px solid rgba(0,245,255,0.1);
+    border-radius: 4px;
+    padding: 16px 20px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .place-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--cyan);
+    transform: scaleX(0);
+    transition: transform 0.3s;
+    box-shadow: 0 0 8px var(--cyan);
+  }
+
+  .place-item:hover {
+    color: var(--cyan);
+    border-color: rgba(0,245,255,0.3);
+    background: rgba(0,245,255,0.07);
+  }
+
+  .place-item:hover::after { transform: scaleX(1); }
+
+  /* VIDEO EMBED */
+  .video-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border: 1px solid rgba(0,245,255,0.2);
+    border-radius: 4px;
+    margin: 32px 0;
+    box-shadow: 0 0 40px rgba(0,245,255,0.1);
+  }
+
+  .video-wrap iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border: none;
+  }
+
+  .video-label {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  /* TAG CHIPS */
+  .chips {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 16px 0;
+  }
+
+  .chip {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding: 6px 14px;
+    border: 1px solid rgba(0,245,255,0.3);
+    border-radius: 2px;
+    color: var(--cyan-dim);
+    text-transform: uppercase;
+    background: rgba(0,245,255,0.04);
+  }
+
+  /* PHOTO GRID */
+  .photo-grid {
+    display: grid;
+    gap: 4px;
+    margin: 24px 0;
+  }
+
+  .photo-grid.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
+  .photo-grid.cols-2 { grid-template-columns: 1fr 1fr; }
+  .photo-grid.col-1  { grid-template-columns: 1fr; }
+
+  .photo-grid img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    display: block;
+    filter: saturate(1.3) contrast(1.05) brightness(0.85);
+    border: 1px solid rgba(0,245,255,0.1);
+    transition: filter 0.3s, border-color 0.3s;
+  }
+
+  .photo-grid.col-1 img { aspect-ratio: 16/9; }
+  .photo-grid.cols-2 img { aspect-ratio: 4/3; }
+
+  .photo-grid img:hover {
+    filter: saturate(1.6) contrast(1.1) brightness(1);
+    border-color: rgba(0,245,255,0.4);
+  }
+
+  /* CONTROLADOR */
+  .controller-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    margin: 24px 0;
+  }
+
+  .controller-left {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 4px;
+  }
+
+  .controller-right {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 4px;
+  }
+
+  .controller-layout img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    filter: saturate(1.3) brightness(0.85);
+    border: 1px solid rgba(0,245,255,0.1);
+    transition: filter 0.3s;
+  }
+
+  .controller-layout img:hover {
+    filter: saturate(1.6) brightness(1);
+    border-color: rgba(0,245,255,0.3);
+  }
+
+  /* TEC */
+  .tec-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 4px;
+    margin: 24px 0;
+  }
+
+  .tec-grid img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    filter: saturate(1.2) brightness(0.85);
+    border: 1px solid rgba(0,245,255,0.08);
+    transition: filter 0.3s;
+  }
+
+  .tec-grid img:hover {
+    filter: saturate(1.5) brightness(1);
+    border-color: rgba(0,245,255,0.3);
+  }
+
+  .tech-info {
+    background: rgba(0,245,255,0.03);
+    border: 1px solid rgba(0,245,255,0.12);
+    border-radius: 4px;
+    padding: 24px;
+    margin-bottom: 24px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    line-height: 1.8;
+    color: var(--text-dim);
+  }
+
+  .tech-info strong {
+    color: var(--cyan);
+    font-weight: 400;
+  }
+
+  .tech-info a {
+    color: var(--orange);
+    text-decoration: none;
+  }
+
+  /* CTA BUTTON */
+  .cta-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--cyan);
+    text-decoration: none;
+    padding: 12px 28px;
+    border: 1px solid rgba(0,245,255,0.4);
+    border-radius: 2px;
+    background: rgba(0,245,255,0.05);
+    transition: all 0.2s;
+    margin-top: 8px;
+  }
+
+  .cta-link:hover {
+    background: rgba(0,245,255,0.12);
+    border-color: var(--cyan);
+    box-shadow: 0 0 20px rgba(0,245,255,0.2), inset 0 0 20px rgba(0,245,255,0.05);
+  }
+
+  .cta-link-orange {
+    color: var(--orange);
+    border-color: rgba(255,107,43,0.4);
+    background: rgba(255,107,43,0.05);
+  }
+
+  .cta-link-orange:hover {
+    background: rgba(255,107,43,0.12);
+    border-color: var(--orange);
+    box-shadow: 0 0 20px rgba(255,107,43,0.2);
+  }
+
+  /* FOOTER */
+  footer {
+    border-top: 1px solid rgba(0,245,255,0.1);
+    padding: 48px 0;
+    margin-top: 64px;
+  }
+
+  .footer-logo {
+    font-family: 'Orbitron', monospace;
+    font-size: 28px;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(0,245,255,0.4);
+    letter-spacing: 8px;
+    margin-bottom: 32px;
+    display: block;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-links a {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .footer-links a:hover { color: var(--cyan); }
+
+  /* GLITCH animation for title */
+  @keyframes glitch {
+    0%, 94%, 100% { transform: translate(0); }
+    95% { transform: translate(-2px, 1px); filter: hue-rotate(90deg); }
+    97% { transform: translate(2px, -1px); filter: hue-rotate(-90deg); }
+    99% { transform: translate(-1px, 0); }
+  }
+
+  .hero-title {
+    animation: titlePulse 4s ease-in-out infinite, glitch 8s infinite;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 640px) {
+    nav { padding: 0 20px; }
+    .nav-links { display: none; }
+    .wrapper { padding: 0 20px; }
+    .mechanic-grid { grid-template-columns: 1fr; }
+    .places-grid { grid-template-columns: 1fr 1fr; }
+    .photo-grid.cols-3 { grid-template-columns: 1fr 1fr; }
+    .tec-grid { grid-template-columns: 1fr 1fr; }
+    .controller-layout { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#">TIRA</a>
+  <ul class="nav-links">
+    <li><a href="#">home</a></li>
+    <li><a href="#">videogames</a></li>
+    <li><a href="#">exhibiciones</a></li>
+    <li><a href="#">educación</a></li>
+    <li><a href="#">vr-ar</a></li>
+    <li><a href="#">experimental</a></li>
+    <li><a href="#">links</a></li>
+    <li><a href="#">cv</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="wrapper">
+  <section class="hero">
+    <div class="hero-label">// proyecto_001 — instalación interactiva</div>
+    <h1 class="hero-title">TIRA</h1>
+    <p class="hero-tagline">El videojuego de luces que también es una instalación.</p>
+    <p class="hero-sub">
+      Una tira infinita de <span>LEDs</span>, dos jugadores,
+      un duelo de <span>precisión</span>.
+    </p>
+    <p class="hero-sub">
+      TIRA transforma el espacio con patrones de luz en movimiento
+      y lo convierte en un punto de encuentro competitivo.
+    </p>
+    <p class="hero-italic">// Jugar es simple. Dominarlo no.</p>
+
+    <div class="hero-image-wrap" style="margin-top: 48px;">
+      <div class="img-corner tl"></div>
+      <div class="img-corner tr"></div>
+      <div class="img-corner bl"></div>
+      <div class="img-corner br"></div>
+      <img src="https://pontura.github.io/images/tira/tira1.jpg"
+           onerror="this.style.display='none'; this.parentElement.style.minHeight='400px'; this.parentElement.style.background='linear-gradient(180deg,#020810 0%,#0a1628 50%,#020810 100%)';"
+           alt="TIRA — instalación LED">
+    </div>
+  </section>
+
+  <!-- LED STRIP DECORATIVE -->
+  <div class="led-strip">
+    <div class="led-segment" style="background:#ff0000; animation-delay:0s"></div>
+    <div class="led-segment" style="background:#ff4400; animation-delay:0.1s"></div>
+    <div class="led-segment" style="background:#ff8800; animation-delay:0.2s"></div>
+    <div class="led-segment" style="background:#ffcc00; animation-delay:0.3s"></div>
+    <div class="led-segment" style="background:#aaff00; animation-delay:0.4s"></div>
+    <div class="led-segment" style="background:#00ff44; animation-delay:0.5s"></div>
+    <div class="led-segment" style="background:#00ffaa; animation-delay:0.6s"></div>
+    <div class="led-segment" style="background:#00ffff; animation-delay:0.7s"></div>
+    <div class="led-segment" style="background:#00aaff; animation-delay:0.8s"></div>
+    <div class="led-segment" style="background:#0044ff; animation-delay:0.9s"></div>
+    <div class="led-segment" style="background:#4400ff; animation-delay:1.0s"></div>
+    <div class="led-segment" style="background:#aa00ff; animation-delay:1.1s"></div>
+    <div class="led-segment" style="background:#ff00aa; animation-delay:1.2s"></div>
+    <div class="led-segment" style="background:#ff0044; animation-delay:1.3s"></div>
+    <div class="led-segment" style="background:#ff0000; animation-delay:1.4s"></div>
+    <div class="led-segment" style="background:#ff4400; animation-delay:1.5s"></div>
+    <div class="led-segment" style="background:#ff8800; animation-delay:1.6s"></div>
+    <div class="led-segment" style="background:#ffcc00; animation-delay:1.7s"></div>
+    <div class="led-segment" style="background:#aaff00; animation-delay:1.8s"></div>
+    <div class="led-segment" style="background:#00ff44; animation-delay:1.9s"></div>
+  </div>
+
+  <!-- QUÉ ES -->
+  <section>
+    <div class="section-num">// 01</div>
+    <h2>Qué es</h2>
+    <p class="section-lead">Un videojuego reducido a su mínima expresión.</p>
+    <p>
+      TIRA es un sistema de juego físico basado en una
+      <span class="hl">única dimensión de luz</span> y sonido.
+      Desde el centro de la tira emergen secuencias de colores que viajan hacia los extremos.
+    </p>
+    <p>
+      Cada jugador debe responder con
+      <span class="hl-orange">precisión y timing perfecto</span>
+      para devolver la energía al rival.
+      El objetivo es simple: hacer perder al otro.
+    </p>
+
+    <div class="mechanic-grid">
+      <div class="mechanic-card">
+        <h3>// dimensión</h3>
+        <p>Una única tira de LEDs define todo el campo de juego. Sin pantalla. Sin píxeles. Solo luz en movimiento.</p>
+      </div>
+      <div class="mechanic-card">
+        <h3>// jugadores</h3>
+        <p>Dos jugadores enfrentados en los extremos. El duelo comienza cuando el color emerge del centro.</p>
+      </div>
+      <div class="mechanic-card">
+        <h3>// energía</h3>
+        <p>Las secuencias de colores viajan hacia los extremos. Devolvelas con timing perfecto.</p>
+      </div>
+      <div class="mechanic-card">
+        <h3>// objetivo</h3>
+        <p>Hacer que el rival no responda a tiempo. Simple de aprender. Difícil de dominar.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- EXPERIENCIA VISUAL -->
+  <section>
+    <div class="section-num">// 02</div>
+    <h2>Experiencia visual</h2>
+    <p class="section-lead">Mientras nadie juega, TIRA sigue vivo.</p>
+    <p>
+      La tira de LEDs genera
+      <span class="hl">animaciones dinámicas</span>
+      que transforman el espacio.
+      Funciona como una pieza de iluminación interactiva que atrae miradas y genera curiosidad.
+    </p>
+    <p>Un objeto que invita a jugar.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- IDEAL PARA -->
+  <section>
+    <div class="section-num">// 03</div>
+    <h2>Ideal para espacios sociales</h2>
+    <p>TIRA está pensado para lugares donde la gente se reúne. Se convierte rápidamente en un foco de atención y en un disparador de desafíos entre personas.</p>
+
+    <div class="places-grid">
+      <div class="place-item">Cervecerías</div>
+      <div class="place-item">Bares</div>
+      <div class="place-item">Discotecas</div>
+      <div class="place-item">Eventos</div>
+      <div class="place-item">Espacios culturales</div>
+      <div class="place-item">Arcades modernos</div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- VIDEO PRIMERA VER -->
+  <section>
+    <div class="video-label">// video — versión primitiva</div>
+    <div class="video-wrap">
+      <iframe src="https://www.youtube.com/embed/YFwGVSeFGME"
+              title="TIRA - videojuego de tirar colores en una tira de leds. version primi..."
+              allowfullscreen></iframe>
+    </div>
+    <div class="chips">
+      <span class="chip">Lumen, taller de marcos</span>
+      <span class="chip">Club 404</span>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTROLADOR 2 PLAYERS -->
+  <section>
+    <div class="section-num">// 04</div>
+    <h2>Controlador 2 players</h2>
+    <p>
+      Controlador custom para 2 players diseñado para imprimir en MDF en conjunto
+      con el taller de marcos <span class="hl">Lumen</span>.
+      Actualmente se puede jugar en el <span class="hl-orange">Club 404</span>.
+    </p>
+
+    <div class="controller-layout">
+      <div class="controller-left">
+        <img src="https://pontura.github.io/images/tira/ctrl1.jpg"
+             onerror="this.src=''; this.style.background='#0a1628'; this.alt=''"
+             alt="Controlador — vista frontal">
+        <img src="https://pontura.github.io/images/tira/ctrl2.jpg"
+             onerror="this.src=''; this.style.background='#060d18'; this.alt=''"
+             alt="Controlador — detalle">
+      </div>
+      <div class="controller-right">
+        <img src="https://pontura.github.io/images/tira/ctrl3.jpg"
+             onerror="this.src=''; this.style.background='#0a1628'; this.alt=''"
+             alt="TIRA sign neon">
+        <img src="https://pontura.github.io/images/tira/ctrl4.jpg"
+             onerror="this.src=''; this.style.background='#060d18'; this.alt=''"
+             alt="TIRA en acción">
+      </div>
+    </div>
+
+    <div class="video-label">// video — new controller</div>
+    <div class="video-wrap">
+      <iframe src="https://www.youtube.com/embed/9x2TpkWLWAo"
+              title="TIRA - new controller"
+              allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- VERSIÓN PORTABLE -->
+  <section>
+    <div class="section-num">// 05</div>
+    <h2>Versión portable</h2>
+    <p>
+      Versión de bolsillo (hecho con una caja de alfajores).
+      Actualmente gira por <span class="hl">Barcelona</span>.
+    </p>
+
+    <div class="photo-grid cols-3">
+      <img src="https://pontura.github.io/images/tira/port1.jpg"
+           onerror="this.src=''; this.style.background='#0a1628'"
+           alt="Versión portable — instalación">
+      <img src="https://pontura.github.io/images/tira/port2.jpg"
+           onerror="this.src=''; this.style.background='#060d18'"
+           alt="Versión portable — jugadores">
+      <img src="https://pontura.github.io/images/tira/port3.jpg"
+           onerror="this.src=''; this.style.background='#0a1628'"
+           alt="Versión portable — hardware">
+    </div>
+
+    <div class="photo-grid cols-2" style="margin-top:4px">
+      <img src="https://pontura.github.io/images/tira/port4.jpg"
+           onerror="this.src=''; this.style.background='#060d18'"
+           alt="Jugando en evento">
+      <img src="https://pontura.github.io/images/tira/port5.jpg"
+           onerror="this.src=''; this.style.background='#0a1628'"
+           alt="Arcade custom">
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTROL POR EXTREMOS -->
+  <section>
+    <div class="section-num">// 06</div>
+    <h2>Control por extremos</h2>
+    <p>
+      En este prototipo los jugadores se enfrentan en ambos extremos
+      de una tira de <span class="hl">2 metros</span>.
+    </p>
+
+    <div class="photo-grid col-1">
+      <img src="https://pontura.github.io/images/tira/extremos.jpg"
+           onerror="this.src=''; this.style.background='#0a1628'; this.style.height='300px'"
+           alt="Control por extremos — prototipo">
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- TEC -->
+  <section>
+    <div class="section-num">// 07</div>
+    <h2>Tec</h2>
+
+    <div class="tech-info">
+      TIRA usa una <strong>raspberry pico</strong>, programada en <strong>Micropython</strong>,
+      montada en esta una placa propia diseñada por el robot.
+      1 amplificador de audio y salida estereo (una para cada player).
+      Todo el código está disponible en <a href="https://github.com/pontura" target="_blank">github</a>.
+      Acá hay detalles de su construcción.
+    </div>
+
+    <div class="tec-grid">
+      <img src="https://pontura.github.io/images/tira/tec1.jpg"
+           onerror="this.src=''; this.style.background='#0a1628'"
+           alt="PCB custom">
+      <img src="https://pontura.github.io/images/tira/tec2.jpg"
+           onerror="this.src=''; this.style.background='#060d18'"
+           alt="Raspberry Pico">
+      <img src="https://pontura.github.io/images/tira/tec3.jpg"
+           onerror="this.src=''; this.style.background='#0a1628'"
+           alt="Amplificador de audio">
+    </div>
+
+    <a class="cta-link" href="https://github.com/pontura" target="_blank">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+      </svg>
+      Github
+    </a>
+  </section>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrapper">
+    <span class="footer-logo">TIRA</span>
+    <div class="footer-links">
+      <a href="mailto:pontura@gmail.com">pontura@gmail.com</a>
+      <a href="https://github.com/pontura" target="_blank">github.com/pontura</a>
+      <a href="https://www.linkedin.com/in/agustín-pontura-3308b745/" target="_blank">linkedin</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
