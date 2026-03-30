@@ -4,7 +4,9 @@ body {
 	margin: 0px;
 }
 
-
+.goog-te-gadget {
+    float: right; !important
+}
 
 li{
 	margin:10px;
