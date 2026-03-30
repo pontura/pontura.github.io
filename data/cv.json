@@ -1,7 +1,14 @@
 [
   {
     "title": "Agustín Pontura",
-	"description": "es un desarrollador y artista tecnológico argentino enfocado en la exploración de nuevas formas de experiencia interactiva. Su práctica se sitúa en el cruce entre el videojuego, el arte electrónico y el diseño experimental, con un interés particular en reducir la interfaz a su mínima expresión. En sus trabajos recientes investiga el uso de tiras de LEDs direccionables como soporte para videojuegos, proponiendo sistemas de representación extremadamente minimalistas que desafían las convenciones visuales tradicionales. A través de microcontroladores y hardware accesible, desarrolla dispositivos lúdicos que priorizan la inmediatez, la materialidad y la interacción física."
+	"description": "es un desarrollador y artista tecnológico argentino enfocado en la exploración de nuevas formas de experiencia interactiva. Su práctica se sitúa en el cruce entre el videojuego, el arte electrónico y el diseño experimental, con un interés particular en reducir la interfaz a su mínima expresión. En sus trabajos recientes investiga el uso de tiras de LEDs direccionables como soporte para videojuegos, proponiendo sistemas de representación extremadamente minimalistas que desafían las convenciones visuales tradicionales. A través de microcontroladores y hardware accesible, desarrolla dispositivos lúdicos que priorizan la inmediatez, la materialidad y la interacción física.",
+	"links":
+	[
+		{
+			"url_text": "Descargar CV",
+			"url": "/pontura_cv.pdf"
+		}
+	]
   },
   {
     "title": "Yaguar (2016-actualidad)",
