@@ -273,7 +273,7 @@
         "client": "Plan",
         "youtube_id": "qd9JjF5Faz8",
         "description": "Trivia sobre minerales regionales desarrollada para el Museo CATA de Catamarca. El juego está instalado en estaciones de 2 jugadores y es operado mediante botones físicos. De jugadas cortas y desafiantes, Operación Rosita invita a los visitantes del museo a poner en acción los aprendizajes recién adquiridos. Cliente: Plan / Museo CATA",
-        "tags": "exhibition"
+        "tags": "exhibition educational"
     },
     {
         "name": "Museo Mercedes Sosa",
@@ -322,7 +322,7 @@
         "youtube_id": "-Asfz-znt6E",
         "description": "Huo'o na cuentos es una aplicación que busca promover el desarrollo lingüístico y la alfabetización temprana de niños y niñas pequeños.",
         "client": "conicet",
-        "tags": "videogame kids",
+        "tags": "videogame kids educational",
         "links": [
             {
                 "url_text": "PlayStore (PLAY)",
