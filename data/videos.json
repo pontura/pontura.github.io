@@ -259,6 +259,14 @@
                 "url": "/?tag=experimental"
             }
         ]
+    },	
+    {
+        "name": "Pikala",
+        "youtube_id": "7ZHjvOvkO3U",
+        "client": "Tipitap",
+        "title": "Pikala",
+        "description": "Juego educativo que ayuda y fomenta el desarrollo de la segunda lengua.",
+        "tags": "videogame educational"
     },
     {
         "name": "Museo CATA de Catamarca",
@@ -675,14 +683,6 @@
         "description": "Mad Rollers en vivo en el antro favorito de los Tumba (El Arcade Club Social, CABA)",
         "client": "me",
         "tags": "videogame exhibition"
-    },
-    {
-        "name": "Pikala",
-        "youtube_id": "7ZHjvOvkO3U",
-        "client": "Tipitap",
-        "title": "Pikala",
-        "description": "Juego educativo que ayuda y fomenta el desarrollo de la segunda lengua.",
-        "tags": "videogame educational"
     },
     {
         "name": "Shell: Conciencia Vial",
