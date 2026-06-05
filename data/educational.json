@@ -70,5 +70,18 @@
 				"url": "https://play.google.com/store/apps/details?id=com.pontura.conicet&hl=es"
 			}
 		]
+	},
+	{
+		"title": "Juego educativo Infantil (Unity+Rive)",
+		"description": "En 2025 con Yaguar y junto al estudio amigo Amblagar desarrollamos esta experiencia educativa para niños que nos gustó mucho pero lamentablemente no ha salido al mercado. Fué la primera vez que usamos el motor Rive para generar animaciones vectoriales dentro de las vistas de Unity y nos gustó mucho el resultado.",
+		"video": "KSAG8va1uvw",
+		"links":
+		[
+			{
+				"url_text": "Amblagar Studio",
+				"url": "https://www.instagram.com/amblagar/"
+			},
+			
+		]
 	}
 ]

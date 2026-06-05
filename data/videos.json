@@ -68,6 +68,13 @@
             }
         ]
     },
+	{
+        "name": "PWE - Juego educativo",
+        "youtube_id": "KSAG8va1uvw",
+        "client": "Amblagar Studio",
+        "description": "En 2025 con Yaguar y junto al estudio amigo Amblagar desarrollamos esta experiencia educativa para niños usando Rive + Unity.",
+        "tags": "home videogame mobile educational"
+    },
     {
         "name": "Lyna World",
         "youtube_id": "YxJfULVpnGA",
