@@ -385,18 +385,6 @@ a:hover {
 }
 
 /* ============================================================
-   Google Translate widget
-   ============================================================ */
-#google_translate_element {
-	float: right;
-}
-
-#google_translate_element a {
-	color: var(--color-text);
-	background-color: var(--color-bg);
-}
-
-/* ============================================================
    Responsive: mobile (<= 768px)
    ============================================================ */
 @media (max-width: 768px) {
