@@ -125,6 +125,14 @@
 
   // Inicializar correctamente al cargar la página
   updateHamburgerVisibility();
+
+  // El menú mobile puede ocupar 1 o 2 filas según el ancho de pantalla,
+  // así que medimos su alto real en vez de asumir un valor fijo.
+  function syncMobileNavHeight() {
+    document.documentElement.style.setProperty('--mobile-nav-height', menu.offsetHeight + 'px');
+  }
+  syncMobileNavHeight();
+  window.addEventListener('resize', syncMobileNavHeight);
 </script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-837YYLM44L"></script>
