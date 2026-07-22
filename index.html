@@ -1,15 +1,47 @@
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pontura Agustin Portfolio</title> 
+  <title>Agustín Pontura — Desarrollador de videojuegos y experiencias interactivas</title>
+  <meta name="description" content="Portfolio y CV de Agustín Pontura: desarrollo de videojuegos, experiencias VR/AR, proyectos educativos e instalaciones interactivas con Unity y hardware a medida.">
+  <link rel="canonical" href="https://pontura.github.io/">
+  <meta name="theme-color" content="#fa306a">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Agustín Pontura — Desarrollador de videojuegos y experiencias interactivas">
+  <meta property="og:description" content="Portfolio y CV: videojuegos, VR/AR, proyectos educativos e instalaciones interactivas con Unity y hardware a medida.">
+  <meta property="og:image" content="https://pontura.github.io/images/pontura.png">
+  <meta property="og:url" content="https://pontura.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Agustín Pontura — Desarrollador de videojuegos y experiencias interactivas">
+  <meta name="twitter:description" content="Portfolio y CV: videojuegos, VR/AR, proyectos educativos e instalaciones interactivas con Unity y hardware a medida.">
+  <meta name="twitter:image" content="https://pontura.github.io/images/pontura.png">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314161c'/%3E%3Ctext x='32' y='43' font-family='Arial, sans-serif' font-size='26' font-weight='700' fill='%23fa306a' text-anchor='middle'%3EAP%3C/text%3E%3C/svg%3E">
+
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Agustín Pontura",
+    "url": "https://pontura.github.io/",
+    "image": "https://pontura.github.io/images/pontura.png",
+    "jobTitle": "Desarrollador de experiencias interactivas",
+    "sameAs": [
+      "https://www.linkedin.com/in/agust%C3%ADn-pontura-3308b745/",
+      "https://github.com/pontura"
+    ]
+  }
+  </script>
 </head>
-<body>	
+<body>
 
 
-<button id="hamburger" class="hamburger" aria-label="Toggle menu">☰</button>
-<nav class="menu tab" id="tab">
+<header>
+<button id="hamburger" class="hamburger" aria-label="Abrir menú">☰</button>
+<nav class="menu tab" id="tab" aria-label="Secciones">
    <button class="filter-button" data-filter="home">home</button>
 	<button class="filter-button" data-filter="videogame">videogames</button>
 	<button class="filter-button" data-filter="exhibition">exhibiciones</button>
@@ -19,6 +51,7 @@
 	<button class="filter-button" data-filter="links">links</button>
 	<button class="filter-button" data-filter="cv">cv</button>
 </nav>
+</header>
 
   <main class="mainContent"> 
 	<div class="video-overlay" id="videoOverlay">
@@ -54,20 +87,17 @@
 				<a href="mailto:pontura@gmail.com">pontura@gmail.com</a>  
 			</li>
 			<li>
-				<a href="https://github.com/pontura" target="_blank">https://github.com/pontura</a>  
+				<a href="https://github.com/pontura" target="_blank" rel="noopener noreferrer">https://github.com/pontura</a>
 			</li>
 			<li>
-				<a href="https://www.linkedin.com/in/agust%C3%ADn-pontura-3308b745/" target="_blank">linkedin</a>  
-			</li>			
+				<a href="https://www.linkedin.com/in/agust%C3%ADn-pontura-3308b745/" target="_blank" rel="noopener noreferrer">linkedin</a>
+			</li>
 		</ul>
 	</div> 
-   </main> 
+   </main>
 
-	 
-</body>
- <script src="js/content.js"></script>
- <script src="js/videos.js"></script>
-</html>
+<script src="js/content.js"></script>
+<script src="js/videos.js"></script>
 
 <script>
   const menu = document.getElementById('tab');
@@ -114,7 +144,6 @@
   updateHamburgerVisibility();
 </script>
 
-
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-837YYLM44L"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -123,3 +152,6 @@
 
   gtag('config', 'G-837YYLM44L');
 </script>
+
+</body>
+</html>

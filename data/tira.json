@@ -38,7 +38,7 @@
 	},
 	{
 		"title": "Tecnología",
-		"description": "TIRA utiliza una Raspberry Pico programada en Micropython, montada sobre una placa propia diseñada por <a href='https://www.instagram.com/mechapoch/'>el robot</a>. El sistema incluye un amplificador de audio con salida estéreo (una para cada jugador). Todo el código está disponible en GitHub junto con detalles de su construcción.",
+		"description": "TIRA utiliza una Raspberry Pico programada en Micropython, montada sobre una placa propia diseñada por <a href='https://www.instagram.com/mechapoch/' target='_blank' rel='noopener noreferrer'>el robot</a>. El sistema incluye un amplificador de audio con salida estéreo (una para cada jugador). Todo el código está disponible en GitHub junto con detalles de su construcción.",
 		"image": "images/works/tiraControl3.png",
 		"links":
 		[

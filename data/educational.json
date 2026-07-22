@@ -1,7 +1,7 @@
 [
 	{
-		"title": "Educationals",
-		"description": "Desde 2016 junto a muy cercanos amigos hacemos Yaguar. Una marca donde desarrollamos con muchísimo corazón numeroso proyectos educativos y aplicaciones para montar en distintos eventos.",
+		"title": "Proyectos educativos",
+		"description": "Desde 2016, junto a amigos muy cercanos, hacemos Yaguar: un estudio donde desarrollamos con muchísimo corazón proyectos educativos y aplicaciones para montar en distintos eventos.",
 		"image":"images/works/yaguar.png",
 		"links":
 		[
@@ -16,7 +16,7 @@
 		]
   },
   {
-		"description": "Desarrollé numerosos proyectos educacionales para niños y adultos, desde experiencias abstractas y lúdicas para clientes como Paka-Paka hasta apps para ejercitar las matemáticas, las lenguas, instrucciones para lavarse correctamente en épocas del COVID 19, educación vial, etc. Muchos de estos proyectos los hice con Yaguar y algunos ganaron premios bastante importantes como el concurso MásMAT, que tuvo como objetivo promover y mejorar las habilidades matemáticas de chicas y chicos de entre 10 y 12 años o una licitación para Paka Paka donde desarrollamos una experiencia creativa para niñxs llamada: Inventar",
+		"description": "Desarrollé numerosos proyectos educativos para niños y adultos: desde experiencias abstractas y lúdicas para clientes como Paka-Paka hasta apps para ejercitar matemática, para aprender idiomas, para enseñar a lavarse las manos en épocas de COVID-19, educación vial, etc. Muchos de estos proyectos los hice con Yaguar, y algunos ganaron premios importantes, como el concurso MásMAT (que buscaba promover y mejorar las habilidades matemáticas de chicas y chicos de entre 10 y 12 años) o una licitación para Paka Paka donde desarrollamos una experiencia creativa para niñes llamada Inventar.",
 		"image": "images/works/matenautas.jpg"
 	},
 	{
@@ -60,7 +60,7 @@
 	},
 	{
 		"title": "Conicet - Huonna Cuentos",
-		"description": "Huo'o na cuentos es una aplicación que busca promover el desarrollo lingüístico y la alfabetización temprana de niños y niñas pequeños. Incluye tres recorridos:Oscarcito es para que los niños y niñas que hablan español continúen aprendiéndolo, Nasheli es para aquellos y aquellas que hablan otras lenguas con sus familias y quieren empezar a aprender español y Dany es para los niños y niñas que quieren empezar a aprender qom. Equipo: Matias Somonte en arte, Brenda Burgoa en producción junto a la gente de Conicet y yo hice el desarrollo",
+		"description": "Huo'o na cuentos es una aplicación que busca promover el desarrollo lingüístico y la alfabetización temprana de niñas y niños pequeños. Incluye tres recorridos: Oscarcito, para que quienes hablan español continúen aprendiéndolo; Nasheli, para quienes hablan otras lenguas en sus casas y quieren empezar a aprender español; y Dany, para quienes quieren empezar a aprender qom. El equipo estuvo formado por Matías Somonte en arte, Brenda Burgoa en producción junto al equipo de Conicet, y yo en el desarrollo.",
 		"image":"images/works/conicet.jpg",
 		"video": "-Asfz-znt6E",
 		"links":

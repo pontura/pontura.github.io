@@ -5,7 +5,7 @@
 	},
 	{
 		"title": "Muestras Arcade",
-	"description": "Hace años que formo parte de lo que llamamos colectivo arcade, que es un grupo de desarrolladores de videojuegos independientes argentinos que armamos eventos en distintos espacios culturales y conlcuimos comprando un colectivo y lo formateamos para que sea una auténtica sala de juegos móbil con gabinetes custom 100% desarrolos propios. En el 2021 Mulata Films filmó una serie que muestra un viaje qeu hicimos por todo el país, generando un encuentro inusual entre jugadores y máquinas en cada destino. Experiencias, historia, industria y nuevas propuestas lúdicas confluyen en este recorrido sin precedentes.",
+	"description": "Hace años que formo parte de lo que llamamos Colectivo Arcade, un grupo de desarrolladores de videojuegos independientes argentinos con el que armamos eventos en distintos espacios culturales. Terminamos comprando un colectivo (bondi) y lo transformamos en una auténtica sala de juegos móvil, con gabinetes custom desarrollados 100% por nosotros. En 2021 Mulata Films filmó una serie que muestra el viaje que hicimos por todo el país, generando un encuentro inusual entre jugadores y máquinas en cada destino. Experiencias, historia, industria y nuevas propuestas lúdicas confluyen en este recorrido sin precedentes.",
 		"image": "images/works/vjsr.png",
 		"links":
 		[
@@ -55,7 +55,7 @@
 	},
 	{
 		"title": "Azul de Monte Spekticalaspoeticfly",
-		"description": "Obra interactiva web",
+		"description": "Obra web interactiva para la artista Azul de Monte.",
 		"image": "images/works/azuldemonte.png",
 		"links":
 		[
@@ -67,7 +67,7 @@
 	} ,
 	{
 		"title": "Realidad Aumentada en Tecnópolis",
-		"description": "Experiencia inmersiva desarrollada para cascos de realidad aumentada que explora el vínculo entre el deporte, la moda, los videojuegos y la música con la tecnología digital. Esta muestra tuvo lugar en Tecnópolis en el 2021 y fué desarrollada por los amigos de Eurínome, junto a Brenda Burgoa desarrollamos la parte de AR qeu inlcuía videojuegos, app musical y otras experiencias de realidad aumentada.",
+		"description": "Experiencia inmersiva desarrollada para cascos de realidad aumentada que explora el vínculo del deporte, la moda, los videojuegos y la música con la tecnología digital. Esta muestra tuvo lugar en Tecnópolis en 2021 y fue desarrollada por los amigos de Eurínome. Junto a Brenda Burgoa hicimos la parte de AR, que incluía videojuegos, una app musical y otras experiencias de realidad aumentada.",
 		"image": "images/works/eurinome.png",
 		"links":
 		[

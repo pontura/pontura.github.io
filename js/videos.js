@@ -71,6 +71,8 @@ fetch('data/videos.json')
 
 		const youtubeEmbed = document.createElement('img');
 		youtubeEmbed.src = `https://img.youtube.com/vi/${item.youtube_id}/hqdefault.jpg`;
+		youtubeEmbed.alt = item.name ? `Miniatura del video: ${item.name}` : '';
+		youtubeEmbed.loading = "lazy";
 
 		youtubeContainer.appendChild(youtubeEmbed);
 
@@ -85,24 +87,26 @@ fetch('data/videos.json')
 		galleryItem.addEventListener("click", () => openVideo(item.youtube_id));
 		
 		if(item.links != null)
-		{	
-			const links = document.createElement('div');	
-			links.className = "links";	
+		{
+			const links = document.createElement('div');
+			links.className = "links";
 			galleryItem.appendChild(links);
-			
-			for (var i = 0; i < item.links.length; i++){
-				
-				var obj = item.links[i];			
-				var a = document.createElement('a');
-				var _text = obj["url_text"];
-				var _url = obj["url"];
-				var linkText = document.createTextNode(_text);
-				a.appendChild(linkText);
+
+			item.links.forEach(obj => {
+				const a = document.createElement('a');
+				const _text = obj["url_text"];
+				const _url = obj["url"];
+				a.appendChild(document.createTextNode(_text));
 				a.title = _text;
 				a.href = _url;
+				a.className = "videoLinks";
+				a.addEventListener("click", e => e.stopPropagation());
+				if (/^https?:\/\//i.test(_url)) {
+					a.target = "_blank";
+					a.rel = "noopener noreferrer";
+				}
 				links.appendChild(a);
-				a.className = "videoLinks";			
-			}
+			});
 		}
 	
 		

@@ -1,7 +1,7 @@
 [
   {
     "title": "Agustín Pontura",
-	"description": "es un desarrollador y artista tecnológico argentino enfocado en la exploración de nuevas formas de experiencia interactiva. Su práctica se sitúa en el cruce entre el videojuego, el arte electrónico y el diseño experimental, con un interés particular en reducir la interfaz a su mínima expresión. En sus trabajos recientes investiga el uso de tiras de LEDs direccionables como soporte para videojuegos, proponiendo sistemas de representación extremadamente minimalistas que desafían las convenciones visuales tradicionales. A través de microcontroladores y hardware accesible, desarrolla dispositivos lúdicos que priorizan la inmediatez, la materialidad y la interacción física.",
+	"description": "Soy desarrollador y artista tecnológico argentino, enfocado en explorar nuevas formas de experiencia interactiva. Mi práctica se ubica en el cruce entre el videojuego, el arte electrónico y el diseño experimental, con un interés particular en reducir la interfaz a su mínima expresión. En mis trabajos más recientes investigo el uso de tiras de LEDs direccionables como soporte para videojuegos, proponiendo sistemas de representación extremadamente minimalistas que desafían las convenciones visuales tradicionales. A través de microcontroladores y hardware accesible, desarrollo dispositivos lúdicos que priorizan la inmediatez, la materialidad y la interacción física.",
 	"links":
 	[
 		{
@@ -12,7 +12,7 @@
   },
   {
     "title": "Yaguar (2016-actualidad)",
-	"description": "Desde 2016 forma parte de Yaguar, un espacio de creación colectiva donde desarrolla proyectos educativos y experiencias interactivas para distintos contextos culturales, con un enfoque lúdico y experimental.",
+	"description": "Desde 2016 formo parte de Yaguar, un espacio de creación colectiva donde desarrollamos proyectos educativos y experiencias interactivas para distintos contextos culturales, con un enfoque lúdico y experimental.",
 	"image":"images/works/yaguar.png",
 	"links":
 	[
@@ -28,7 +28,7 @@
   },
   {
     "title": "Socio fundador de Aconcagua Games (2021-2024)",
-	"description": "En 2021 cofundó Aconcagua Games, estudio orientado al desarrollo de títulos originales dentro del universo Galaxy Sports, explorando lenguajes accesibles y propuestas de juego contemporáneas.",
+	"description": "En 2021 cofundé Aconcagua Games, un estudio orientado al desarrollo de títulos originales dentro del universo Galaxy Sports, explorando lenguajes accesibles y propuestas de juego contemporáneas.",
 	"image":"images/works/aconcagua.jpg",
 	"links":
 	[
@@ -40,7 +40,7 @@
   },
    {
     "title": "Fulbo Galaxy (2020)",
-	"description": "En 2020 desarrolló FulboStars junto a Darío Georges y Nacho Rud, proyecto que derivó en la creación de Aconcagua Games y en la consolidación de una línea de trabajo autoral en torno al videojuego deportivo.",
+	"description": "En 2020 desarrollé Fulbo Stars junto a Darío Georges y Nacho Rud, proyecto que derivó en la creación de Aconcagua Games y en la consolidación de una línea de trabajo propia en torno al videojuego deportivo.",
 	"image":"images/works/fulbogalaxy.jpg",
 	"links":
 	[
@@ -50,21 +50,21 @@
 		}
 	]
   },
-   
+
   {
     "title": "Docencia (2018-2023)",
-	"description": "Entre 2018 y 2023 se desempeñó como docente en la Universidad Maimónides, donde dictó materias de programación avanzada y desarrolló talleres y workshops enfocados en la creación de experiencias interactivas y videojuegos. Su práctica pedagógica se extendió a charlas y actividades en diversos espacios culturales y académicos.",
+	"description": "Entre 2018 y 2023 me desempeñé como docente en la Universidad Maimónides, donde dicté materias de programación avanzada y desarrollé talleres y workshops enfocados en la creación de experiencias interactivas y videojuegos. Esa práctica pedagógica se extendió a charlas y actividades en diversos espacios culturales y académicos.",
 	"links":
 	[
 		{
 			"url_text": "Universidad Maimonides",
 			"url": "https://multimedia.maimonides.edu/profesor/agustin-pontura/"
 		}
-	]	
+	]
   },
  {
 	"title": "Colectivo Arcade (2020)",
-		"description": "Integra el Colectivo Arcade, un grupo de desarrolladores independientes que produce experiencias lúdicas en espacios culturales. Como parte del colectivo, participó en la creación de una sala de videojuegos móvil a partir de un colectivo intervenido, con máquinas diseñadas y desarrolladas íntegramente por el equipo. En 2021, esta experiencia fue documentada en una serie audiovisual que registra un recorrido federal articulando juego, comunidad e intervención cultural.",
+		"description": "Integro el Colectivo Arcade, un grupo de desarrolladores independientes que produce experiencias lúdicas en espacios culturales. Como parte del colectivo, participé en la creación de una sala de videojuegos móvil a partir de un colectivo intervenido, con máquinas diseñadas y desarrolladas íntegramente por el equipo. En 2021 esta experiencia fue documentada en una serie audiovisual que registra un recorrido federal, articulando juego, comunidad e intervención cultural.",
 		"image": "images/works/vjsr.png",
 		"links":
 		[
@@ -84,9 +84,9 @@
 	},
   {
     "title": "QB9, mi incorporación a la industria de los videojuegos (2006-2015)",
-	"description": "En 2006 se incorporó a QB9, participando en sus etapas iniciales y formando parte del crecimiento de la empresa. Allí adquirió experiencia en el desarrollo de videojuegos a gran escala y en el trabajo colaborativo dentro de equipos multidisciplinarios.",
+	"description": "En 2006 me incorporé a QB9, participando en sus etapas iniciales y formando parte del crecimiento de la empresa. Ahí adquirí experiencia en el desarrollo de videojuegos a gran escala y en el trabajo colaborativo dentro de equipos multidisciplinarios.",
 	"image":"images/works/logos.png",
-	
+
 	"links":
 	[
 		{
@@ -97,8 +97,8 @@
   },
    {
     "title": "Tumba Games / Games to f☠ck the system. (2010-actualidad)",
-	"description": "Desde aproximadamente 2008 co-desarrolla Tumba, un proyecto experimental que aborda el videojuego como práctica expresiva, explorando formatos, mecánicas y discursos por fuera de las lógicas tradicionales de la industria.",
-	"image":"images/works/tumbagames.png",	
+	"description": "Desde 2008 co-desarrollo Tumba, un proyecto experimental que aborda el videojuego como práctica expresiva, explorando formatos, mecánicas y discursos por fuera de las lógicas tradicionales de la industria.",
+	"image":"images/works/tumbagames.png",
 	"links":
 	[
 		{
@@ -109,7 +109,7 @@
   },
   {
 		"title": "Mundo Gaturro",
-		"description": "Durante su paso por QB9 participó en el desarrollo de numerosos videojuegos, incluyendo desde sus primeras etapas el mundo virtual Mundo Gaturro, que se consolidó como una de las comunidades infantiles más grandes de Latinoamérica.",
+		"description": "Durante mi paso por QB9 participé en el desarrollo de numerosos videojuegos, incluyendo desde sus primeras etapas el mundo virtual Mundo Gaturro, que se consolidó como una de las comunidades infantiles más grandes de Latinoamérica.",
 		"image": "images/works/mundo_gaturro.png",
 		"links":
 		[
@@ -121,8 +121,8 @@
 	},
   {
     "title": "Shoshiland (2002-2008)",
-	"description": "A comienzos de los años 2000 desarrolló Shoshiland, un proyecto de mundo virtual multijugador que funcionó durante varios años y que constituyó su ingreso a la industria del videojuego. Este trabajo operó como plataforma de experimentación tecnológica y conceptual, sentando bases para desarrollos posteriores.",
-	"image":"images/works/shoshiland.jpg",	
+	"description": "A comienzos de los 2000 desarrollé Shoshiland, un mundo virtual multijugador que funcionó durante varios años y que fue mi ingreso a la industria del videojuego. Ese trabajo funcionó como plataforma de experimentación tecnológica y conceptual, sentando las bases de mis desarrollos posteriores.",
+	"image":"images/works/shoshiland.jpg",
 	"links":
 	[
 		{
@@ -133,11 +133,11 @@
   },
   {
     "title": "BDF (2002-2006)",
-	"description": "Inició su recorrido profesional en BDF, donde se desempeñó en diseño de interfaces mientras comenzaba a desarrollar sus primeras experiencias en programación."
+	"description": "Inicié mi recorrido profesional en BDF, donde trabajé en diseño de interfaces mientras empezaba a dar mis primeros pasos en programación."
   } ,
   {
     "title": "Egresado de la UBA",
-	"description": "Es egresado de la carrera de Diseño de Imagen y Sonido de la Universidad de Buenos Aires. Su vínculo con la programación y el videojuego se remonta a la infancia, cuando comenzó a desarrollar sus primeros juegos de manera autodidacta, estableciendo una relación temprana y sostenida con la creación digital."
-  } 
-   
+	"description": "Soy egresado de la carrera de Diseño de Imagen y Sonido de la Universidad de Buenos Aires. Mi vínculo con la programación y el videojuego se remonta a la infancia, cuando empecé a desarrollar mis primeros juegos de manera autodidacta, dando inicio a una relación temprana y sostenida con la creación digital."
+  }
+
 ]
