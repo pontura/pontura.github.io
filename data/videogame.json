@@ -8,6 +8,7 @@
 		"title": "Colectivo Arcade (2020)",
 		"description": "Hace años que formo parte de lo que llamamos Colectivo Arcade, un grupo de desarrolladores de videojuegos independientes argentinos con el que armamos eventos en distintos espacios culturales. Terminamos comprando un colectivo (bondi) y lo transformamos en una auténtica sala de juegos móvil, con gabinetes custom desarrollados 100% por nosotros. En 2021 Mulata Films filmó una serie que muestra el viaje que hicimos por todo el país, generando un encuentro inusual entre jugadores y máquinas en cada destino. Experiencias, historia, industria y nuevas propuestas lúdicas confluyen en este recorrido sin precedentes.",
 		"image": "images/works/vjsr.png",
+
 		"links":
 		[
 			{
@@ -23,5 +24,22 @@
 				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
 			}
 		]
+	},
+	{
+		"title": "Fulbo Stars",
+		"description": "Fulbo Stars lo hicimos en 2020 con Tumba Games, en formato de arcade para 4 jugadores. Giró por los principales antros y festivales de la escena de arcades underground de Buenos Aires, como  Arcade Club Social, Otra Historia, Club 404 y Club Social 911, compartiendo espacio con otras leyendas del punk gaming. Hoy se destapa la olla y Fulbo Stars llega a todos los hogares del mundo en versión web GL.",
+		"image":"images/works/fulbo.png",
+		"links":
+		[
+			{
+				"url_text": "Fulbo en itch-io",
+				"url": "https://pontura.itch.io/fulbo-stars"
+			}
+		]
+	},
+	{
+		"title": "Mad Rollers",
+		"description": "Un proyecto personal que fuí desarrollando a lo largo de muchos años, y formatos. Desde arcade con mueble propio de 4P hasta su versión mobile. Empezó siendo un juego infantil y terminó siendo un juego para pequeños grandes.",
+		"video": "p1N8QcIKsuE"
 	}
 ]
