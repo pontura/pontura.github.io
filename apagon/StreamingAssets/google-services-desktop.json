@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "579488120829",
+    "firebase_url": "https://tuytuy-guarderia-default-rtdb.firebaseio.com",
+    "project_id": "tuytuy-guarderia",
+    "storage_bucket": "tuytuy-guarderia.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579488120829:android:e77060abd4702d0b826394",
+        "android_client_info": {
+          "package_name": "com.TuyTuy.GuarderiaAnimal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARJtfhHYcRLxitYrzS-jReGadlpU5aIIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
